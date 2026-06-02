@@ -1,0 +1,817 @@
+Key,Chord_Progression,ChordName,Voicing,Emotion,Scale
+Bb,V7-#IVm7b5-IVm7-IIIm7,F7-Em7b5-Ebm7-Dm7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,V7-#IVm7b5-IVm7-IIIm7,E7-Ebm7b5-Dm7-Dbm7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-#IVm7b5-IVm7-IIIm7,F#7-Fm7b5-Em7-Ebm7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-#IVm7b5-IVm7-IIIm7,Ab7-Gm7b5-F#m7-Fm7,Four-Way Close,"Grief, Depressive",Ionian
+C,V7-#IVm7b5-IVm7-IIIm7,G7-F#m7b5-Fm7-Em7,Four-Way Close,Innocently Happy,Ionian
+Eb,V7-#IVm7b5-IVm7-IIIm7,Bb7-Am7b5-Abm7-Gm7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-#IVm7b5-IVm7-IIIm7,A7-Abm7b5-Gm7-F#m7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,V7-#IVm7b5-IVm7-IIIm7,B7-Bbm7b5-Am7-Abm7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-#IVm7b5-IVm7-IIIm7,Db7-Cm7b5-Bm7-Bbm7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-#IVm7b5-IVm7-IIIm7,C7-Bm7b5-Bbm7-Am7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-#IVm7b5-IVm7-IIIm7,Eb7-Dm7b5-Dbm7-Cm7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,V7-#IVm7b5-IVm7-IIIm7,D7-Dbm7b5-Cm7-Bm7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-#IVm7b5-IVm7-IIIm7,F7-Em7b5-Ebm7-Dm7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,V7-#IVm7b5-IVm7-IIIm7,E7-Ebm7b5-Dm7-Dbm7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-#IVm7b5-IVm7-IIIm7,F#7-Fm7b5-Em7-Ebm7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-#IVm7b5-IVm7-IIIm7,Ab7-Gm7b5-F#m7-Fm7,Drop 2,"Grief, Depressive",Ionian
+C,V7-#IVm7b5-IVm7-IIIm7,G7-F#m7b5-Fm7-Em7,Drop 2,Innocently Happy,Ionian
+Eb,V7-#IVm7b5-IVm7-IIIm7,Bb7-Am7b5-Abm7-Gm7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-#IVm7b5-IVm7-IIIm7,A7-Abm7b5-Gm7-F#m7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,V7-#IVm7b5-IVm7-IIIm7,B7-Bbm7b5-Am7-Abm7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-#IVm7b5-IVm7-IIIm7,Db7-Cm7b5-Bm7-Bbm7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-#IVm7b5-IVm7-IIIm7,C7-Bm7b5-Bbm7-Am7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-#IVm7b5-IVm7-IIIm7,Eb7-Dm7b5-Dbm7-Cm7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,V7-#IVm7b5-IVm7-IIIm7,D7-Dbm7b5-Cm7-Bm7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-#IVm7b5-IVm7-IIIm7,F7-Em7b5-Ebm7-Dm7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,V7-#IVm7b5-IVm7-IIIm7,E7-Ebm7b5-Dm7-Dbm7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-#IVm7b5-IVm7-IIIm7,F#7-Fm7b5-Em7-Ebm7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-#IVm7b5-IVm7-IIIm7,Ab7-Gm7b5-F#m7-Fm7,Drop 2+4,"Grief, Depressive",Ionian
+C,V7-#IVm7b5-IVm7-IIIm7,G7-F#m7b5-Fm7-Em7,Drop 2+4,Innocently Happy,Ionian
+Eb,V7-#IVm7b5-IVm7-IIIm7,Bb7-Am7b5-Abm7-Gm7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-#IVm7b5-IVm7-IIIm7,A7-Abm7b5-Gm7-F#m7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,V7-#IVm7b5-IVm7-IIIm7,B7-Bbm7b5-Am7-Abm7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-#IVm7b5-IVm7-IIIm7,Db7-Cm7b5-Bm7-Bbm7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-#IVm7b5-IVm7-IIIm7,C7-Bm7b5-Bbm7-Am7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-#IVm7b5-IVm7-IIIm7,Eb7-Dm7b5-Dbm7-Cm7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,V7-#IVm7b5-IVm7-IIIm7,D7-Dbm7b5-Cm7-Bm7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-#IVm7b5-IVm7-IIIm7,F7-Em7b5-Ebm7-Dm7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,V7-#IVm7b5-IVm7-IIIm7,E7-Ebm7b5-Dm7-Dbm7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-#IVm7b5-IVm7-IIIm7,F#7-Fm7b5-Em7-Ebm7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-#IVm7b5-IVm7-IIIm7,Ab7-Gm7b5-F#m7-Fm7,Drop 3,"Grief, Depressive",Ionian
+C,V7-#IVm7b5-IVm7-IIIm7,G7-F#m7b5-Fm7-Em7,Drop 3,Innocently Happy,Ionian
+Eb,V7-#IVm7b5-IVm7-IIIm7,Bb7-Am7b5-Abm7-Gm7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-#IVm7b5-IVm7-IIIm7,A7-Abm7b5-Gm7-F#m7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,V7-#IVm7b5-IVm7-IIIm7,B7-Bbm7b5-Am7-Abm7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-#IVm7b5-IVm7-IIIm7,Db7-Cm7b5-Bm7-Bbm7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-#IVm7b5-IVm7-IIIm7,C7-Bm7b5-Bbm7-Am7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-#IVm7b5-IVm7-IIIm7,Eb7-Dm7b5-Dbm7-Cm7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,V7-#IVm7b5-IVm7-IIIm7,D7-Dbm7b5-Cm7-Bm7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-IIIm7,F7-Dm7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,V7-IIIm7,E7-Dbm7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-IIIm7,F#7-Ebm7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-IIIm7,Ab7-Fm7,Four-Way Close,"Grief, Depressive",Ionian
+C,V7-IIIm7,G7-Em7,Four-Way Close,Innocently Happy,Ionian
+Eb,V7-IIIm7,Bb7-Gm7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-IIIm7,A7-F#m7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,V7-IIIm7,B7-Abm7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-IIIm7,Db7-Bbm7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-IIIm7,C7-Am7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-IIIm7,Eb7-Cm7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,V7-IIIm7,D7-Bm7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-IIIm7,F7-Dm7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,V7-IIIm7,E7-Dbm7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-IIIm7,F#7-Ebm7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-IIIm7,Ab7-Fm7,Drop 2,"Grief, Depressive",Ionian
+C,V7-IIIm7,G7-Em7,Drop 2,Innocently Happy,Ionian
+Eb,V7-IIIm7,Bb7-Gm7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-IIIm7,A7-F#m7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,V7-IIIm7,B7-Abm7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-IIIm7,Db7-Bbm7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-IIIm7,C7-Am7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-IIIm7,Eb7-Cm7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,V7-IIIm7,D7-Bm7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-IIIm7,F7-Dm7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,V7-IIIm7,E7-Dbm7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-IIIm7,F#7-Ebm7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-IIIm7,Ab7-Fm7,Drop 2+4,"Grief, Depressive",Ionian
+C,V7-IIIm7,G7-Em7,Drop 2+4,Innocently Happy,Ionian
+Eb,V7-IIIm7,Bb7-Gm7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-IIIm7,A7-F#m7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,V7-IIIm7,B7-Abm7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-IIIm7,Db7-Bbm7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-IIIm7,C7-Am7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-IIIm7,Eb7-Cm7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,V7-IIIm7,D7-Bm7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-IIIm7,F7-Dm7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,V7-IIIm7,E7-Dbm7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-IIIm7,F#7-Ebm7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-IIIm7,Ab7-Fm7,Drop 3,"Grief, Depressive",Ionian
+C,V7-IIIm7,G7-Em7,Drop 3,Innocently Happy,Ionian
+Eb,V7-IIIm7,Bb7-Gm7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-IIIm7,A7-F#m7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,V7-IIIm7,B7-Abm7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-IIIm7,Db7-Bbm7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-IIIm7,C7-Am7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-IIIm7,Eb7-Cm7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,V7-IIIm7,D7-Bm7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-VIm7,F7-Gm7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,V7-VIm7,E7-F#m7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-VIm7,F#7-Abm7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-VIm7,Ab7-Bbm7,Four-Way Close,"Grief, Depressive",Ionian
+C,V7-VIm7,G7-Am7,Four-Way Close,Innocently Happy,Ionian
+Eb,V7-VIm7,Bb7-Cm7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-VIm7,A7-Bm7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,V7-VIm7,B7-Dbm7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-VIm7,Db7-Ebm7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-VIm7,C7-Dm7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-VIm7,Eb7-Fm7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,V7-VIm7,D7-Em7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-VIm7,F7-Gm7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,V7-VIm7,E7-F#m7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-VIm7,F#7-Abm7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-VIm7,Ab7-Bbm7,Drop 2,"Grief, Depressive",Ionian
+C,V7-VIm7,G7-Am7,Drop 2,Innocently Happy,Ionian
+Eb,V7-VIm7,Bb7-Cm7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-VIm7,A7-Bm7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,V7-VIm7,B7-Dbm7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-VIm7,Db7-Ebm7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-VIm7,C7-Dm7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-VIm7,Eb7-Fm7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,V7-VIm7,D7-Em7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-VIm7,F7-Gm7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,V7-VIm7,E7-F#m7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-VIm7,F#7-Abm7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-VIm7,Ab7-Bbm7,Drop 2+4,"Grief, Depressive",Ionian
+C,V7-VIm7,G7-Am7,Drop 2+4,Innocently Happy,Ionian
+Eb,V7-VIm7,Bb7-Cm7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-VIm7,A7-Bm7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,V7-VIm7,B7-Dbm7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-VIm7,Db7-Ebm7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-VIm7,C7-Dm7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-VIm7,Eb7-Fm7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,V7-VIm7,D7-Em7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-VIm7,F7-Gm7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,V7-VIm7,E7-F#m7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-VIm7,F#7-Abm7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-VIm7,Ab7-Bbm7,Drop 3,"Grief, Depressive",Ionian
+C,V7-VIm7,G7-Am7,Drop 3,Innocently Happy,Ionian
+Eb,V7-VIm7,Bb7-Cm7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-VIm7,A7-Bm7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,V7-VIm7,B7-Dbm7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-VIm7,Db7-Ebm7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-VIm7,C7-Dm7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-VIm7,Eb7-Fm7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,V7-VIm7,D7-Em7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bIIImaj7,F7-Dbmaj7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bIIImaj7,E7-Cmaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bIIImaj7,F#7-Dmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bIIImaj7,Ab7-Emaj7,Four-Way Close,"Grief, Depressive",Ionian
+C,V7-bIIImaj7,G7-Ebmaj7,Four-Way Close,Innocently Happy,Ionian
+Eb,V7-bIIImaj7,Bb7-F#maj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bIIImaj7,A7-Fmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bIIImaj7,B7-Gmaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bIIImaj7,Db7-Amaj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bIIImaj7,C7-Abmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bIIImaj7,Eb7-Bmaj7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,V7-bIIImaj7,D7-Bbmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bIIImaj7,F7-Dbmaj7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bIIImaj7,E7-Cmaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bIIImaj7,F#7-Dmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bIIImaj7,Ab7-Emaj7,Drop 2,"Grief, Depressive",Ionian
+C,V7-bIIImaj7,G7-Ebmaj7,Drop 2,Innocently Happy,Ionian
+Eb,V7-bIIImaj7,Bb7-F#maj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bIIImaj7,A7-Fmaj7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bIIImaj7,B7-Gmaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bIIImaj7,Db7-Amaj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bIIImaj7,C7-Abmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bIIImaj7,Eb7-Bmaj7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,V7-bIIImaj7,D7-Bbmaj7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bIIImaj7,F7-Dbmaj7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bIIImaj7,E7-Cmaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bIIImaj7,F#7-Dmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bIIImaj7,Ab7-Emaj7,Drop 2+4,"Grief, Depressive",Ionian
+C,V7-bIIImaj7,G7-Ebmaj7,Drop 2+4,Innocently Happy,Ionian
+Eb,V7-bIIImaj7,Bb7-F#maj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bIIImaj7,A7-Fmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bIIImaj7,B7-Gmaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bIIImaj7,Db7-Amaj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bIIImaj7,C7-Abmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bIIImaj7,Eb7-Bmaj7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,V7-bIIImaj7,D7-Bbmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bIIImaj7,F7-Dbmaj7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bIIImaj7,E7-Cmaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bIIImaj7,F#7-Dmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bIIImaj7,Ab7-Emaj7,Drop 3,"Grief, Depressive",Ionian
+C,V7-bIIImaj7,G7-Ebmaj7,Drop 3,Innocently Happy,Ionian
+Eb,V7-bIIImaj7,Bb7-F#maj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bIIImaj7,A7-Fmaj7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bIIImaj7,B7-Gmaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bIIImaj7,Db7-Amaj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bIIImaj7,C7-Abmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bIIImaj7,Eb7-Bmaj7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,V7-bIIImaj7,D7-Bbmaj7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bIImaj7,F7-Bmaj7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bIImaj7,E7-Bbmaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bIImaj7,F#7-Cmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bIImaj7,Ab7-Dmaj7,Four-Way Close,"Grief, Depressive",Ionian
+C,V7-bIImaj7,G7-Dbmaj7,Four-Way Close,Innocently Happy,Ionian
+Eb,V7-bIImaj7,Bb7-Emaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bIImaj7,A7-Ebmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bIImaj7,B7-Fmaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bIImaj7,Db7-Gmaj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bIImaj7,C7-F#maj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bIImaj7,Eb7-Amaj7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,V7-bIImaj7,D7-Abmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bIImaj7,F7-Bmaj7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bIImaj7,E7-Bbmaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bIImaj7,F#7-Cmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bIImaj7,Ab7-Dmaj7,Drop 2,"Grief, Depressive",Ionian
+C,V7-bIImaj7,G7-Dbmaj7,Drop 2,Innocently Happy,Ionian
+Eb,V7-bIImaj7,Bb7-Emaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bIImaj7,A7-Ebmaj7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bIImaj7,B7-Fmaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bIImaj7,Db7-Gmaj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bIImaj7,C7-F#maj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bIImaj7,Eb7-Amaj7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,V7-bIImaj7,D7-Abmaj7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bIImaj7,F7-Bmaj7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bIImaj7,E7-Bbmaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bIImaj7,F#7-Cmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bIImaj7,Ab7-Dmaj7,Drop 2+4,"Grief, Depressive",Ionian
+C,V7-bIImaj7,G7-Dbmaj7,Drop 2+4,Innocently Happy,Ionian
+Eb,V7-bIImaj7,Bb7-Emaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bIImaj7,A7-Ebmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bIImaj7,B7-Fmaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bIImaj7,Db7-Gmaj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bIImaj7,C7-F#maj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bIImaj7,Eb7-Amaj7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,V7-bIImaj7,D7-Abmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bIImaj7,F7-Bmaj7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bIImaj7,E7-Bbmaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bIImaj7,F#7-Cmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bIImaj7,Ab7-Dmaj7,Drop 3,"Grief, Depressive",Ionian
+C,V7-bIImaj7,G7-Dbmaj7,Drop 3,Innocently Happy,Ionian
+Eb,V7-bIImaj7,Bb7-Emaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bIImaj7,A7-Ebmaj7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bIImaj7,B7-Fmaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bIImaj7,Db7-Gmaj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bIImaj7,C7-F#maj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bIImaj7,Eb7-Amaj7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,V7-bIImaj7,D7-Abmaj7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bVIImaj7,F7-Abmaj7,Four-Way Close,"Joyful, Quaint, Cheerful",Mixolydian
+A,V7-bVIImaj7,E7-Gmaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Mixolydian
+B,V7-bVIImaj7,F#7-Amaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Mixolydian
+Db,V7-bVIImaj7,Ab7-Bmaj7,Four-Way Close,"Grief, Depressive",Mixolydian
+C,V7-bVIImaj7,G7-Bbmaj7,Four-Way Close,Innocently Happy,Mixolydian
+Eb,V7-bVIImaj7,Bb7-Dbmaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Mixolydian
+D,V7-bVIImaj7,A7-Cmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Mixolydian
+E,V7-bVIImaj7,B7-Dmaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Mixolydian
+F#,V7-bVIImaj7,Db7-Emaj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Mixolydian
+F,V7-bVIImaj7,C7-Ebmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Mixolydian
+Ab,V7-bVIImaj7,Eb7-F#maj7,Four-Way Close,"Death, Eternity, Judgement",Mixolydian
+G,V7-bVIImaj7,D7-Fmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Mixolydian
+Bb,V7-bVIImaj7,F7-Abmaj7,Drop 2,"Joyful, Quaint, Cheerful",Mixolydian
+A,V7-bVIImaj7,E7-Gmaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Mixolydian
+B,V7-bVIImaj7,F#7-Amaj7,Drop 2,"Harsh, Strong, Wild, Rage",Mixolydian
+Db,V7-bVIImaj7,Ab7-Bmaj7,Drop 2,"Grief, Depressive",Mixolydian
+C,V7-bVIImaj7,G7-Bbmaj7,Drop 2,Innocently Happy,Mixolydian
+Eb,V7-bVIImaj7,Bb7-Dbmaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Mixolydian
+D,V7-bVIImaj7,A7-Cmaj7,Drop 2,"Triumphant, Victorious War-Cries",Mixolydian
+E,V7-bVIImaj7,B7-Dmaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Mixolydian
+F#,V7-bVIImaj7,Db7-Emaj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Mixolydian
+F,V7-bVIImaj7,C7-Ebmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Mixolydian
+Ab,V7-bVIImaj7,Eb7-F#maj7,Drop 2,"Death, Eternity, Judgement",Mixolydian
+G,V7-bVIImaj7,D7-Fmaj7,Drop 2,"Serious, Magnificent, Fantasy",Mixolydian
+Bb,V7-bVIImaj7,F7-Abmaj7,Drop 2+4,"Joyful, Quaint, Cheerful",Mixolydian
+A,V7-bVIImaj7,E7-Gmaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Mixolydian
+B,V7-bVIImaj7,F#7-Amaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Mixolydian
+Db,V7-bVIImaj7,Ab7-Bmaj7,Drop 2+4,"Grief, Depressive",Mixolydian
+C,V7-bVIImaj7,G7-Bbmaj7,Drop 2+4,Innocently Happy,Mixolydian
+Eb,V7-bVIImaj7,Bb7-Dbmaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Mixolydian
+D,V7-bVIImaj7,A7-Cmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Mixolydian
+E,V7-bVIImaj7,B7-Dmaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Mixolydian
+F#,V7-bVIImaj7,Db7-Emaj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Mixolydian
+F,V7-bVIImaj7,C7-Ebmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Mixolydian
+Ab,V7-bVIImaj7,Eb7-F#maj7,Drop 2+4,"Death, Eternity, Judgement",Mixolydian
+G,V7-bVIImaj7,D7-Fmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Mixolydian
+Bb,V7-bVIImaj7,F7-Abmaj7,Drop 3,"Joyful, Quaint, Cheerful",Mixolydian
+A,V7-bVIImaj7,E7-Gmaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Mixolydian
+B,V7-bVIImaj7,F#7-Amaj7,Drop 3,"Harsh, Strong, Wild, Rage",Mixolydian
+Db,V7-bVIImaj7,Ab7-Bmaj7,Drop 3,"Grief, Depressive",Mixolydian
+C,V7-bVIImaj7,G7-Bbmaj7,Drop 3,Innocently Happy,Mixolydian
+Eb,V7-bVIImaj7,Bb7-Dbmaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Mixolydian
+D,V7-bVIImaj7,A7-Cmaj7,Drop 3,"Triumphant, Victorious War-Cries",Mixolydian
+E,V7-bVIImaj7,B7-Dmaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Mixolydian
+F#,V7-bVIImaj7,Db7-Emaj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Mixolydian
+F,V7-bVIImaj7,C7-Ebmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Mixolydian
+Ab,V7-bVIImaj7,Eb7-F#maj7,Drop 3,"Death, Eternity, Judgement",Mixolydian
+G,V7-bVIImaj7,D7-Fmaj7,Drop 3,"Serious, Magnificent, Fantasy",Mixolydian
+Bb,V7-bVImaj7,F7-F#maj7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bVImaj7,E7-Fmaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bVImaj7,F#7-Gmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bVImaj7,Ab7-Amaj7,Four-Way Close,"Grief, Depressive",Ionian
+C,V7-bVImaj7,G7-Abmaj7,Four-Way Close,Innocently Happy,Ionian
+Eb,V7-bVImaj7,Bb7-Bmaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bVImaj7,A7-Bbmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bVImaj7,B7-Cmaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bVImaj7,Db7-Dmaj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bVImaj7,C7-Dbmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bVImaj7,Eb7-Emaj7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,V7-bVImaj7,D7-Ebmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bVImaj7,F7-F#maj7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bVImaj7,E7-Fmaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bVImaj7,F#7-Gmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bVImaj7,Ab7-Amaj7,Drop 2,"Grief, Depressive",Ionian
+C,V7-bVImaj7,G7-Abmaj7,Drop 2,Innocently Happy,Ionian
+Eb,V7-bVImaj7,Bb7-Bmaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bVImaj7,A7-Bbmaj7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bVImaj7,B7-Cmaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bVImaj7,Db7-Dmaj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bVImaj7,C7-Dbmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bVImaj7,Eb7-Emaj7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,V7-bVImaj7,D7-Ebmaj7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bVImaj7,F7-F#maj7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bVImaj7,E7-Fmaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bVImaj7,F#7-Gmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bVImaj7,Ab7-Amaj7,Drop 2+4,"Grief, Depressive",Ionian
+C,V7-bVImaj7,G7-Abmaj7,Drop 2+4,Innocently Happy,Ionian
+Eb,V7-bVImaj7,Bb7-Bmaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bVImaj7,A7-Bbmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bVImaj7,B7-Cmaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bVImaj7,Db7-Dmaj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bVImaj7,C7-Dbmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bVImaj7,Eb7-Emaj7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,V7-bVImaj7,D7-Ebmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7-bVImaj7,F7-F#maj7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,V7-bVImaj7,E7-Fmaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7-bVImaj7,F#7-Gmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7-bVImaj7,Ab7-Amaj7,Drop 3,"Grief, Depressive",Ionian
+C,V7-bVImaj7,G7-Abmaj7,Drop 3,Innocently Happy,Ionian
+Eb,V7-bVImaj7,Bb7-Bmaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7-bVImaj7,A7-Bbmaj7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,V7-bVImaj7,B7-Cmaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7-bVImaj7,Db7-Dmaj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7-bVImaj7,C7-Dbmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7-bVImaj7,Eb7-Emaj7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,V7-bVImaj7,D7-Ebmaj7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7/II-bVImaj7,G7-F#maj7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,V7/II-bVImaj7,F#7-Fmaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7/II-bVImaj7,Ab7-Gmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7/II-bVImaj7,Bb7-Amaj7,Four-Way Close,"Grief, Depressive",Ionian
+C,V7/II-bVImaj7,A7-Abmaj7,Four-Way Close,Innocently Happy,Ionian
+Eb,V7/II-bVImaj7,C7-Bmaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7/II-bVImaj7,B7-Bbmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,V7/II-bVImaj7,Db7-Cmaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7/II-bVImaj7,Eb7-Dmaj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7/II-bVImaj7,D7-Dbmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7/II-bVImaj7,F7-Emaj7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,V7/II-bVImaj7,E7-Ebmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7/II-bVImaj7,G7-F#maj7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,V7/II-bVImaj7,F#7-Fmaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7/II-bVImaj7,Ab7-Gmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7/II-bVImaj7,Bb7-Amaj7,Drop 2,"Grief, Depressive",Ionian
+C,V7/II-bVImaj7,A7-Abmaj7,Drop 2,Innocently Happy,Ionian
+Eb,V7/II-bVImaj7,C7-Bmaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7/II-bVImaj7,B7-Bbmaj7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,V7/II-bVImaj7,Db7-Cmaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7/II-bVImaj7,Eb7-Dmaj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7/II-bVImaj7,D7-Dbmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7/II-bVImaj7,F7-Emaj7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,V7/II-bVImaj7,E7-Ebmaj7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7/II-bVImaj7,G7-F#maj7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,V7/II-bVImaj7,F#7-Fmaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7/II-bVImaj7,Ab7-Gmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7/II-bVImaj7,Bb7-Amaj7,Drop 2+4,"Grief, Depressive",Ionian
+C,V7/II-bVImaj7,A7-Abmaj7,Drop 2+4,Innocently Happy,Ionian
+Eb,V7/II-bVImaj7,C7-Bmaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7/II-bVImaj7,B7-Bbmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,V7/II-bVImaj7,Db7-Cmaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7/II-bVImaj7,Eb7-Dmaj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7/II-bVImaj7,D7-Dbmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7/II-bVImaj7,F7-Emaj7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,V7/II-bVImaj7,E7-Ebmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,V7/II-bVImaj7,G7-F#maj7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,V7/II-bVImaj7,F#7-Fmaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,V7/II-bVImaj7,Ab7-Gmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,V7/II-bVImaj7,Bb7-Amaj7,Drop 3,"Grief, Depressive",Ionian
+C,V7/II-bVImaj7,A7-Abmaj7,Drop 3,Innocently Happy,Ionian
+Eb,V7/II-bVImaj7,C7-Bmaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,V7/II-bVImaj7,B7-Bbmaj7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,V7/II-bVImaj7,Db7-Cmaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,V7/II-bVImaj7,Eb7-Dmaj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,V7/II-bVImaj7,D7-Dbmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,V7/II-bVImaj7,F7-Emaj7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,V7/II-bVImaj7,E7-Ebmaj7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,IIm7-V7-Imaj7,Cm7-F7-Bbmaj7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,IIm7-V7-Imaj7,Bm7-E7-Amaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IIm7-V7-Imaj7,Dbm7-F#7-Bmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,IIm7-V7-Imaj7,Ebm7-Ab7-Dbmaj7,Four-Way Close,"Grief, Depressive",Ionian
+C,IIm7-V7-Imaj7,Dm7-G7-Cmaj7,Four-Way Close,Innocently Happy,Ionian
+Eb,IIm7-V7-Imaj7,Fm7-Bb7-Ebmaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IIm7-V7-Imaj7,Em7-A7-Dmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,IIm7-V7-Imaj7,F#m7-B7-Emaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IIm7-V7-Imaj7,Abm7-Db7-F#maj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IIm7-V7-Imaj7,Gm7-C7-Fmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IIm7-V7-Imaj7,Bbm7-Eb7-Abmaj7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,IIm7-V7-Imaj7,Am7-D7-Gmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,IIm7-V7-Imaj7,Cm7-F7-Bbmaj7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,IIm7-V7-Imaj7,Bm7-E7-Amaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IIm7-V7-Imaj7,Dbm7-F#7-Bmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,IIm7-V7-Imaj7,Ebm7-Ab7-Dbmaj7,Drop 2,"Grief, Depressive",Ionian
+C,IIm7-V7-Imaj7,Dm7-G7-Cmaj7,Drop 2,Innocently Happy,Ionian
+Eb,IIm7-V7-Imaj7,Fm7-Bb7-Ebmaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IIm7-V7-Imaj7,Em7-A7-Dmaj7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,IIm7-V7-Imaj7,F#m7-B7-Emaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IIm7-V7-Imaj7,Abm7-Db7-F#maj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IIm7-V7-Imaj7,Gm7-C7-Fmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IIm7-V7-Imaj7,Bbm7-Eb7-Abmaj7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,IIm7-V7-Imaj7,Am7-D7-Gmaj7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,IIm7-V7-Imaj7,Cm7-F7-Bbmaj7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,IIm7-V7-Imaj7,Bm7-E7-Amaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IIm7-V7-Imaj7,Dbm7-F#7-Bmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,IIm7-V7-Imaj7,Ebm7-Ab7-Dbmaj7,Drop 2+4,"Grief, Depressive",Ionian
+C,IIm7-V7-Imaj7,Dm7-G7-Cmaj7,Drop 2+4,Innocently Happy,Ionian
+Eb,IIm7-V7-Imaj7,Fm7-Bb7-Ebmaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IIm7-V7-Imaj7,Em7-A7-Dmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,IIm7-V7-Imaj7,F#m7-B7-Emaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IIm7-V7-Imaj7,Abm7-Db7-F#maj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IIm7-V7-Imaj7,Gm7-C7-Fmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IIm7-V7-Imaj7,Bbm7-Eb7-Abmaj7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,IIm7-V7-Imaj7,Am7-D7-Gmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,IIm7-V7-Imaj7,Cm7-F7-Bbmaj7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,IIm7-V7-Imaj7,Bm7-E7-Amaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IIm7-V7-Imaj7,Dbm7-F#7-Bmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,IIm7-V7-Imaj7,Ebm7-Ab7-Dbmaj7,Drop 3,"Grief, Depressive",Ionian
+C,IIm7-V7-Imaj7,Dm7-G7-Cmaj7,Drop 3,Innocently Happy,Ionian
+Eb,IIm7-V7-Imaj7,Fm7-Bb7-Ebmaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IIm7-V7-Imaj7,Em7-A7-Dmaj7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,IIm7-V7-Imaj7,F#m7-B7-Emaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IIm7-V7-Imaj7,Abm7-Db7-F#maj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IIm7-V7-Imaj7,Gm7-C7-Fmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IIm7-V7-Imaj7,Bbm7-Eb7-Abmaj7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,IIm7-V7-Imaj7,Am7-D7-Gmaj7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb minor,IIm7b5-V7-Im7,Cm7b5-F7-Bbm7,Four-Way Close,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IIm7b5-V7-Im7,Bm7b5-E7-Am7,Four-Way Close,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IIm7b5-V7-Im7,C#m7b5-F#7-Bm7,Four-Way Close,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IIm7b5-V7-Im7,Ebm7b5-Ab7-C#m7,Four-Way Close,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IIm7b5-V7-Im7,Dm7b5-G7-Cm7,Four-Way Close,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IIm7b5-V7-Im7,Fm7b5-Bb7-Ebm7,Four-Way Close,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IIm7b5-V7-Im7,Em7b5-A7-Dm7,Four-Way Close,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IIm7b5-V7-Im7,F#m7b5-B7-Em7,Four-Way Close,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IIm7b5-V7-Im7,Abm7b5-C#7-F#m7,Four-Way Close,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IIm7b5-V7-Im7,Gm7b5-C7-Fm7,Four-Way Close,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IIm7b5-V7-Im7,Bbm7b5-Eb7-Abm7,Four-Way Close,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IIm7b5-V7-Im7,Am7b5-D7-Gm7,Four-Way Close,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IIm7b5-V7-Im7,Cm7b5-F7-Bbm7,Drop 2,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IIm7b5-V7-Im7,Bm7b5-E7-Am7,Drop 2,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IIm7b5-V7-Im7,C#m7b5-F#7-Bm7,Drop 2,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IIm7b5-V7-Im7,Ebm7b5-Ab7-C#m7,Drop 2,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IIm7b5-V7-Im7,Dm7b5-G7-Cm7,Drop 2,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IIm7b5-V7-Im7,Fm7b5-Bb7-Ebm7,Drop 2,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IIm7b5-V7-Im7,Em7b5-A7-Dm7,Drop 2,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IIm7b5-V7-Im7,F#m7b5-B7-Em7,Drop 2,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IIm7b5-V7-Im7,Abm7b5-C#7-F#m7,Drop 2,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IIm7b5-V7-Im7,Gm7b5-C7-Fm7,Drop 2,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IIm7b5-V7-Im7,Bbm7b5-Eb7-Abm7,Drop 2,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IIm7b5-V7-Im7,Am7b5-D7-Gm7,Drop 2,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IIm7b5-V7-Im7,Cm7b5-F7-Bbm7,Drop 2+4,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IIm7b5-V7-Im7,Bm7b5-E7-Am7,Drop 2+4,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IIm7b5-V7-Im7,C#m7b5-F#7-Bm7,Drop 2+4,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IIm7b5-V7-Im7,Ebm7b5-Ab7-C#m7,Drop 2+4,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IIm7b5-V7-Im7,Dm7b5-G7-Cm7,Drop 2+4,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IIm7b5-V7-Im7,Fm7b5-Bb7-Ebm7,Drop 2+4,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IIm7b5-V7-Im7,Em7b5-A7-Dm7,Drop 2+4,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IIm7b5-V7-Im7,F#m7b5-B7-Em7,Drop 2+4,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IIm7b5-V7-Im7,Abm7b5-C#7-F#m7,Drop 2+4,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IIm7b5-V7-Im7,Gm7b5-C7-Fm7,Drop 2+4,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IIm7b5-V7-Im7,Bbm7b5-Eb7-Abm7,Drop 2+4,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IIm7b5-V7-Im7,Am7b5-D7-Gm7,Drop 2+4,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IIm7b5-V7-Im7,Cm7b5-F7-Bbm7,Drop 3,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IIm7b5-V7-Im7,Bm7b5-E7-Am7,Drop 3,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IIm7b5-V7-Im7,C#m7b5-F#7-Bm7,Drop 3,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IIm7b5-V7-Im7,Ebm7b5-Ab7-C#m7,Drop 3,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IIm7b5-V7-Im7,Dm7b5-G7-Cm7,Drop 3,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IIm7b5-V7-Im7,Fm7b5-Bb7-Ebm7,Drop 3,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IIm7b5-V7-Im7,Em7b5-A7-Dm7,Drop 3,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IIm7b5-V7-Im7,F#m7b5-B7-Em7,Drop 3,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IIm7b5-V7-Im7,Abm7b5-C#7-F#m7,Drop 3,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IIm7b5-V7-Im7,Gm7b5-C7-Fm7,Drop 3,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IIm7b5-V7-Im7,Bbm7b5-Eb7-Abm7,Drop 3,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IIm7b5-V7-Im7,Am7b5-D7-Gm7,Drop 3,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IVm6-Imaj7,Ebm6-Bbmaj7,Four-Way Close,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IVm6-Imaj7,Dm6-Amaj7,Four-Way Close,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IVm6-Imaj7,Em6-Bmaj7,Four-Way Close,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IVm6-Imaj7,F#m6-C#maj7,Four-Way Close,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IVm6-Imaj7,Fm6-Cmaj7,Four-Way Close,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IVm6-Imaj7,Abm6-Ebmaj7,Four-Way Close,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IVm6-Imaj7,Gm6-Dmaj7,Four-Way Close,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IVm6-Imaj7,Am6-Emaj7,Four-Way Close,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IVm6-Imaj7,Bm6-F#maj7,Four-Way Close,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IVm6-Imaj7,Bbm6-Fmaj7,Four-Way Close,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IVm6-Imaj7,C#m6-Abmaj7,Four-Way Close,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IVm6-Imaj7,Cm6-Gmaj7,Four-Way Close,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IVm6-Imaj7,Ebm6-Bbmaj7,Drop 2,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IVm6-Imaj7,Dm6-Amaj7,Drop 2,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IVm6-Imaj7,Em6-Bmaj7,Drop 2,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IVm6-Imaj7,F#m6-C#maj7,Drop 2,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IVm6-Imaj7,Fm6-Cmaj7,Drop 2,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IVm6-Imaj7,Abm6-Ebmaj7,Drop 2,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IVm6-Imaj7,Gm6-Dmaj7,Drop 2,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IVm6-Imaj7,Am6-Emaj7,Drop 2,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IVm6-Imaj7,Bm6-F#maj7,Drop 2,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IVm6-Imaj7,Bbm6-Fmaj7,Drop 2,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IVm6-Imaj7,C#m6-Abmaj7,Drop 2,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IVm6-Imaj7,Cm6-Gmaj7,Drop 2,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IVm6-Imaj7,Ebm6-Bbmaj7,Drop 2+4,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IVm6-Imaj7,Dm6-Amaj7,Drop 2+4,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IVm6-Imaj7,Em6-Bmaj7,Drop 2+4,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IVm6-Imaj7,F#m6-C#maj7,Drop 2+4,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IVm6-Imaj7,Fm6-Cmaj7,Drop 2+4,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IVm6-Imaj7,Abm6-Ebmaj7,Drop 2+4,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IVm6-Imaj7,Gm6-Dmaj7,Drop 2+4,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IVm6-Imaj7,Am6-Emaj7,Drop 2+4,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IVm6-Imaj7,Bm6-F#maj7,Drop 2+4,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IVm6-Imaj7,Bbm6-Fmaj7,Drop 2+4,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IVm6-Imaj7,C#m6-Abmaj7,Drop 2+4,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IVm6-Imaj7,Cm6-Gmaj7,Drop 2+4,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IVm6-Imaj7,Ebm6-Bbmaj7,Drop 3,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IVm6-Imaj7,Dm6-Amaj7,Drop 3,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IVm6-Imaj7,Em6-Bmaj7,Drop 3,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IVm6-Imaj7,F#m6-C#maj7,Drop 3,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IVm6-Imaj7,Fm6-Cmaj7,Drop 3,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IVm6-Imaj7,Abm6-Ebmaj7,Drop 3,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IVm6-Imaj7,Gm6-Dmaj7,Drop 3,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IVm6-Imaj7,Am6-Emaj7,Drop 3,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IVm6-Imaj7,Bm6-F#maj7,Drop 3,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IVm6-Imaj7,Bbm6-Fmaj7,Drop 3,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IVm6-Imaj7,C#m6-Abmaj7,Drop 3,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IVm6-Imaj7,Cm6-Gmaj7,Drop 3,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IVm7-V7-Im7,Ebm7-F7-Bbm7,Four-Way Close,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IVm7-V7-Im7,Dm7-E7-Am7,Four-Way Close,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IVm7-V7-Im7,Em7-F#7-Bm7,Four-Way Close,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IVm7-V7-Im7,F#m7-Ab7-C#m7,Four-Way Close,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IVm7-V7-Im7,Fm7-G7-Cm7,Four-Way Close,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IVm7-V7-Im7,Abm7-Bb7-Ebm7,Four-Way Close,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IVm7-V7-Im7,Gm7-A7-Dm7,Four-Way Close,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IVm7-V7-Im7,Am7-B7-Em7,Four-Way Close,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IVm7-V7-Im7,Bm7-C#7-F#m7,Four-Way Close,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IVm7-V7-Im7,Bbm7-C7-Fm7,Four-Way Close,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IVm7-V7-Im7,C#m7-Eb7-Abm7,Four-Way Close,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IVm7-V7-Im7,Cm7-D7-Gm7,Four-Way Close,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IVm7-V7-Im7,Ebm7-F7-Bbm7,Drop 2,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IVm7-V7-Im7,Dm7-E7-Am7,Drop 2,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IVm7-V7-Im7,Em7-F#7-Bm7,Drop 2,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IVm7-V7-Im7,F#m7-Ab7-C#m7,Drop 2,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IVm7-V7-Im7,Fm7-G7-Cm7,Drop 2,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IVm7-V7-Im7,Abm7-Bb7-Ebm7,Drop 2,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IVm7-V7-Im7,Gm7-A7-Dm7,Drop 2,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IVm7-V7-Im7,Am7-B7-Em7,Drop 2,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IVm7-V7-Im7,Bm7-C#7-F#m7,Drop 2,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IVm7-V7-Im7,Bbm7-C7-Fm7,Drop 2,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IVm7-V7-Im7,C#m7-Eb7-Abm7,Drop 2,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IVm7-V7-Im7,Cm7-D7-Gm7,Drop 2,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IVm7-V7-Im7,Ebm7-F7-Bbm7,Drop 2+4,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IVm7-V7-Im7,Dm7-E7-Am7,Drop 2+4,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IVm7-V7-Im7,Em7-F#7-Bm7,Drop 2+4,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IVm7-V7-Im7,F#m7-Ab7-C#m7,Drop 2+4,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IVm7-V7-Im7,Fm7-G7-Cm7,Drop 2+4,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IVm7-V7-Im7,Abm7-Bb7-Ebm7,Drop 2+4,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IVm7-V7-Im7,Gm7-A7-Dm7,Drop 2+4,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IVm7-V7-Im7,Am7-B7-Em7,Drop 2+4,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IVm7-V7-Im7,Bm7-C#7-F#m7,Drop 2+4,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IVm7-V7-Im7,Bbm7-C7-Fm7,Drop 2+4,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IVm7-V7-Im7,C#m7-Eb7-Abm7,Drop 2+4,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IVm7-V7-Im7,Cm7-D7-Gm7,Drop 2+4,"Discontent, Uneasiness",Harmonic minor
+Bb minor,IVm7-V7-Im7,Ebm7-F7-Bbm7,Drop 3,"Terrible, the Night, Mocking",Harmonic minor
+A minor,IVm7-V7-Im7,Dm7-E7-Am7,Drop 3,"Tender, Plaintive, Pious",Harmonic minor
+B minor,IVm7-V7-Im7,Em7-F#7-Bm7,Drop 3,"Solitary, Melancholic, Patience",Harmonic minor
+C# minor,IVm7-V7-Im7,F#m7-Ab7-C#m7,Drop 3,"Despair, Wailing, Weeping",Harmonic minor
+C minor,IVm7-V7-Im7,Fm7-G7-Cm7,Drop 3,"Innocently Sad, Love-Sick",Harmonic minor
+Eb minor,IVm7-V7-Im7,Abm7-Bb7-Ebm7,Drop 3,"Deep Distress, Existential Angst",Harmonic minor
+D minor,IVm7-V7-Im7,Gm7-A7-Dm7,Drop 3,"Serious, Pious, Ruminating",Harmonic minor
+E minor,IVm7-V7-Im7,Am7-B7-Em7,Drop 3,"Effeminate, Amorous, Restless",Harmonic minor
+F# minor,IVm7-V7-Im7,Bm7-C#7-F#m7,Drop 3,"Gloomy, Passionate Resentment",Harmonic minor
+F minor,IVm7-V7-Im7,Bbm7-C7-Fm7,Drop 3,"Obscure, Plaintive, Funereal",Harmonic minor
+Ab minor,IVm7-V7-Im7,C#m7-Eb7-Abm7,Drop 3,"Grumbling, Moaning, Wailing",Harmonic minor
+G minor,IVm7-V7-Im7,Cm7-D7-Gm7,Drop 3,"Discontent, Uneasiness",Harmonic minor
+Bb,IVm7-bVII7-Imaj7,Ebm7-Ab7-Bbmaj7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,IVm7-bVII7-Imaj7,Dm7-G7-Amaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVm7-bVII7-Imaj7,Em7-A7-Bmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVm7-bVII7-Imaj7,F#m7-B7-Dbmaj7,Four-Way Close,"Grief, Depressive",Ionian
+C,IVm7-bVII7-Imaj7,Fm7-Bb7-Cmaj7,Four-Way Close,Innocently Happy,Ionian
+Eb,IVm7-bVII7-Imaj7,Abm7-Db7-Ebmaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVm7-bVII7-Imaj7,Gm7-C7-Dmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,IVm7-bVII7-Imaj7,Am7-D7-Emaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVm7-bVII7-Imaj7,Bm7-E7-F#maj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVm7-bVII7-Imaj7,Bbm7-Eb7-Fmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVm7-bVII7-Imaj7,Dbm7-F#7-Abmaj7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,IVm7-bVII7-Imaj7,Cm7-F7-Gmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVm7-bVII7-Imaj7,Ebm7-Ab7-Bbmaj7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,IVm7-bVII7-Imaj7,Dm7-G7-Amaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVm7-bVII7-Imaj7,Em7-A7-Bmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVm7-bVII7-Imaj7,F#m7-B7-Dbmaj7,Drop 2,"Grief, Depressive",Ionian
+C,IVm7-bVII7-Imaj7,Fm7-Bb7-Cmaj7,Drop 2,Innocently Happy,Ionian
+Eb,IVm7-bVII7-Imaj7,Abm7-Db7-Ebmaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVm7-bVII7-Imaj7,Gm7-C7-Dmaj7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,IVm7-bVII7-Imaj7,Am7-D7-Emaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVm7-bVII7-Imaj7,Bm7-E7-F#maj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVm7-bVII7-Imaj7,Bbm7-Eb7-Fmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVm7-bVII7-Imaj7,Dbm7-F#7-Abmaj7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,IVm7-bVII7-Imaj7,Cm7-F7-Gmaj7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVm7-bVII7-Imaj7,Ebm7-Ab7-Bbmaj7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,IVm7-bVII7-Imaj7,Dm7-G7-Amaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVm7-bVII7-Imaj7,Em7-A7-Bmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVm7-bVII7-Imaj7,F#m7-B7-Dbmaj7,Drop 2+4,"Grief, Depressive",Ionian
+C,IVm7-bVII7-Imaj7,Fm7-Bb7-Cmaj7,Drop 2+4,Innocently Happy,Ionian
+Eb,IVm7-bVII7-Imaj7,Abm7-Db7-Ebmaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVm7-bVII7-Imaj7,Gm7-C7-Dmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,IVm7-bVII7-Imaj7,Am7-D7-Emaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVm7-bVII7-Imaj7,Bm7-E7-F#maj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVm7-bVII7-Imaj7,Bbm7-Eb7-Fmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVm7-bVII7-Imaj7,Dbm7-F#7-Abmaj7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,IVm7-bVII7-Imaj7,Cm7-F7-Gmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVm7-bVII7-Imaj7,Ebm7-Ab7-Bbmaj7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,IVm7-bVII7-Imaj7,Dm7-G7-Amaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVm7-bVII7-Imaj7,Em7-A7-Bmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVm7-bVII7-Imaj7,F#m7-B7-Dbmaj7,Drop 3,"Grief, Depressive",Ionian
+C,IVm7-bVII7-Imaj7,Fm7-Bb7-Cmaj7,Drop 3,Innocently Happy,Ionian
+Eb,IVm7-bVII7-Imaj7,Abm7-Db7-Ebmaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVm7-bVII7-Imaj7,Gm7-C7-Dmaj7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,IVm7-bVII7-Imaj7,Am7-D7-Emaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVm7-bVII7-Imaj7,Bm7-E7-F#maj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVm7-bVII7-Imaj7,Bbm7-Eb7-Fmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVm7-bVII7-Imaj7,Dbm7-F#7-Abmaj7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,IVm7-bVII7-Imaj7,Cm7-F7-Gmaj7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-IVm6-Imaj7,Ebmaj7-Ebm6-Bbmaj7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-IVm6-Imaj7,Dmaj7-Dm6-Amaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-IVm6-Imaj7,Emaj7-Em6-Bmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-IVm6-Imaj7,F#maj7-F#m6-Dbmaj7,Four-Way Close,"Grief, Depressive",Ionian
+C,IVmaj7-IVm6-Imaj7,Fmaj7-Fm6-Cmaj7,Four-Way Close,Innocently Happy,Ionian
+Eb,IVmaj7-IVm6-Imaj7,Abmaj7-Abm6-Ebmaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-IVm6-Imaj7,Gmaj7-Gm6-Dmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-IVm6-Imaj7,Amaj7-Am6-Emaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-IVm6-Imaj7,Bmaj7-Bm6-F#maj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-IVm6-Imaj7,Bbmaj7-Bbm6-Fmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-IVm6-Imaj7,Dbmaj7-Dbm6-Abmaj7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-IVm6-Imaj7,Cmaj7-Cm6-Gmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-IVm6-Imaj7,Ebmaj7-Ebm6-Bbmaj7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-IVm6-Imaj7,Dmaj7-Dm6-Amaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-IVm6-Imaj7,Emaj7-Em6-Bmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-IVm6-Imaj7,F#maj7-F#m6-Dbmaj7,Drop 2,"Grief, Depressive",Ionian
+C,IVmaj7-IVm6-Imaj7,Fmaj7-Fm6-Cmaj7,Drop 2,Innocently Happy,Ionian
+Eb,IVmaj7-IVm6-Imaj7,Abmaj7-Abm6-Ebmaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-IVm6-Imaj7,Gmaj7-Gm6-Dmaj7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-IVm6-Imaj7,Amaj7-Am6-Emaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-IVm6-Imaj7,Bmaj7-Bm6-F#maj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-IVm6-Imaj7,Bbmaj7-Bbm6-Fmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-IVm6-Imaj7,Dbmaj7-Dbm6-Abmaj7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-IVm6-Imaj7,Cmaj7-Cm6-Gmaj7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-IVm6-Imaj7,Ebmaj7-Ebm6-Bbmaj7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-IVm6-Imaj7,Dmaj7-Dm6-Amaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-IVm6-Imaj7,Emaj7-Em6-Bmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-IVm6-Imaj7,F#maj7-F#m6-Dbmaj7,Drop 2+4,"Grief, Depressive",Ionian
+C,IVmaj7-IVm6-Imaj7,Fmaj7-Fm6-Cmaj7,Drop 2+4,Innocently Happy,Ionian
+Eb,IVmaj7-IVm6-Imaj7,Abmaj7-Abm6-Ebmaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-IVm6-Imaj7,Gmaj7-Gm6-Dmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-IVm6-Imaj7,Amaj7-Am6-Emaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-IVm6-Imaj7,Bmaj7-Bm6-F#maj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-IVm6-Imaj7,Bbmaj7-Bbm6-Fmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-IVm6-Imaj7,Dbmaj7-Dbm6-Abmaj7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-IVm6-Imaj7,Cmaj7-Cm6-Gmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-IVm6-Imaj7,Ebmaj7-Ebm6-Bbmaj7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-IVm6-Imaj7,Dmaj7-Dm6-Amaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-IVm6-Imaj7,Emaj7-Em6-Bmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-IVm6-Imaj7,F#maj7-F#m6-Dbmaj7,Drop 3,"Grief, Depressive",Ionian
+C,IVmaj7-IVm6-Imaj7,Fmaj7-Fm6-Cmaj7,Drop 3,Innocently Happy,Ionian
+Eb,IVmaj7-IVm6-Imaj7,Abmaj7-Abm6-Ebmaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-IVm6-Imaj7,Gmaj7-Gm6-Dmaj7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-IVm6-Imaj7,Amaj7-Am6-Emaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-IVm6-Imaj7,Bmaj7-Bm6-F#maj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-IVm6-Imaj7,Bbmaj7-Bbm6-Fmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-IVm6-Imaj7,Dbmaj7-Dbm6-Abmaj7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-IVm6-Imaj7,Cmaj7-Cm6-Gmaj7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-Imaj7,Ebmaj7-Bbmaj7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-Imaj7,Dmaj7-Amaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-Imaj7,Emaj7-Bmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-Imaj7,F#maj7-Dbmaj7,Four-Way Close,"Grief, Depressive",Ionian
+C,IVmaj7-Imaj7,Fmaj7-Cmaj7,Four-Way Close,Innocently Happy,Ionian
+Eb,IVmaj7-Imaj7,Abmaj7-Ebmaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-Imaj7,Gmaj7-Dmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-Imaj7,Amaj7-Emaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-Imaj7,Bmaj7-F#maj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-Imaj7,Bbmaj7-Fmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-Imaj7,Dbmaj7-Abmaj7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-Imaj7,Cmaj7-Gmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-Imaj7,Ebmaj7-Bbmaj7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-Imaj7,Dmaj7-Amaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-Imaj7,Emaj7-Bmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-Imaj7,F#maj7-Dbmaj7,Drop 2,"Grief, Depressive",Ionian
+C,IVmaj7-Imaj7,Fmaj7-Cmaj7,Drop 2,Innocently Happy,Ionian
+Eb,IVmaj7-Imaj7,Abmaj7-Ebmaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-Imaj7,Gmaj7-Dmaj7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-Imaj7,Amaj7-Emaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-Imaj7,Bmaj7-F#maj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-Imaj7,Bbmaj7-Fmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-Imaj7,Dbmaj7-Abmaj7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-Imaj7,Cmaj7-Gmaj7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-Imaj7,Ebmaj7-Bbmaj7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-Imaj7,Dmaj7-Amaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-Imaj7,Emaj7-Bmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-Imaj7,F#maj7-Dbmaj7,Drop 2+4,"Grief, Depressive",Ionian
+C,IVmaj7-Imaj7,Fmaj7-Cmaj7,Drop 2+4,Innocently Happy,Ionian
+Eb,IVmaj7-Imaj7,Abmaj7-Ebmaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-Imaj7,Gmaj7-Dmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-Imaj7,Amaj7-Emaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-Imaj7,Bmaj7-F#maj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-Imaj7,Bbmaj7-Fmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-Imaj7,Dbmaj7-Abmaj7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-Imaj7,Cmaj7-Gmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-Imaj7,Ebmaj7-Bbmaj7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-Imaj7,Dmaj7-Amaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-Imaj7,Emaj7-Bmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-Imaj7,F#maj7-Dbmaj7,Drop 3,"Grief, Depressive",Ionian
+C,IVmaj7-Imaj7,Fmaj7-Cmaj7,Drop 3,Innocently Happy,Ionian
+Eb,IVmaj7-Imaj7,Abmaj7-Ebmaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-Imaj7,Gmaj7-Dmaj7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-Imaj7,Amaj7-Emaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-Imaj7,Bmaj7-F#maj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-Imaj7,Bbmaj7-Fmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-Imaj7,Dbmaj7-Abmaj7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-Imaj7,Cmaj7-Gmaj7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+A,IVmaj7-V7-Imaj7,Dmaj7-E7-Amaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Ionian
+Ab,IVmaj7-V7-Imaj7,Dbmaj7-Eb7-Abmaj7,Four-Way Close,"Death, Eternity, Judgement",Ionian
+B,IVmaj7-V7-Imaj7,Emaj7-F#7-Bmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Ionian
+Bb,IVmaj7-V7-Imaj7,Ebmaj7-F7-Bbmaj7,Four-Way Close,"Joyful, Quaint, Cheerful",Ionian
+Db,IVmaj7-V7-Imaj7,F#maj7-Ab7-Dbmaj7,Four-Way Close,"Grief, Depressive",Ionian
+C,IVmaj7-V7-Imaj7,Fmaj7-G7-Cmaj7,Four-Way Close,Innocently Happy,Ionian
+D,IVmaj7-V7-Imaj7,Gmaj7-A7-Dmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-V7-Imaj7,Amaj7-B7-Emaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+Eb,IVmaj7-V7-Imaj7,Abmaj7-Bb7-Ebmaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Ionian
+F,IVmaj7-V7-Imaj7,Bbmaj7-C7-Fmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Ionian
+G,IVmaj7-V7-Imaj7,Cmaj7-D7-Gmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Ionian
+F#,IVmaj7-V7-Imaj7,Bmaj7-Db7-F#maj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Ionian
+Bb,IVmaj7-V7-Imaj7,Ebmaj7-F7-Bbmaj7,Drop 2,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-V7-Imaj7,Dmaj7-E7-Amaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-V7-Imaj7,Emaj7-F#7-Bmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-V7-Imaj7,F#maj7-Ab7-Dbmaj7,Drop 2,"Grief, Depressive",Ionian
+C,IVmaj7-V7-Imaj7,Fmaj7-G7-Cmaj7,Drop 2,Innocently Happy,Ionian
+Eb,IVmaj7-V7-Imaj7,Abmaj7-Bb7-Ebmaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-V7-Imaj7,Gmaj7-A7-Dmaj7,Drop 2,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-V7-Imaj7,Amaj7-B7-Emaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-V7-Imaj7,Bmaj7-Db7-F#maj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-V7-Imaj7,Bbmaj7-C7-Fmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-V7-Imaj7,Dbmaj7-Eb7-Abmaj7,Drop 2,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-V7-Imaj7,Cmaj7-D7-Gmaj7,Drop 2,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-V7-Imaj7,Ebmaj7-F7-Bbmaj7,Drop 2+4,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-V7-Imaj7,Dmaj7-E7-Amaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-V7-Imaj7,Emaj7-F#7-Bmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-V7-Imaj7,F#maj7-Ab7-Dbmaj7,Drop 2+4,"Grief, Depressive",Ionian
+C,IVmaj7-V7-Imaj7,Fmaj7-G7-Cmaj7,Drop 2+4,Innocently Happy,Ionian
+Eb,IVmaj7-V7-Imaj7,Abmaj7-Bb7-Ebmaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-V7-Imaj7,Gmaj7-A7-Dmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-V7-Imaj7,Amaj7-B7-Emaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-V7-Imaj7,Bmaj7-Db7-F#maj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-V7-Imaj7,Bbmaj7-C7-Fmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-V7-Imaj7,Dbmaj7-Eb7-Abmaj7,Drop 2+4,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-V7-Imaj7,Cmaj7-D7-Gmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Ionian
+Bb,IVmaj7-V7-Imaj7,Ebmaj7-F7-Bbmaj7,Drop 3,"Joyful, Quaint, Cheerful",Ionian
+A,IVmaj7-V7-Imaj7,Dmaj7-E7-Amaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Ionian
+B,IVmaj7-V7-Imaj7,Emaj7-F#7-Bmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Ionian
+Db,IVmaj7-V7-Imaj7,F#maj7-Ab7-Dbmaj7,Drop 3,"Grief, Depressive",Ionian
+C,IVmaj7-V7-Imaj7,Fmaj7-G7-Cmaj7,Drop 3,Innocently Happy,Ionian
+Eb,IVmaj7-V7-Imaj7,Abmaj7-Bb7-Ebmaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Ionian
+D,IVmaj7-V7-Imaj7,Gmaj7-A7-Dmaj7,Drop 3,"Triumphant, Victorious War-Cries",Ionian
+E,IVmaj7-V7-Imaj7,Amaj7-B7-Emaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Ionian
+F#,IVmaj7-V7-Imaj7,Bmaj7-Db7-F#maj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Ionian
+F,IVmaj7-V7-Imaj7,Bbmaj7-C7-Fmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Ionian
+Ab,IVmaj7-V7-Imaj7,Dbmaj7-Eb7-Abmaj7,Drop 3,"Death, Eternity, Judgement",Ionian
+G,IVmaj7-V7-Imaj7,Cmaj7-D7-Gmaj7,Drop 3,"Serious, Magnificent, Fantasy",Ionian
+Bb,bVImaj7-bVII7-Imaj7,F#maj7-Ab7-Bbmaj7,Four-Way Close,"Joyful, Quaint, Cheerful",Aeolian
+A,bVImaj7-bVII7-Imaj7,Fmaj7-G7-Amaj7,Four-Way Close,"Joyful, Pastoral, Declaration of Love",Aeolian
+B,bVImaj7-bVII7-Imaj7,Gmaj7-A7-Bmaj7,Four-Way Close,"Harsh, Strong, Wild, Rage",Aeolian
+Db,bVImaj7-bVII7-Imaj7,Amaj7-B7-Dbmaj7,Four-Way Close,"Grief, Depressive",Aeolian
+C,bVImaj7-bVII7-Imaj7,Abmaj7-Bb7-Cmaj7,Four-Way Close,Innocently Happy,Aeolian
+Eb,bVImaj7-bVII7-Imaj7,Bmaj7-Db7-Ebmaj7,Four-Way Close,"Cruel, Hard, Yet Full of Devotion",Aeolian
+D,bVImaj7-bVII7-Imaj7,Bbmaj7-C7-Dmaj7,Four-Way Close,"Triumphant, Victorious War-Cries",Aeolian
+E,bVImaj7-bVII7-Imaj7,Cmaj7-D7-Emaj7,Four-Way Close,"Quarrelsome, Boisterous, Incomplete Pleasure",Aeolian
+F#,bVImaj7-bVII7-Imaj7,Dmaj7-E7-F#maj7,Four-Way Close,"Conquering Difficulties, Sighs of Relief",Aeolian
+F,bVImaj7-bVII7-Imaj7,Dbmaj7-Eb7-Fmaj7,Four-Way Close,"Furious, Quick-Tempered, Passing Regret",Aeolian
+Ab,bVImaj7-bVII7-Imaj7,Emaj7-F#7-Abmaj7,Four-Way Close,"Death, Eternity, Judgement",Aeolian
+G,bVImaj7-bVII7-Imaj7,Ebmaj7-F7-Gmaj7,Four-Way Close,"Serious, Magnificent, Fantasy",Aeolian
+Bb,bVImaj7-bVII7-Imaj7,F#maj7-Ab7-Bbmaj7,Drop 2,"Joyful, Quaint, Cheerful",Aeolian
+A,bVImaj7-bVII7-Imaj7,Fmaj7-G7-Amaj7,Drop 2,"Joyful, Pastoral, Declaration of Love",Aeolian
+B,bVImaj7-bVII7-Imaj7,Gmaj7-A7-Bmaj7,Drop 2,"Harsh, Strong, Wild, Rage",Aeolian
+Db,bVImaj7-bVII7-Imaj7,Amaj7-B7-Dbmaj7,Drop 2,"Grief, Depressive",Aeolian
+C,bVImaj7-bVII7-Imaj7,Abmaj7-Bb7-Cmaj7,Drop 2,Innocently Happy,Aeolian
+Eb,bVImaj7-bVII7-Imaj7,Bmaj7-Db7-Ebmaj7,Drop 2,"Cruel, Hard, Yet Full of Devotion",Aeolian
+D,bVImaj7-bVII7-Imaj7,Bbmaj7-C7-Dmaj7,Drop 2,"Triumphant, Victorious War-Cries",Aeolian
+E,bVImaj7-bVII7-Imaj7,Cmaj7-D7-Emaj7,Drop 2,"Quarrelsome, Boisterous, Incomplete Pleasure",Aeolian
+F#,bVImaj7-bVII7-Imaj7,Dmaj7-E7-F#maj7,Drop 2,"Conquering Difficulties, Sighs of Relief",Aeolian
+F,bVImaj7-bVII7-Imaj7,Dbmaj7-Eb7-Fmaj7,Drop 2,"Furious, Quick-Tempered, Passing Regret",Aeolian
+Ab,bVImaj7-bVII7-Imaj7,Emaj7-F#7-Abmaj7,Drop 2,"Death, Eternity, Judgement",Aeolian
+G,bVImaj7-bVII7-Imaj7,Ebmaj7-F7-Gmaj7,Drop 2,"Serious, Magnificent, Fantasy",Aeolian
+Bb,bVImaj7-bVII7-Imaj7,F#maj7-Ab7-Bbmaj7,Drop 2+4,"Joyful, Quaint, Cheerful",Aeolian
+A,bVImaj7-bVII7-Imaj7,Fmaj7-G7-Amaj7,Drop 2+4,"Joyful, Pastoral, Declaration of Love",Aeolian
+B,bVImaj7-bVII7-Imaj7,Gmaj7-A7-Bmaj7,Drop 2+4,"Harsh, Strong, Wild, Rage",Aeolian
+Db,bVImaj7-bVII7-Imaj7,Amaj7-B7-Dbmaj7,Drop 2+4,"Grief, Depressive",Aeolian
+C,bVImaj7-bVII7-Imaj7,Abmaj7-Bb7-Cmaj7,Drop 2+4,Innocently Happy,Aeolian
+Eb,bVImaj7-bVII7-Imaj7,Bmaj7-Db7-Ebmaj7,Drop 2+4,"Cruel, Hard, Yet Full of Devotion",Aeolian
+D,bVImaj7-bVII7-Imaj7,Bbmaj7-C7-Dmaj7,Drop 2+4,"Triumphant, Victorious War-Cries",Aeolian
+E,bVImaj7-bVII7-Imaj7,Cmaj7-D7-Emaj7,Drop 2+4,"Quarrelsome, Boisterous, Incomplete Pleasure",Aeolian
+F#,bVImaj7-bVII7-Imaj7,Dmaj7-E7-F#maj7,Drop 2+4,"Conquering Difficulties, Sighs of Relief",Aeolian
+F,bVImaj7-bVII7-Imaj7,Dbmaj7-Eb7-Fmaj7,Drop 2+4,"Furious, Quick-Tempered, Passing Regret",Aeolian
+Ab,bVImaj7-bVII7-Imaj7,Emaj7-F#7-Abmaj7,Drop 2+4,"Death, Eternity, Judgement",Aeolian
+G,bVImaj7-bVII7-Imaj7,Ebmaj7-F7-Gmaj7,Drop 2+4,"Serious, Magnificent, Fantasy",Aeolian
+Bb,bVImaj7-bVII7-Imaj7,F#maj7-Ab7-Bbmaj7,Drop 3,"Joyful, Quaint, Cheerful",Aeolian
+A,bVImaj7-bVII7-Imaj7,Fmaj7-G7-Amaj7,Drop 3,"Joyful, Pastoral, Declaration of Love",Aeolian
+B,bVImaj7-bVII7-Imaj7,Gmaj7-A7-Bmaj7,Drop 3,"Harsh, Strong, Wild, Rage",Aeolian
+Db,bVImaj7-bVII7-Imaj7,Amaj7-B7-Dbmaj7,Drop 3,"Grief, Depressive",Aeolian
+C,bVImaj7-bVII7-Imaj7,Abmaj7-Bb7-Cmaj7,Drop 3,Innocently Happy,Aeolian
+Eb,bVImaj7-bVII7-Imaj7,Bmaj7-Db7-Ebmaj7,Drop 3,"Cruel, Hard, Yet Full of Devotion",Aeolian
+D,bVImaj7-bVII7-Imaj7,Bbmaj7-C7-Dmaj7,Drop 3,"Triumphant, Victorious War-Cries",Aeolian
+E,bVImaj7-bVII7-Imaj7,Cmaj7-D7-Emaj7,Drop 3,"Quarrelsome, Boisterous, Incomplete Pleasure",Aeolian
+F#,bVImaj7-bVII7-Imaj7,Dmaj7-E7-F#maj7,Drop 3,"Conquering Difficulties, Sighs of Relief",Aeolian
+F,bVImaj7-bVII7-Imaj7,Dbmaj7-Eb7-Fmaj7,Drop 3,"Furious, Quick-Tempered, Passing Regret",Aeolian
+Ab,bVImaj7-bVII7-Imaj7,Emaj7-F#7-Abmaj7,Drop 3,"Death, Eternity, Judgement",Aeolian
+G,bVImaj7-bVII7-Imaj7,Ebmaj7-F7-Gmaj7,Drop 3,"Serious, Magnificent, Fantasy",Aeolian
