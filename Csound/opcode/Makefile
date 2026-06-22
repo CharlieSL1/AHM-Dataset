@@ -1,17 +1,20 @@
-# Makefile — build chord_play Csound opcode plugin (macOS)
+# Makefile — build chord_play and chord_gen Csound opcode plugins (macOS)
 
-CC      = gcc
-CSOUND  = /Library/Frameworks/CsoundLib64.framework
-# Build universal binary (x86_64 for CsoundQt-Rosetta + arm64 for native Csound)
-CFLAGS  = -shared -fPIC -O2 \
-           -arch x86_64 -arch arm64 \
-           -I$(CSOUND)/Headers \
-           -F/Library/Frameworks \
-           -framework CsoundLib64
-TARGET  = libchord_play.dylib
+CC     = gcc
+CSOUND = /Library/Frameworks/CsoundLib64.framework
+CFLAGS = -shared -fPIC -O2 \
+          -arch x86_64 -arch arm64 \
+          -I$(CSOUND)/Headers \
+          -F/Library/Frameworks \
+          -framework CsoundLib64
 
-$(TARGET): chord_play.c
+all: libchord_play.dylib libchord_gen.dylib
+
+libchord_play.dylib: chord_play.c
 	$(CC) $(CFLAGS) -o $@ $<
 
+libchord_gen.dylib: chord_gen.c
+	$(CC) $(CFLAGS) -lm -o $@ $<
+
 clean:
-	rm -f $(TARGET)
+	rm -f libchord_play.dylib libchord_gen.dylib
