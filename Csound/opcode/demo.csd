@@ -1,7 +1,8 @@
 <CsoundSynthesizer>
 <CsOptions>
-; If chord_play is not globally installed, add:
+; If opcodes are not globally installed, add one line per library:
 ; --opcode-lib=/absolute/path/to/AHM-Dataset/Csound/opcode/libchord_play.dylib
+; --opcode-lib=/absolute/path/to/AHM-Dataset/Csound/opcode/libchord_gen.dylib
 -o dac
 </CsOptions>
 <CsInstruments>
@@ -14,46 +15,58 @@ nchnls = 2
 
 gitab  ftgen 0, 0, 4096, 10, 1
 
-; Synth instrument (instr 2) — triggered by chord_play
+; Load chord_gen model data — call once before any instrument uses chord_gen
+chord_gen_init "/Users/zhaojinlan/Documents/GitHub/AHM-Dataset/Csound/opcode/chord_gen_data.tsv"
+
+; ── Synthesis instrument (used by both chord_play and chord_gen) ──────────
+; p4 = MIDI note number   p5 = amplitude
 instr 2
   ifreq  cpsmidinn p4
   iamp   = p5 * 0dbfs
-  aenv   expseg 1, p3 * 0.01, 0.5, p3 * 0.89, 0.001, p3 * 0.1, 0.001
+  aenv   expseg 1, p3*0.01, 0.5, p3*0.89, 0.001, p3*0.1, 0.001
   asig   foscili aenv * iamp, ifreq, 1, 2, 2.5, gitab
          outs asig, asig
 endin
 
-; Trigger instrument — calls chord_play to schedule chords
+; ── chord_play demo: explicit chord string ────────────────────────────────
 instr 1
-  ; chord_play  SChord,    iInstr, iStart, iDur, iAmp, iOctave
-  chord_play "C-G-Am-F",       2,    p2,    1,   0.7,    4
+  ; chord_play  SChord,           iInstr, iStart, iDur, iAmp
+  chord_play    "C-G-Am-F",       2,      p2,     1,    0.7
 endin
 
-; Jazz progression (with 7th chords)
+; ── chord_gen demo: emotion-driven, natural distribution (T=1) ───────────
 instr 3
-  chord_play "F7-Em7b5-Ebm7-Dm7", 2, p2, 1, 0.7, 4
+  ; chord_gen  SEmotion,  iInstr, iStart, iDur, iAmp
+  chord_gen    "Joyful",  2,      p2,     1,    0.7
+endin
+
+; ── chord_gen demo: emotion + temperature control ─────────────────────────
+instr 4
+  ; iTemp=0  → always picks the highest-probability progression (deterministic)
+  ; iTemp=1  → natural model distribution
+  ; iTemp=2  → flatter, more varied
+  chord_gen "Depressive", 2, p2, 1, 0.6, 1.5
 endin
 
 </CsInstruments>
 <CsScore>
-; Play the pop progression at t=0
-i1  0  4
+; chord_play — explicit I-V-vi-IV in C major
+i1  0   4
 
-; Play the jazz progression at t=5
-i3  5  4
+; chord_gen — Joyful (model picks key, scale, progression)
+i3  5   4
+
+; chord_gen — Depressive with temperature 1.5
+i4  10  4
 
 e
 </CsScore>
 </CsoundSynthesizer>
-
-
-
-
 <bsbPanel>
  <label>Widgets</label>
  <objectName/>
- <x>487</x>
- <y>139</y>
+ <x>100</x>
+ <y>100</y>
  <width>320</width>
  <height>240</height>
  <visible>true</visible>
