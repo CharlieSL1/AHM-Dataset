@@ -1,0 +1,651 @@
+emotion	scale	emotion_id	scale_id	prog_id	key	chord_name
+Joyful	Ionian	6	3	38	Bb	F7-Em7b5-Ebm7-Dm7
+Joyful	Ionian	6	3	38	A	E7-Ebm7b5-Dm7-Dbm7
+Fantasy	Ionian	4	3	38	B	F#7-Fm7b5-Em7-Ebm7
+Depressive	Ionian	1	3	38	Db	Ab7-Gm7b5-F#m7-Fm7
+Joyful	Ionian	6	3	38	C	G7-F#m7b5-Fm7-Em7
+Love	Ionian	8	3	38	Eb	Bb7-Am7b5-Abm7-Gm7
+Delicate	Ionian	0	3	38	D	A7-Abm7b5-Gm7-F#m7
+Vital	Ionian	11	3	38	E	B7-Bbm7b5-Am7-Abm7
+Victorious	Ionian	10	3	38	F#	Db7-Cm7b5-Bm7-Bbm7
+soft	Ionian	12	3	38	F	C7-Bm7b5-Bbm7-Am7
+Epic	Ionian	3	3	38	Ab	Eb7-Dm7b5-Dbm7-Cm7
+Fantasy	Ionian	4	3	38	G	D7-Dbm7b5-Cm7-Bm7
+Joyful	Ionian	6	3	39	Bb	F7-Dm7
+Joyful	Ionian	6	3	39	A	E7-Dbm7
+Fantasy	Ionian	4	3	39	B	F#7-Ebm7
+Depressive	Ionian	1	3	39	Db	Ab7-Fm7
+Joyful	Ionian	6	3	39	C	G7-Em7
+Love	Ionian	8	3	39	Eb	Bb7-Gm7
+Delicate	Ionian	0	3	39	D	A7-F#m7
+Vital	Ionian	11	3	39	E	B7-Abm7
+Victorious	Ionian	10	3	39	F#	Db7-Bbm7
+soft	Ionian	12	3	39	F	C7-Am7
+Epic	Ionian	3	3	39	Ab	Eb7-Cm7
+Fantasy	Ionian	4	3	39	G	D7-Bm7
+Joyful	Ionian	6	3	40	Bb	F7-Gm7
+Joyful	Ionian	6	3	40	A	E7-F#m7
+Fantasy	Ionian	4	3	40	B	F#7-Abm7
+Depressive	Ionian	1	3	40	Db	Ab7-Bbm7
+Joyful	Ionian	6	3	40	C	G7-Am7
+Love	Ionian	8	3	40	Eb	Bb7-Cm7
+Delicate	Ionian	0	3	40	D	A7-Bm7
+Vital	Ionian	11	3	40	E	B7-Dbm7
+Victorious	Ionian	10	3	40	F#	Db7-Ebm7
+soft	Ionian	12	3	40	F	C7-Dm7
+Epic	Ionian	3	3	40	Ab	Eb7-Fm7
+Fantasy	Ionian	4	3	40	G	D7-Em7
+Joyful	Ionian	6	3	41	Bb	F7-Dbmaj7
+Joyful	Ionian	6	3	41	A	E7-Cmaj7
+Fantasy	Ionian	4	3	41	B	F#7-Dmaj7
+Depressive	Ionian	1	3	41	Db	Ab7-Emaj7
+Joyful	Ionian	6	3	41	C	G7-Ebmaj7
+Love	Ionian	8	3	41	Eb	Bb7-F#maj7
+Delicate	Ionian	0	3	41	D	A7-Fmaj7
+Vital	Ionian	11	3	41	E	B7-Gmaj7
+Victorious	Ionian	10	3	41	F#	Db7-Amaj7
+soft	Ionian	12	3	41	F	C7-Abmaj7
+Epic	Ionian	3	3	41	Ab	Eb7-Bmaj7
+Fantasy	Ionian	4	3	41	G	D7-Bbmaj7
+Joyful	Ionian	6	3	42	Bb	F7-Bmaj7
+Joyful	Ionian	6	3	42	A	E7-Bbmaj7
+Fantasy	Ionian	4	3	42	B	F#7-Cmaj7
+Depressive	Ionian	1	3	42	Db	Ab7-Dmaj7
+Joyful	Ionian	6	3	42	C	G7-Dbmaj7
+Love	Ionian	8	3	42	Eb	Bb7-Emaj7
+Delicate	Ionian	0	3	42	D	A7-Ebmaj7
+Vital	Ionian	11	3	42	E	B7-Fmaj7
+Victorious	Ionian	10	3	42	F#	Db7-Gmaj7
+soft	Ionian	12	3	42	F	C7-F#maj7
+Epic	Ionian	3	3	42	Ab	Eb7-Amaj7
+Fantasy	Ionian	4	3	42	G	D7-Abmaj7
+Joyful	Mixolydian	6	5	43	Bb	F7-Abmaj7
+Joyful	Mixolydian	6	5	43	A	E7-Gmaj7
+Fantasy	Mixolydian	4	5	43	B	F#7-Amaj7
+Depressive	Mixolydian	1	5	43	Db	Ab7-Bmaj7
+Joyful	Mixolydian	6	5	43	C	G7-Bbmaj7
+Love	Mixolydian	8	5	43	Eb	Bb7-Dbmaj7
+Delicate	Mixolydian	0	5	43	D	A7-Cmaj7
+Vital	Mixolydian	11	5	43	E	B7-Dmaj7
+Victorious	Mixolydian	10	5	43	F#	Db7-Emaj7
+soft	Mixolydian	12	5	43	F	C7-Ebmaj7
+Epic	Mixolydian	3	5	43	Ab	Eb7-F#maj7
+Fantasy	Mixolydian	4	5	43	G	D7-Fmaj7
+Joyful	Ionian	6	3	44	Bb	F7-F#maj7
+Joyful	Ionian	6	3	44	A	E7-Fmaj7
+Fantasy	Ionian	4	3	44	B	F#7-Gmaj7
+Depressive	Ionian	1	3	44	Db	Ab7-Amaj7
+Joyful	Ionian	6	3	44	C	G7-Abmaj7
+Love	Ionian	8	3	44	Eb	Bb7-Bmaj7
+Delicate	Ionian	0	3	44	D	A7-Bbmaj7
+Vital	Ionian	11	3	44	E	B7-Cmaj7
+Victorious	Ionian	10	3	44	F#	Db7-Dmaj7
+soft	Ionian	12	3	44	F	C7-Dbmaj7
+Epic	Ionian	3	3	44	Ab	Eb7-Emaj7
+Fantasy	Ionian	4	3	44	G	D7-Ebmaj7
+Joyful	Ionian	6	3	45	Bb	G7-F#maj7
+Joyful	Ionian	6	3	45	A	F#7-Fmaj7
+Fantasy	Ionian	4	3	45	B	Ab7-Gmaj7
+Depressive	Ionian	1	3	45	Db	Bb7-Amaj7
+Joyful	Ionian	6	3	45	C	A7-Abmaj7
+Love	Ionian	8	3	45	Eb	C7-Bmaj7
+Delicate	Ionian	0	3	45	D	B7-Bbmaj7
+Vital	Ionian	11	3	45	E	Db7-Cmaj7
+Victorious	Ionian	10	3	45	F#	Eb7-Dmaj7
+soft	Ionian	12	3	45	F	D7-Dbmaj7
+Epic	Ionian	3	3	45	Ab	F7-Emaj7
+Fantasy	Ionian	4	3	45	G	E7-Ebmaj7
+Joyful	Ionian	6	3	25	Bb	Cm7-F7-Bbmaj7
+Joyful	Ionian	6	3	25	A	Bm7-E7-Amaj7
+Fantasy	Ionian	4	3	25	B	Dbm7-F#7-Bmaj7
+Depressive	Ionian	1	3	25	Db	Ebm7-Ab7-Dbmaj7
+Joyful	Ionian	6	3	25	C	Dm7-G7-Cmaj7
+Love	Ionian	8	3	25	Eb	Fm7-Bb7-Ebmaj7
+Delicate	Ionian	0	3	25	D	Em7-A7-Dmaj7
+Vital	Ionian	11	3	25	E	F#m7-B7-Emaj7
+Victorious	Ionian	10	3	25	F#	Abm7-Db7-F#maj7
+soft	Ionian	12	3	25	F	Gm7-C7-Fmaj7
+Epic	Ionian	3	3	25	Ab	Bbm7-Eb7-Abmaj7
+Fantasy	Ionian	4	3	25	G	Am7-D7-Gmaj7
+Despair	Harmonic minor	2	2	26	Bb minor	Cm7b5-F7-Bbm7
+soft	Harmonic minor	12	2	26	A minor	Bm7b5-E7-Am7
+Lonely	Harmonic minor	7	2	26	B minor	C#m7b5-F#7-Bm7
+Despair	Harmonic minor	2	2	26	C# minor	Ebm7b5-Ab7-C#m7
+Depressive	Harmonic minor	1	2	26	C minor	Dm7b5-G7-Cm7
+Despair	Harmonic minor	2	2	26	Eb minor	Fm7b5-Bb7-Ebm7
+Lonely	Harmonic minor	7	2	26	D minor	Em7b5-A7-Dm7
+Delicate	Harmonic minor	0	2	26	E minor	F#m7b5-B7-Em7
+Gloomy	Harmonic minor	5	2	26	F# minor	Abm7b5-C#7-F#m7
+Despair	Harmonic minor	2	2	26	F minor	Gm7b5-C7-Fm7
+Depressive	Harmonic minor	1	2	26	Ab minor	Bbm7b5-Eb7-Abm7
+Uneasiness	Harmonic minor	9	2	26	G minor	Am7b5-D7-Gm7
+Despair	Harmonic minor	2	2	31	Bb minor	Ebm6-Bbmaj7
+soft	Harmonic minor	12	2	31	A minor	Dm6-Amaj7
+Lonely	Harmonic minor	7	2	31	B minor	Em6-Bmaj7
+Despair	Harmonic minor	2	2	31	C# minor	F#m6-C#maj7
+Depressive	Harmonic minor	1	2	31	C minor	Fm6-Cmaj7
+Despair	Harmonic minor	2	2	31	Eb minor	Abm6-Ebmaj7
+Lonely	Harmonic minor	7	2	31	D minor	Gm6-Dmaj7
+Delicate	Harmonic minor	0	2	31	E minor	Am6-Emaj7
+Gloomy	Harmonic minor	5	2	31	F# minor	Bm6-F#maj7
+Despair	Harmonic minor	2	2	31	F minor	Bbm6-Fmaj7
+Depressive	Harmonic minor	1	2	31	Ab minor	C#m6-Abmaj7
+Uneasiness	Harmonic minor	9	2	31	G minor	Cm6-Gmaj7
+Despair	Harmonic minor	2	2	32	Bb minor	Ebm7-F7-Bbm7
+soft	Harmonic minor	12	2	32	A minor	Dm7-E7-Am7
+Lonely	Harmonic minor	7	2	32	B minor	Em7-F#7-Bm7
+Despair	Harmonic minor	2	2	32	C# minor	F#m7-Ab7-C#m7
+Depressive	Harmonic minor	1	2	32	C minor	Fm7-G7-Cm7
+Despair	Harmonic minor	2	2	32	Eb minor	Abm7-Bb7-Ebm7
+Lonely	Harmonic minor	7	2	32	D minor	Gm7-A7-Dm7
+Delicate	Harmonic minor	0	2	32	E minor	Am7-B7-Em7
+Gloomy	Harmonic minor	5	2	32	F# minor	Bm7-C#7-F#m7
+Despair	Harmonic minor	2	2	32	F minor	Bbm7-C7-Fm7
+Depressive	Harmonic minor	1	2	32	Ab minor	C#m7-Eb7-Abm7
+Uneasiness	Harmonic minor	9	2	32	G minor	Cm7-D7-Gm7
+Joyful	Ionian	6	3	33	Bb	Ebm7-Ab7-Bbmaj7
+Joyful	Ionian	6	3	33	A	Dm7-G7-Amaj7
+Fantasy	Ionian	4	3	33	B	Em7-A7-Bmaj7
+Depressive	Ionian	1	3	33	Db	F#m7-B7-Dbmaj7
+Joyful	Ionian	6	3	33	C	Fm7-Bb7-Cmaj7
+Love	Ionian	8	3	33	Eb	Abm7-Db7-Ebmaj7
+Delicate	Ionian	0	3	33	D	Gm7-C7-Dmaj7
+Vital	Ionian	11	3	33	E	Am7-D7-Emaj7
+Victorious	Ionian	10	3	33	F#	Bm7-E7-F#maj7
+soft	Ionian	12	3	33	F	Bbm7-Eb7-Fmaj7
+Epic	Ionian	3	3	33	Ab	Dbm7-F#7-Abmaj7
+Fantasy	Ionian	4	3	33	G	Cm7-F7-Gmaj7
+Joyful	Ionian	6	3	34	Bb	Ebmaj7-Ebm6-Bbmaj7
+Joyful	Ionian	6	3	34	A	Dmaj7-Dm6-Amaj7
+Fantasy	Ionian	4	3	34	B	Emaj7-Em6-Bmaj7
+Depressive	Ionian	1	3	34	Db	F#maj7-F#m6-Dbmaj7
+Joyful	Ionian	6	3	34	C	Fmaj7-Fm6-Cmaj7
+Love	Ionian	8	3	34	Eb	Abmaj7-Abm6-Ebmaj7
+Delicate	Ionian	0	3	34	D	Gmaj7-Gm6-Dmaj7
+Vital	Ionian	11	3	34	E	Amaj7-Am6-Emaj7
+Victorious	Ionian	10	3	34	F#	Bmaj7-Bm6-F#maj7
+soft	Ionian	12	3	34	F	Bbmaj7-Bbm6-Fmaj7
+Epic	Ionian	3	3	34	Ab	Dbmaj7-Dbm6-Abmaj7
+Fantasy	Ionian	4	3	34	G	Cmaj7-Cm6-Gmaj7
+Joyful	Ionian	6	3	35	Bb	Ebmaj7-Bbmaj7
+Joyful	Ionian	6	3	35	A	Dmaj7-Amaj7
+Fantasy	Ionian	4	3	35	B	Emaj7-Bmaj7
+Depressive	Ionian	1	3	35	Db	F#maj7-Dbmaj7
+Joyful	Ionian	6	3	35	C	Fmaj7-Cmaj7
+Love	Ionian	8	3	35	Eb	Abmaj7-Ebmaj7
+Delicate	Ionian	0	3	35	D	Gmaj7-Dmaj7
+Vital	Ionian	11	3	35	E	Amaj7-Emaj7
+Victorious	Ionian	10	3	35	F#	Bmaj7-F#maj7
+soft	Ionian	12	3	35	F	Bbmaj7-Fmaj7
+Epic	Ionian	3	3	35	Ab	Dbmaj7-Abmaj7
+Fantasy	Ionian	4	3	35	G	Cmaj7-Gmaj7
+Joyful	Ionian	6	3	36	A	Dmaj7-E7-Amaj7
+Epic	Ionian	3	3	36	Ab	Dbmaj7-Eb7-Abmaj7
+Fantasy	Ionian	4	3	36	B	Emaj7-F#7-Bmaj7
+Joyful	Ionian	6	3	36	Bb	Ebmaj7-F7-Bbmaj7
+Depressive	Ionian	1	3	36	Db	F#maj7-Ab7-Dbmaj7
+Joyful	Ionian	6	3	36	C	Fmaj7-G7-Cmaj7
+Delicate	Ionian	0	3	36	D	Gmaj7-A7-Dmaj7
+Vital	Ionian	11	3	36	E	Amaj7-B7-Emaj7
+Love	Ionian	8	3	36	Eb	Abmaj7-Bb7-Ebmaj7
+soft	Ionian	12	3	36	F	Bbmaj7-C7-Fmaj7
+Fantasy	Ionian	4	3	36	G	Cmaj7-D7-Gmaj7
+Victorious	Ionian	10	3	36	F#	Bmaj7-Db7-F#maj7
+Joyful	Aeolian	6	0	49	Bb	F#maj7-Ab7-Bbmaj7
+Joyful	Aeolian	6	0	49	A	Fmaj7-G7-Amaj7
+Fantasy	Aeolian	4	0	49	B	Gmaj7-A7-Bmaj7
+Depressive	Aeolian	1	0	49	Db	Amaj7-B7-Dbmaj7
+Joyful	Aeolian	6	0	49	C	Abmaj7-Bb7-Cmaj7
+Love	Aeolian	8	0	49	Eb	Bmaj7-Db7-Ebmaj7
+Delicate	Aeolian	0	0	49	D	Bbmaj7-C7-Dmaj7
+Vital	Aeolian	11	0	49	E	Cmaj7-D7-Emaj7
+Victorious	Aeolian	10	0	49	F#	Dmaj7-E7-F#maj7
+soft	Aeolian	12	0	49	F	Dbmaj7-Eb7-Fmaj7
+Epic	Aeolian	3	0	49	Ab	Emaj7-F#7-Abmaj7
+Fantasy	Aeolian	4	0	49	G	Ebmaj7-F7-Gmaj7
+Joyful	Ionian	6	3	16	C	C-G-Am-F
+Joyful	Ionian	6	3	17	C	C-G-Am-Dm
+Joyful	Ionian	6	3	28	C	F-C-G-Am
+Joyful	Ionian	6	3	5	C	C-F-G-C
+Joyful	Ionian	6	3	79	C	Am-F-C-G
+Joyful	Ionian	6	3	24	C	C-Am-F-G
+Joyful	Ionian	6	3	21	C	C-Dm-Em-F
+Depressive	Aeolian	1	0	71	C minor	Cm-Gm-Bb-Gm
+Depressive	Aeolian	1	0	60	C minor	Cm-Bb-Ab-Bb
+Depressive	Aeolian	1	0	48	C minor	Ab-Bb-Gm
+Depressive	Aeolian	1	0	59	C minor	Cm-Bb-Ab-G
+Depressive	Aeolian	1	0	65	C minor	Cm-Fm-Bb-Eb
+Despair	Aeolian	2	0	63	C# minor	C#m-F#m-A-B
+Despair	Aeolian	2	0	70	C# minor	C#m-G#m-B-A
+Despair	Aeolian	2	0	60	C# minor	C#m-B-A-B
+Despair	Aeolian	2	0	47	C# minor	A-B-C#m
+Despair	Harmonic minor	2	2	59	C# minor	C#m-B-A-G#
+Depressive	Ionian	1	3	16	Db	Db-Ab-Bbm-Gb
+Depressive	Ionian	1	3	4	Db	Db-Gb-Ab
+Depressive	Mixolydian	1	5	13	Db	Db-Gbsus-Cb-Ebsus
+Depressive	Ionian	1	3	73	Db	Ebm-Fm-Bbm
+Depressive	Ionian	1	3	79	Db	Bbm-Gb-Db-Ab
+Delicate	Ionian	0	3	16	D	D-A-Bm-G
+Delicate	Ionian	0	3	11	D	D-G-Bm-G
+Delicate	Ionian	0	3	79	D	Bm-G-D-A
+Delicate	Ionian	0	3	14	D	D-A-G-D
+Delicate	Ionian	0	3	4	D	D-G-A
+Delicate	Ionian	0	3	24	D	D-Bm-G-A
+Delicate	Ionian	0	3	18	D	D-A-Bm-F#m
+Lonely	Aeolian	7	0	60	D minor	Dm-C-Bb-C
+Lonely	Aeolian	7	0	54	D minor	Dm-Bb-F-C
+Lonely	Aeolian	7	0	65	D minor	Dm-Gm-C-F
+Lonely	Aeolian	7	0	47	D minor	Bb-C-Dm
+Lonely	Aeolian	7	0	70	D minor	Dm-Am-C-Bb
+Despair	Dorian	2	1	52	Eb minor	Ebm-Ab7
+Despair	Aeolian	2	0	60	Eb minor	Ebm-Db-B-Db
+Despair	Aeolian	2	0	56	Eb minor	Ebm-Db-Gb-B
+Despair	Aeolian	2	0	47	Eb minor	B-Db-Ebm
+Despair	Aeolian	2	0	70	Eb minor	Ebm-Bbm-Db-B
+Love	Ionian	8	3	2	Eb	Eb-Ab
+Love	Ionian	8	3	16	Eb	Eb-Bb-Cm-Ab
+Love	Ionian	8	3	4	Eb	Eb-Ab-Bb
+Love	Ionian	8	3	79	Eb	Cm-Ab-Eb-Bb
+Love	Ionian	8	3	12	Eb	Eb-Ab-Cm-Bb
+Vital	Ionian	11	3	77	E	C#m-F#-B-E
+Vital	Ionian	11	3	28	E	A-E-B-C#m
+Vital	Ionian	11	3	16	E	E-B-C#m-A
+Vital	Ionian	11	3	4	E	E-A-B
+Vital	Ionian	11	3	12	E	E-A-C#m-B
+Delicate	Aeolian	0	0	54	E minor	Em-C-G-D
+Delicate	Aeolian	0	0	60	E minor	Em-D-C-D
+Delicate	Aeolian	0	0	47	E minor	C-D-Em
+Delicate	Aeolian	0	0	65	E minor	Em-Am-D-G
+Delicate	Aeolian	0	0	70	E minor	Em-Bm-D-C
+soft	Ionian	12	3	78	F	Dm-Bb-F
+soft	Ionian	12	3	79	F	Dm-Bb-F-C
+soft	Ionian	12	3	4	F	F-Bb-C
+soft	Ionian	12	3	16	F	F-C-Dm-Bb
+soft	Ionian	12	3	12	F	F-Bb-Dm-C
+Despair	Aeolian	2	0	51	F minor	Fm-Ab-Eb-Db
+Despair	Aeolian	2	0	61	F minor	Fm-Eb-Cm-Db
+Despair	Aeolian	2	0	54	F minor	Fm-Db-Ab-Eb
+Despair	Aeolian	2	0	47	F minor	Db-Eb-Fm
+Despair	Aeolian	2	0	60	F minor	Fm-Eb-Db-Eb
+Victorious	Ionian	10	3	16	F#	F#-C#-D#m-B
+Victorious	Ionian	10	3	4	F#	F#-B-C#
+Victorious	Ionian	10	3	12	F#	F#-B-D#m-C#
+Victorious	Ionian	10	3	79	F#	D#m-B-F#-C#
+Victorious	Ionian	10	3	14	F#	F#-C#-B-F#
+Gloomy	Aeolian	5	0	48	F# minor	D-E-C#m
+Gloomy	Aeolian	5	0	55	F# minor	F#m-D-E
+Gloomy	Aeolian	5	0	60	F# minor	F#m-E-D-E
+Gloomy	Aeolian	5	0	47	F# minor	D-E-F#m
+Gloomy	Aeolian	5	0	64	F# minor	F#m-Bm-E
+Fantasy	Ionian	4	3	16	G	G-D-Em-C
+Fantasy	Ionian	4	3	4	G	G-C-D
+Fantasy	Ionian	4	3	12	G	G-C-Em-D
+Fantasy	Ionian	4	3	79	G	Em-C-G-D
+Fantasy	Ionian	4	3	14	G	G-D-C-G
+Fantasy	Ionian	4	3	24	G	G-Em-C-D
+Uneasiness	Aeolian	9	0	60	G minor	Gm-F-Eb-F
+Uneasiness	Aeolian	9	0	54	G minor	Gm-Eb-Bb-F
+Uneasiness	Aeolian	9	0	64	G minor	Gm-Cm-F
+Uneasiness	Aeolian	9	0	47	G minor	Eb-F-Gm
+Uneasiness	Aeolian	9	0	70	G minor	Gm-Dm-F-Eb
+Epic	Ionian	3	3	37	Ab	Eb-Ab-Fm-Db
+Epic	Ionian	3	3	16	Ab	Ab-Eb-Fm-Db
+Epic	Ionian	3	3	4	Ab	Ab-Db-Eb
+Epic	Ionian	3	3	12	Ab	Ab-Db-Fm-Eb
+Epic	Ionian	3	3	79	Ab	Fm-Db-Ab-Eb
+Depressive	Aeolian	1	0	60	Ab minor	G#m-F#-E-F#
+Depressive	Aeolian	1	0	54	Ab minor	G#m-E-B-F#
+Depressive	Aeolian	1	0	47	Ab minor	E-F#-G#m
+Depressive	Aeolian	1	0	69	Ab minor	G#m-D#m-B-F#
+Depressive	Harmonic minor	1	2	53	Ab minor	G#m-D#-C#m-G#m
+Joyful	Ionian	6	3	16	A	A-E-F#m-D
+Joyful	Ionian	6	3	4	A	A-D-E
+Joyful	Ionian	6	3	12	A	A-D-F#m-E
+Joyful	Ionian	6	3	79	A	F#m-D-A-E
+Joyful	Ionian	6	3	14	A	A-E-D-A
+soft	Aeolian	12	0	54	A minor	Am-F-C-G
+soft	Aeolian	12	0	60	A minor	Am-G-F-G
+soft	Aeolian	12	0	47	A minor	F-G-Am
+soft	Aeolian	12	0	65	A minor	Am-Dm-G-C
+soft	Aeolian	12	0	70	A minor	Am-Em-G-F
+soft	Harmonic minor	12	2	59	A minor	Am-G-F-E
+Joyful	Ionian	6	3	76	Bb	Gm-Bb-F-Eb
+Joyful	Ionian	6	3	16	Bb	Bb-F-Gm-Eb
+Joyful	Ionian	6	3	4	Bb	Bb-Eb-F
+Joyful	Ionian	6	3	12	Bb	Bb-Eb-Gm-F
+Joyful	Ionian	6	3	79	Bb	Gm-Eb-Bb-F
+Despair	Aeolian	2	0	60	Bb minor	Bbm-Ab-Gb-Ab
+Despair	Aeolian	2	0	54	Bb minor	Bbm-Gb-Db-Ab
+Despair	Aeolian	2	0	47	Bb minor	Gb-Ab-Bbm
+Despair	Aeolian	2	0	67	Bb minor	Bbm-Ebm-Fm
+Despair	Aeolian	2	0	65	Bb minor	Bbm-Ebm-Ab-Db
+Fantasy	Ionian	4	3	9	B	B-E-D#m-G#
+Fantasy	Ionian	4	3	72	B	C#m-F#-B
+Fantasy	Ionian	4	3	22	B	B-D#m-F#-C#m-E
+Fantasy	Ionian	4	3	16	B	B-F#-G#m-E
+Fantasy	Ionian	4	3	4	B	B-E-F#
+Fantasy	Ionian	4	3	79	B	G#m-E-B-F#
+Fantasy	Ionian	4	3	14	B	B-F#-E-B
+Lonely	Aeolian	7	0	60	B minor	Bm-A-G-A
+Lonely	Aeolian	7	0	54	B minor	Bm-G-D-A
+Lonely	Aeolian	7	0	47	B minor	G-A-Bm
+Lonely	Aeolian	7	0	64	B minor	Bm-Em-A
+Lonely	Aeolian	7	0	70	B minor	Bm-F#m-A-G
+Joyful	Ionian	6	3	6	C	C-F-G-F
+Depressive	Ionian	1	3	6	Db	Db-Gb-Ab-Gb
+Delicate	Ionian	0	3	6	D	D-G-A-G
+Love	Ionian	8	3	6	Eb	Eb-Ab-Bb-Ab
+Vital	Ionian	11	3	6	E	E-A-B-A
+soft	Ionian	12	3	6	F	F-Bb-C-Bb
+Victorious	Ionian	10	3	6	F#	F#-B-C#-B
+Fantasy	Ionian	4	3	6	G	G-C-D-C
+Epic	Ionian	3	3	6	Ab	Ab-Db-Eb-Db
+Joyful	Ionian	6	3	6	A	A-D-E-D
+Joyful	Ionian	6	3	6	Bb	Bb-Eb-F-Eb
+Fantasy	Ionian	4	3	6	B	B-E-F#-E
+Joyful	Mixolydian	6	5	19	C	C-Bb-F
+Depressive	Mixolydian	1	5	19	Db	Db-B-Gb
+Delicate	Mixolydian	0	5	19	D	D-C-G
+Love	Mixolydian	8	5	19	Eb	Eb-Db-Ab
+Vital	Mixolydian	11	5	19	E	E-D-A
+soft	Mixolydian	12	5	19	F	F-Eb-Bb
+Victorious	Mixolydian	10	5	19	F#	F#-E-B
+Fantasy	Mixolydian	4	5	19	G	G-F-C
+Epic	Mixolydian	3	5	19	Ab	Ab-Gb-Db
+Joyful	Mixolydian	6	5	19	A	A-G-D
+Joyful	Mixolydian	6	5	19	Bb	Bb-Ab-Eb
+Fantasy	Mixolydian	4	5	19	B	B-A-E
+Joyful	Ionian	6	3	10	C	C-F-Em-Am
+Depressive	Ionian	1	3	10	Db	Db-Gb-Fm-Bbm
+Delicate	Ionian	0	3	10	D	D-G-F#m-Bm
+Love	Ionian	8	3	10	Eb	Eb-Ab-Gm-Cm
+Vital	Ionian	11	3	10	E	E-A-G#m-C#m
+soft	Ionian	12	3	10	F	F-Bb-Am-Dm
+Victorious	Ionian	10	3	10	F#	F#-B-A#m-D#m
+Fantasy	Ionian	4	3	10	G	G-C-Bm-Em
+Epic	Ionian	3	3	10	Ab	Ab-Db-Cm-Fm
+Joyful	Ionian	6	3	10	A	A-D-C#m-F#m
+Joyful	Ionian	6	3	10	Bb	Bb-Eb-Dm-Gm
+Fantasy	Ionian	4	3	10	B	B-E-D#m-G#m
+Joyful	Ionian	6	3	1	C	C-E-F-Fm
+Depressive	Ionian	1	3	1	Db	Db-F-Gb-Gbm
+Delicate	Ionian	0	3	1	D	D-F#-G-Gm
+Love	Ionian	8	3	1	Eb	Eb-G-Ab-Abm
+Vital	Ionian	11	3	1	E	E-G#-A-Am
+soft	Ionian	12	3	1	F	F-A-Bb-Bbm
+Victorious	Ionian	10	3	1	F#	F#-A#-B-Bm
+Fantasy	Ionian	4	3	1	G	G-B-C-Cm
+Epic	Ionian	3	3	1	Ab	Ab-C-Db-Dbm
+Joyful	Ionian	6	3	1	A	A-C#-D-Dm
+Joyful	Ionian	6	3	1	Bb	Bb-D-Eb-Ebm
+Fantasy	Ionian	4	3	1	B	B-D#-E-Em
+Depressive	Ionian	1	3	24	Db	Db-Bbm-Gb-Ab
+Love	Ionian	8	3	24	Eb	Eb-Cm-Ab-Bb
+Vital	Ionian	11	3	24	E	E-C#m-A-B
+soft	Ionian	12	3	24	F	F-Dm-Bb-C
+Victorious	Ionian	10	3	24	F#	F#-D#m-B-C#
+Epic	Ionian	3	3	24	Ab	Ab-Fm-Db-Eb
+Joyful	Ionian	6	3	24	A	A-F#m-D-E
+Joyful	Ionian	6	3	24	Bb	Bb-Gm-Eb-F
+Fantasy	Ionian	4	3	24	B	B-G#m-E-F#
+Joyful	Mixolydian	6	5	23	C	C-Gm-Bb-F
+Depressive	Mixolydian	1	5	23	Db	Db-Abm-B-Gb
+Delicate	Mixolydian	0	5	23	D	D-Am-C-G
+Love	Mixolydian	8	5	23	Eb	Eb-Bbm-Db-Ab
+Vital	Mixolydian	11	5	23	E	E-Bm-D-A
+soft	Mixolydian	12	5	23	F	F-Cm-Eb-Bb
+Victorious	Mixolydian	10	5	23	F#	F#-C#m-E-B
+Fantasy	Mixolydian	4	5	23	G	G-Dm-F-C
+Epic	Mixolydian	3	5	23	Ab	Ab-Ebm-Gb-Db
+Joyful	Mixolydian	6	5	23	A	A-Em-G-D
+Joyful	Mixolydian	6	5	23	Bb	Bb-Fm-Ab-Eb
+Fantasy	Mixolydian	4	5	23	B	B-F#m-A-E
+Joyful	Ionian	6	3	72	C	Dm-G-C
+Depressive	Ionian	1	3	72	Db	Ebm-Ab-Db
+Delicate	Ionian	0	3	72	D	Em-A-D
+Love	Ionian	8	3	72	Eb	Fm-Bb-Eb
+Vital	Ionian	11	3	72	E	F#m-B-E
+soft	Ionian	12	3	72	F	Gm-C-F
+Victorious	Ionian	10	3	72	F#	G#m-C#-F#
+Fantasy	Ionian	4	3	72	G	Am-D-G
+Epic	Ionian	3	3	72	Ab	Bbm-Eb-Ab
+Joyful	Ionian	6	3	72	A	Bm-E-A
+Joyful	Ionian	6	3	72	Bb	Cm-F-Bb
+Joyful	Ionian	6	3	3	C	C-F-C-G
+Depressive	Ionian	1	3	3	Db	Db-Gb-Db-Ab
+Delicate	Ionian	0	3	3	D	D-G-D-A
+Love	Ionian	8	3	3	Eb	Eb-Ab-Eb-Bb
+Vital	Ionian	11	3	3	E	E-A-E-B
+soft	Ionian	12	3	3	F	F-Bb-F-C
+Victorious	Ionian	10	3	3	F#	F#-B-F#-C#
+Fantasy	Ionian	4	3	3	G	G-C-G-D
+Epic	Ionian	3	3	3	Ab	Ab-Db-Ab-Eb
+Joyful	Ionian	6	3	3	A	A-D-A-E
+Joyful	Ionian	6	3	3	Bb	Bb-Eb-Bb-F
+Fantasy	Ionian	4	3	3	B	B-E-B-F#
+Joyful	Ionian	6	3	29	C	F-G-C
+Depressive	Ionian	1	3	29	Db	Gb-Ab-Db
+Delicate	Ionian	0	3	29	D	G-A-D
+Love	Ionian	8	3	29	Eb	Ab-Bb-Eb
+Vital	Ionian	11	3	29	E	A-B-E
+soft	Ionian	12	3	29	F	Bb-C-F
+Victorious	Ionian	10	3	29	F#	B-C#-F#
+Fantasy	Ionian	4	3	29	G	C-D-G
+Epic	Ionian	3	3	29	Ab	Db-Eb-Ab
+Joyful	Ionian	6	3	29	A	D-E-A
+Joyful	Ionian	6	3	29	Bb	Eb-F-Bb
+Fantasy	Ionian	4	3	29	B	E-F#-B
+Joyful	Aeolian	6	0	20	C	C-Bb-Ab-Bb
+Depressive	Aeolian	1	0	20	Db	Db-B-A-B
+Delicate	Aeolian	0	0	20	D	D-C-Bb-C
+Love	Aeolian	8	0	20	Eb	Eb-Db-B-Db
+Vital	Aeolian	11	0	20	E	E-D-C-D
+soft	Aeolian	12	0	20	F	F-Eb-Db-Eb
+Victorious	Aeolian	10	0	20	F#	F#-E-D-E
+Fantasy	Aeolian	4	0	20	G	G-F-Eb-F
+Epic	Aeolian	3	0	20	Ab	Ab-Gb-E-Gb
+Joyful	Aeolian	6	0	20	A	A-G-F-G
+Joyful	Aeolian	6	0	20	Bb	Bb-Ab-Gb-Ab
+Fantasy	Aeolian	4	0	20	B	B-A-G-A
+Joyful	Ionian	6	3	15	C	C-G-Em-F
+Depressive	Ionian	1	3	15	Db	Db-Ab-Fm-Gb
+Delicate	Ionian	0	3	15	D	D-A-F#m-G
+Love	Ionian	8	3	15	Eb	Eb-Bb-Gm-Ab
+Vital	Ionian	11	3	15	E	E-B-G#m-A
+soft	Ionian	12	3	15	F	F-C-Am-Bb
+Victorious	Ionian	10	3	15	F#	F#-C#-A#m-B
+Fantasy	Ionian	4	3	15	G	G-D-Bm-C
+Epic	Ionian	3	3	15	Ab	Ab-Eb-Cm-Db
+Joyful	Ionian	6	3	15	A	A-E-C#m-D
+Joyful	Ionian	6	3	15	Bb	Bb-F-Dm-Eb
+Fantasy	Ionian	4	3	15	B	B-F#-D#m-E
+Joyful	Ionian	6	3	27	C	F-C
+Depressive	Ionian	1	3	27	Db	Gb-Db
+Delicate	Ionian	0	3	27	D	G-D
+Love	Ionian	8	3	27	Eb	Ab-Eb
+Vital	Ionian	11	3	27	E	A-E
+soft	Ionian	12	3	27	F	Bb-F
+Victorious	Ionian	10	3	27	F#	B-F#
+Fantasy	Ionian	4	3	27	G	C-G
+Epic	Ionian	3	3	27	Ab	Db-Ab
+Joyful	Ionian	6	3	27	A	D-A
+Joyful	Ionian	6	3	27	Bb	Eb-Bb
+Fantasy	Ionian	4	3	27	B	E-B
+Joyful	Ionian	6	3	30	C	F-Em-Am-D
+Depressive	Ionian	1	3	30	Db	Gb-Fm-Bbm-Eb
+Delicate	Ionian	0	3	30	D	G-F#m-Bm-E
+Love	Ionian	8	3	30	Eb	Ab-Gm-Cm-F
+Vital	Ionian	11	3	30	E	A-G#m-C#m-F#
+soft	Ionian	12	3	30	F	Bb-Am-Dm-G
+Victorious	Ionian	10	3	30	F#	B-A#m-D#m-G#
+Fantasy	Ionian	4	3	30	G	C-Bm-Em-A
+Epic	Ionian	3	3	30	Ab	Db-Cm-Fm-Bb
+Joyful	Ionian	6	3	30	A	D-C#m-F#m-B
+Joyful	Ionian	6	3	30	Bb	Eb-Dm-Gm-C
+Fantasy	Ionian	4	3	30	B	E-D#m-G#m-C#
+Joyful	Ionian	6	3	75	C	Fm-Bb-C
+Depressive	Ionian	1	3	75	Db	Gbm-B-Db
+Delicate	Ionian	0	3	75	D	Gm-C-D
+Love	Ionian	8	3	75	Eb	Abm-Db-Eb
+Vital	Ionian	11	3	75	E	Am-D-E
+soft	Ionian	12	3	75	F	Bbm-Eb-F
+Victorious	Ionian	10	3	75	F#	Bm-E-F#
+Fantasy	Ionian	4	3	75	G	Cm-F-G
+Epic	Ionian	3	3	75	Ab	Dbm-Gb-Ab
+Joyful	Ionian	6	3	75	A	Dm-G-A
+Joyful	Ionian	6	3	75	Bb	Ebm-Ab-Bb
+Fantasy	Ionian	4	3	75	B	Em-A-B
+Joyful	Lydian	6	4	0	C	C-D-G-C
+Depressive	Lydian	1	4	0	Db	Db-Eb-Ab-Db
+Delicate	Lydian	0	4	0	D	D-E-A-D
+Love	Lydian	8	4	0	Eb	Eb-F-Bb-Eb
+Vital	Lydian	11	4	0	E	E-F#-B-E
+soft	Lydian	12	4	0	F	F-G-C-F
+Victorious	Lydian	10	4	0	F#	F#-G#-C#-F#
+Fantasy	Lydian	4	4	0	G	G-A-D-G
+Epic	Lydian	3	4	0	Ab	Ab-Bb-Eb-Ab
+Joyful	Lydian	6	4	0	A	A-B-E-A
+Joyful	Lydian	6	4	0	Bb	Bb-C-F-Bb
+Fantasy	Lydian	4	4	0	B	B-C#-F#-B
+Joyful	Ionian	6	3	7	C	C-F-G-Am
+Depressive	Ionian	1	3	7	Db	Db-Gb-Ab-Bbm
+Delicate	Ionian	0	3	7	D	D-G-A-Bm
+Love	Ionian	8	3	7	Eb	Eb-Ab-Bb-Cm
+Vital	Ionian	11	3	7	E	E-A-B-C#m
+soft	Ionian	12	3	7	F	F-Bb-C-Dm
+Victorious	Ionian	10	3	7	F#	F#-B-C#-D#m
+Fantasy	Ionian	4	3	7	G	G-C-D-Em
+Epic	Ionian	3	3	7	Ab	Ab-Db-Eb-Fm
+Joyful	Ionian	6	3	7	A	A-D-E-F#m
+Joyful	Ionian	6	3	7	Bb	Bb-Eb-F-Gm
+Fantasy	Ionian	4	3	7	B	B-E-F#-G#m
+Joyful	Ionian	6	3	8	C	C-F-Dm-G
+Depressive	Ionian	1	3	8	Db	Db-Gb-Ebm-Ab
+Delicate	Ionian	0	3	8	D	D-G-Em-A
+Love	Ionian	8	3	8	Eb	Eb-Ab-Fm-Bb
+Vital	Ionian	11	3	8	E	E-A-F#m-B
+soft	Ionian	12	3	8	F	F-Bb-Gm-C
+Victorious	Ionian	10	3	8	F#	F#-B-G#m-C#
+Fantasy	Ionian	4	3	8	G	G-C-Am-D
+Epic	Ionian	3	3	8	Ab	Ab-Db-Bbm-Eb
+Joyful	Ionian	6	3	8	A	A-D-Bm-E
+Joyful	Ionian	6	3	8	Bb	Bb-Eb-Cm-F
+Fantasy	Ionian	4	3	8	B	B-E-C#m-F#
+Depressive	Aeolian	1	0	67	C minor	Cm-Fm-Gm
+Despair	Aeolian	2	0	67	C# minor	C#m-F#m-G#m
+Lonely	Aeolian	7	0	67	D minor	Dm-Gm-Am
+Despair	Aeolian	2	0	67	Eb minor	Ebm-Abm-Bbm
+Delicate	Aeolian	0	0	67	E minor	Em-Am-Bm
+Despair	Aeolian	2	0	67	F minor	Fm-Bbm-Cm
+Gloomy	Aeolian	5	0	67	F# minor	F#m-Bm-C#m
+Uneasiness	Aeolian	9	0	67	G minor	Gm-Cm-Dm
+Depressive	Aeolian	1	0	67	Ab minor	G#m-C#m-D#m
+soft	Aeolian	12	0	67	A minor	Am-Dm-Em
+Lonely	Aeolian	7	0	67	B minor	Bm-Em-F#m
+Depressive	Aeolian	1	0	57	C minor	Cm-Bb-Eb-Bb
+Despair	Aeolian	2	0	57	C# minor	C#m-B-E-B
+Lonely	Aeolian	7	0	57	D minor	Dm-C-F-C
+Despair	Aeolian	2	0	57	Eb minor	Ebm-Db-Gb-Db
+Delicate	Aeolian	0	0	57	E minor	Em-D-G-D
+Despair	Aeolian	2	0	57	F minor	Fm-Eb-Ab-Eb
+Gloomy	Aeolian	5	0	57	F# minor	F#m-E-A-E
+Uneasiness	Aeolian	9	0	57	G minor	Gm-F-Bb-F
+Depressive	Aeolian	1	0	57	Ab minor	G#m-F#-B-F#
+soft	Aeolian	12	0	57	A minor	Am-G-C-G
+Despair	Aeolian	2	0	57	Bb minor	Bbm-Ab-Db-Ab
+Lonely	Aeolian	7	0	57	B minor	Bm-A-D-A
+Depressive	Dorian	1	1	50	C minor	Cm-Eb-F
+Despair	Dorian	2	1	50	C# minor	C#m-E-F#
+Lonely	Dorian	7	1	50	D minor	Dm-F-G
+Despair	Dorian	2	1	50	Eb minor	Ebm-Gb-Ab
+Delicate	Dorian	0	1	50	E minor	Em-G-A
+Despair	Dorian	2	1	50	F minor	Fm-Ab-Bb
+Gloomy	Dorian	5	1	50	F# minor	F#m-A-B
+Uneasiness	Dorian	9	1	50	G minor	Gm-Bb-C
+Depressive	Dorian	1	1	50	Ab minor	G#m-B-C#
+soft	Dorian	12	1	50	A minor	Am-C-D
+Despair	Dorian	2	1	50	Bb minor	Bbm-Db-Eb
+Lonely	Dorian	7	1	50	B minor	Bm-D-E
+Depressive	Aeolian	1	0	46	C minor	Ab-Eb-Bb-Cm
+Despair	Aeolian	2	0	46	C# minor	A-E-B-C#m
+Lonely	Aeolian	7	0	46	D minor	Bb-F-C-Dm
+Despair	Aeolian	2	0	46	Eb minor	B-Gb-Db-Ebm
+Delicate	Aeolian	0	0	46	E minor	C-G-D-Em
+Despair	Aeolian	2	0	46	F minor	Db-Ab-Eb-Fm
+Gloomy	Aeolian	5	0	46	F# minor	D-A-E-F#m
+Uneasiness	Aeolian	9	0	46	G minor	Eb-Bb-F-Gm
+Depressive	Aeolian	1	0	46	Ab minor	E-B-F#-G#m
+soft	Aeolian	12	0	46	A minor	F-C-G-Am
+Despair	Aeolian	2	0	46	Bb minor	Gb-Db-Ab-Bbm
+Lonely	Aeolian	7	0	46	B minor	G-D-A-Bm
+Depressive	Aeolian	1	0	66	C minor	Cm-Fm-Cm-Gm
+Despair	Aeolian	2	0	66	C# minor	C#m-F#m-C#m-G#m
+Lonely	Aeolian	7	0	66	D minor	Dm-Gm-Dm-Am
+Despair	Aeolian	2	0	66	Eb minor	Ebm-Abm-Ebm-Bbm
+Delicate	Aeolian	0	0	66	E minor	Em-Am-Em-Bm
+Despair	Aeolian	2	0	66	F minor	Fm-Bbm-Fm-Cm
+Gloomy	Aeolian	5	0	66	F# minor	F#m-Bm-F#m-C#m
+Uneasiness	Aeolian	9	0	66	G minor	Gm-Cm-Gm-Dm
+Depressive	Aeolian	1	0	66	Ab minor	G#m-C#m-G#m-D#m
+soft	Aeolian	12	0	66	A minor	Am-Dm-Am-Em
+Despair	Aeolian	2	0	66	Bb minor	Bbm-Ebm-Bbm-Fm
+Lonely	Aeolian	7	0	66	B minor	Bm-Em-Bm-F#m
+Depressive	Harmonic minor	1	2	74	C minor	Ddim-G-Cm
+Despair	Harmonic minor	2	2	74	C# minor	D#dim-G#-C#m
+Lonely	Harmonic minor	7	2	74	D minor	Edim-A-Dm
+Despair	Harmonic minor	2	2	74	Eb minor	Fdim-Bb-Ebm
+Delicate	Harmonic minor	0	2	74	E minor	F#dim-B-Em
+Despair	Harmonic minor	2	2	74	F minor	Gdim-C-Fm
+Gloomy	Harmonic minor	5	2	74	F# minor	G#dim-C#-F#m
+Uneasiness	Harmonic minor	9	2	74	G minor	Adim-D-Gm
+Depressive	Harmonic minor	1	2	74	Ab minor	A#dim-D#-G#m
+soft	Harmonic minor	12	2	74	A minor	Bdim-E-Am
+Despair	Harmonic minor	2	2	74	Bb minor	Cdim-F-Bbm
+Lonely	Harmonic minor	7	2	74	B minor	C#dim-F#-Bm
+Depressive	Phrygian	1	6	62	C minor	Cm-Db-Bb-Cm
+Despair	Phrygian	2	6	62	C# minor	C#m-D-B-C#m
+Lonely	Phrygian	7	6	62	D minor	Dm-Eb-C-Dm
+Despair	Phrygian	2	6	62	Eb minor	Ebm-E-Db-Ebm
+Delicate	Phrygian	0	6	62	E minor	Em-F-D-Em
+Despair	Phrygian	2	6	62	F minor	Fm-Gb-Eb-Fm
+Gloomy	Phrygian	5	6	62	F# minor	F#m-G-E-F#m
+Uneasiness	Phrygian	9	6	62	G minor	Gm-Ab-F-Gm
+Depressive	Phrygian	1	6	62	Ab minor	G#m-A-F#-G#m
+soft	Phrygian	12	6	62	A minor	Am-Bb-G-Am
+Despair	Phrygian	2	6	62	Bb minor	Bbm-B-Ab-Bbm
+Lonely	Phrygian	7	6	62	B minor	Bm-C-A-Bm
+Depressive	Aeolian	1	0	58	C minor	Cm-Bb-Ab
+Despair	Aeolian	2	0	58	C# minor	C#m-B-A
+Lonely	Aeolian	7	0	58	D minor	Dm-C-Bb
+Despair	Aeolian	2	0	58	Eb minor	Ebm-Db-B
+Delicate	Aeolian	0	0	58	E minor	Em-D-C
+Despair	Aeolian	2	0	58	F minor	Fm-Eb-Db
+Gloomy	Aeolian	5	0	58	F# minor	F#m-E-D
+Uneasiness	Aeolian	9	0	58	G minor	Gm-F-Eb
+Depressive	Aeolian	1	0	58	Ab minor	G#m-F#-E
+soft	Aeolian	12	0	58	A minor	Am-G-F
+Despair	Aeolian	2	0	58	Bb minor	Bbm-Ab-Gb
+Lonely	Aeolian	7	0	58	B minor	Bm-A-G
+Depressive	Aeolian	1	0	55	C minor	Cm-Ab-Bb
+Despair	Aeolian	2	0	55	C# minor	C#m-A-B
+Lonely	Aeolian	7	0	55	D minor	Dm-Bb-C
+Despair	Aeolian	2	0	55	Eb minor	Ebm-B-Db
+Delicate	Aeolian	0	0	55	E minor	Em-C-D
+Despair	Aeolian	2	0	55	F minor	Fm-Db-Eb
+Uneasiness	Aeolian	9	0	55	G minor	Gm-Eb-F
+Depressive	Aeolian	1	0	55	Ab minor	G#m-E-F#
+soft	Aeolian	12	0	55	A minor	Am-F-G
+Despair	Aeolian	2	0	55	Bb minor	Bbm-Gb-Ab
+Lonely	Aeolian	7	0	55	B minor	Bm-G-A
+Depressive	Aeolian	1	0	68	C minor	Cm-Gm-Eb-Ab
+Despair	Aeolian	2	0	68	C# minor	C#m-G#m-E-A
+Lonely	Aeolian	7	0	68	D minor	Dm-Am-F-Bb
+Despair	Aeolian	2	0	68	Eb minor	Ebm-Bbm-Gb-B
+Delicate	Aeolian	0	0	68	E minor	Em-Bm-G-C
+Despair	Aeolian	2	0	68	F minor	Fm-Cm-Ab-Db
+Gloomy	Aeolian	5	0	68	F# minor	F#m-C#m-A-D
+Uneasiness	Aeolian	9	0	68	G minor	Gm-Dm-Bb-Eb
+Depressive	Aeolian	1	0	68	Ab minor	G#m-D#m-B-E
+soft	Aeolian	12	0	68	A minor	Am-Em-C-F
+Despair	Aeolian	2	0	68	Bb minor	Bbm-Fm-Db-Gb
+Lonely	Aeolian	7	0	68	B minor	Bm-F#m-D-G
