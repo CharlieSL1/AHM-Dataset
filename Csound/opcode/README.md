@@ -1,87 +1,141 @@
-# AHM-Dataset Csound Opcodes
+# emoChord — Emotion-Driven Chord Generation for Csound
 
-Two opcodes for generating and playing chord progressions inside Csound.
+A Csound plugin opcode that generates chord progressions from natural-language emotion descriptions using a machine-learning model at runtime. No Python required during performance.
 
-| Opcode | What it does |
+| Opcode | Purpose |
 |---|---|
-| `chord_play` | Schedule note events for an explicit chord/progression string |
-| `chord_gen` | Sample a chord progression from the ML model for a given emotion, then play it |
+| `emoChord_init` | Load the ONNX model and vocabulary table (call once at startup) |
+| `emoChord` | Run ML inference and schedule chord notes into Csound |
+
+---
+
+## How it works
+
+```
+<CsScore>: i1 0 4 "joyful"
+        │
+        ▼
+  instr 1: emoChord "joyful", 2, p2, p3, 0.7
+        │
+        ├─► ONNX Runtime (Random Forest model)
+        │     input: [emotion_id, scale_id]
+        │     output: probabilities[80 chord progressions]
+        │
+        ├─► temperature sampling → chord name (e.g. "Cm7-F7-Bbmaj7-Ebmaj7")
+        │     printed to console
+        │
+        └─► insert_score_event → MIDI notes → instr 2 → audio out
+```
+
+The model is a Random Forest trained on 1,262 annotated jazz and pop chord progressions across 13 emotion categories and 7 scales. It is exported to ONNX format and runs entirely in C via the ONNX Runtime C API.
 
 ---
 
 ## Requirements
 
-| Software | Version | Download |
+| Tool | Version | Notes |
 |---|---|---|
 | Csound | 6.x | https://csound.com/download.html |
 | CsoundQt | any | https://csoundqt.github.io |
 | Xcode Command Line Tools | any | `xcode-select --install` |
-| Python 3.10+ with scikit-learn | for export step only | `pip install scikit-learn pandas` |
+| Python 3.10+ | for training step only | `pip install scikit-learn optuna skl2onnx pandas numpy` |
 
 ---
 
 ## Setup
 
-### 1. Build the opcodes
+### Step 1 — Train the model and export files
 
 ```bash
-cd AHM-Dataset/Csound/opcode
-make
+cd /path/to/AHM-Dataset
+python train_model.py
 ```
 
-Produces `libchord_play.dylib` and `libchord_gen.dylib` (universal binaries: x86_64 + arm64).
+This produces two files in `Csound/opcode/`:
+- `gen_model.onnx` — the trained Random Forest in ONNX format
+- `gen_data.tsv` — vocabulary and chord name lookup table
 
-### 2. Export the model data (chord_gen only)
+### Step 2 — Build the plugin
 
 ```bash
-cd AHM-Dataset
-python export_model.py
+make -C /path/to/AHM-Dataset/Csound/opcode/
 ```
 
-Trains the Random Forest on the dataset and writes `Csound/opcode/chord_gen_data.tsv`.
-Run this once, or again after updating the dataset.
+Produces `libgen.dylib` (universal binary: x86_64 + arm64).
 
-### 3. Install the opcodes
+### Step 3 — Install the plugin
 
-**Option A — global install** (available in all `.csd` files):
+Copy `libgen.dylib` to the Csound global opcodes folder so it is available in all `.csd` files:
 
 ```bash
-sudo cp libchord_play.dylib libchord_gen.dylib \
+sudo cp /path/to/AHM-Dataset/Csound/opcode/libgen.dylib \
   /Library/Frameworks/CsoundLib64.framework/Versions/6.0/Resources/Opcodes64/
 ```
 
-**Option B — per-file** (no admin rights needed): add to `<CsOptions>`:
+Or drag `libgen.dylib` there in Finder.
+
+Alternatively, load it per-file by adding to `<CsOptions>`:
 
 ```
---opcode-lib=/absolute/path/to/AHM-Dataset/Csound/opcode/libchord_play.dylib
---opcode-lib=/absolute/path/to/AHM-Dataset/Csound/opcode/libchord_gen.dylib
+--opcode-lib=/absolute/path/to/AHM-Dataset/Csound/opcode/libgen.dylib
 ```
 
-> **Do not** set OPCODE6DIR64 in CsoundQt Preferences to the `opcode/` folder —
-> that replaces Csound's default opcode path and breaks built-in audio modules.
+### Step 4 — Run the demo
+
+Open `Csound/opcode/gen_demo.csd` in CsoundQt and press Run.
 
 ---
 
-## chord_play
+## Opcode reference
 
-Schedule note events for an explicit chord name or dash-separated progression.
-
-### Syntax
+### `emoChord_init`
 
 ```
-chord_play  SChord, iInstr, iStart, iDur, iAmp [, iOctave]
+emoChord_init  SModelPath, SDataPath
 ```
+
+Load the ONNX model and vocabulary table. Must be called once before any `emoChord` call. Place it in the orchestra header (before any `instr` block).
 
 | Parameter | Description |
 |---|---|
-| `SChord` | Chord name (`"F7"`) or progression (`"C-G-Am-F"`) |
-| `iInstr` | Synthesis instrument number |
-| `iStart` | Score start time in seconds |
+| `SModelPath` | Absolute path to `gen_model.onnx` |
+| `SDataPath` | Absolute path to `gen_data.tsv` |
+
+### `emoChord`
+
+```
+emoChord  SEmotion, iInstr, iStart, iDur, iAmp [, iTemp, iOctave]
+```
+
+Run inference and schedule note events.
+
+| Parameter | Description |
+|---|---|
+| `SEmotion` | Emotion string — case-insensitive (see list below) |
+| `iInstr` | Synthesis instrument number (receives `p4`=MIDI note, `p5`=amp) |
+| `iStart` | Score start time in seconds for the first chord |
 | `iDur` | Duration per chord in seconds |
 | `iAmp` | Amplitude 0–1 |
-| `iOctave` | Root octave, default **4** |
+| `iTemp` | Sampling temperature, default **1.0** |
+| `iOctave` | Root octave, default **4** (C4 = MIDI 60) |
 
-### Supported chord types
+**Temperature guide:**
+
+| `iTemp` | Effect |
+|---|---|
+| `0` | Deterministic — always highest-probability progression |
+| `1` | Natural model distribution |
+| `2+` | Flatter — more harmonic variety |
+
+**Supported emotions** (case-insensitive):
+
+```
+Delicate   Depressive   Despair      Epic       Fantasy
+Gloomy     Joyful       Lonely       Love       Uneasiness
+Victorious Vital        soft
+```
+
+**Supported chord qualities:**
 
 | Suffix | Type |
 |---|---|
@@ -96,80 +150,9 @@ chord_play  SChord, iInstr, iStart, iDur, iAmp [, iOctave]
 | `dim7` | Diminished 7th |
 | `sus` | Suspended 4th |
 
-### Example
-
-```csound
-instr 1
-  chord_play "C-G-Am-F", 2, p2, 1, 0.7
-endin
-```
-
 ---
 
-## chord_gen
-
-Sample a chord progression from the ML model given an emotion, then play it.
-
-### Syntax
-
-```
-chord_gen_init  SDataPath
-chord_gen       SEmotion, iInstr, iStart, iDur, iAmp [, iTemp, iOctave]
-```
-
-| Parameter | Description |
-|---|---|
-| `SDataPath` | Absolute path to `chord_gen_data.tsv` |
-| `SEmotion` | Emotion name — case-insensitive (see list below) |
-| `iInstr` | Synthesis instrument number |
-| `iStart` | Score start time in seconds |
-| `iDur` | Duration per chord in seconds |
-| `iAmp` | Amplitude 0–1 |
-| `iTemp` | Sampling temperature, default **1.0** — 0=deterministic, 1=natural, >1=more varied |
-| `iOctave` | Root octave, default **4** |
-
-`chord_gen_init` must be called **once** before any `chord_gen` call.
-The idiomatic place is the orchestra header (before any `instr` block).
-
-### Supported emotions
-
-```
-Delicate   Depressive   Despair   Epic       Fantasy
-Gloomy     Joyful       Lonely    Love       Uneasiness
-Victorious Vital        soft
-```
-
-Emotion matching is case-insensitive (`"joyful"` = `"Joyful"`).
-
-### Temperature guide
-
-| iTemp | Effect |
-|---|---|
-| `0` | Always picks the highest-probability progression (deterministic) |
-| `1` | Natural model distribution — reflects training data probabilities |
-| `2` | Flatter distribution — more variety, less likely choices appear |
-
-### Example
-
-```csound
-; Orchestra header — load data once
-chord_gen_init "/absolute/path/to/AHM-Dataset/Csound/opcode/chord_gen_data.tsv"
-
-instr 1
-  ; Natural distribution
-  chord_gen "Joyful", 2, p2, 1, 0.7
-
-  ; Deterministic (always same result)
-  ; chord_gen "Joyful", 2, p2, 1, 0.7, 0
-
-  ; High variety
-  ; chord_gen "Joyful", 2, p2, 1, 0.7, 2
-endin
-```
-
----
-
-## Minimal working example (both opcodes)
+## Minimal working example
 
 ```csound
 <CsoundSynthesizer>
@@ -183,30 +166,31 @@ ksmps  = 32
 nchnls = 2
 0dbfs  = 1
 
-gitab  ftgen 0, 0, 4096, 10, 1
-chord_gen_init "/absolute/path/to/chord_gen_data.tsv"
+gitab ftgen 0, 0, 4096, 10, 1
+
+emoChord_init "/absolute/path/to/gen_model.onnx", \
+              "/absolute/path/to/gen_data.tsv"
 
 ; Synthesis instrument — p4=MIDI note, p5=amplitude
 instr 2
-  ifreq  cpsmidinn p4
-  iamp   = p5 * 0dbfs
-  aenv   expseg 1, p3*0.01, 0.5, p3*0.89, 0.001, p3*0.1, 0.001
-  asig   foscili aenv * iamp, ifreq, 1, 2, 2.5, gitab
-         outs asig, asig
+  ifreq cpsmidinn p4
+  iamp  = p5 * 0dbfs
+  aenv  expseg 1, p3*0.01, 0.5, p3*0.89, 0.001, p3*0.1, 0.001
+  asig  foscili aenv * iamp, ifreq, 1, 2, 2.5, gitab
+        outs asig, asig
 endin
 
-instr 1  ;; explicit chord
-  chord_play "C-G-Am-F", 2, p2, 1, 0.7
-endin
-
-instr 3  ;; emotion-driven
-  chord_gen "Joyful", 2, p2, 1, 0.7
+; Emotion-driven instrument — p4=emotion string from score
+instr 1
+  Sem strget p4
+  emoChord Sem, 2, p2, p3, 0.7
 endin
 
 </CsInstruments>
 <CsScore>
-i1  0  4   ; explicit I-V-vi-IV
-i3  5  4   ; model-sampled Joyful progression
+i1   0   4   "joyful"
+i1   6   4   "depressive"
+i1  12   4   "fantasy"
 e
 </CsScore>
 </CsoundSynthesizer>
@@ -218,9 +202,10 @@ e
 
 | Error | Cause | Fix |
 |---|---|---|
-| `chord_gen: no data loaded` | `chord_gen_init` not called | Add `chord_gen_init "..."` to the orchestra header |
-| `chord_gen: cannot open '...'` | Wrong path to TSV | Use absolute path; run `export_model.py` first |
-| `chord_gen: unknown emotion '...'` | Typo or unsupported emotion | Check the emotion list above |
-| `Unexpected untyped word chord_gen` | Opcode not loaded | Check `--opcode-lib=` path or global install |
-| `could not open library … (-1)` | Architecture mismatch | Rebuild with `make`; use absolute path |
-| `No real-time audio modules found` | OPCODE6DIR64 set to wrong folder | Clear OPCODE6DIR64 in CsoundQt Preferences → Environment |
+| `emoChord: not initialised` | `emoChord_init` not called | Add `emoChord_init "..."` to the orchestra header |
+| `emoChord_init: cannot open data '...'` | Wrong path to TSV | Use absolute path; run `train_model.py` first |
+| `emoChord: ORT error: ... Opset 22` | ONNX opset version mismatch | Ensure `train_model.py` exports with `target_opset=18` |
+| `emoChord: unknown emotion '...'` | Typo or unsupported emotion | Check the emotion list above |
+| `Unexpected untyped word emoChord` | Plugin not loaded | Confirm `libgen.dylib` is in the Csound opcodes folder |
+| `could not open library … (-1)` | Architecture mismatch | Rebuild with `make` (universal binary required) |
+| `No real-time audio modules found` | `OPCODE6DIR64` overrides default path | Clear `OPCODE6DIR64` in CsoundQt Preferences → Environment |
