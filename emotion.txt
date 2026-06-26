@@ -1,26 +1,26 @@
-| Key      | Emotion                                      |
-| -------- | -------------------------------------------- |
-| C Major  | Innocently Happy                             |
-| C Minor  | Innocently Sad, Love-Sick                    |
-| C# Minor | Despair, Wailing, Weeping                    |
-| Db Major | Grief, Depressive                            |
-| D Major  | Triumphant, Victorious War-Cries             |
-| D Minor  | Serious, Pious, Ruminating                   |
-| D# Minor | Deep Distress, Existential Angst             |
-| Eb Major | Cruel, Hard, Yet Full of Devotion            |
-| E Major  | Quarrelsome, Boisterous, Incomplete Pleasure |
-| E Minor  | Effeminate, Amorous, Restless                |
-| F Major  | Furious, Quick-Tempered, Passing Regret      |
-| F Minor  | Obscure, Plaintive, Funereal                 |
-| F# Major | Conquering Difficulties, Sighs of Relief     |
-| F# Minor | Gloomy, Passionate Resentment                |
-| G Major  | Serious, Magnificent, Fantasy                |
-| G Minor  | Discontent, Uneasiness                       |
-| Ab Major | Death, Eternity, Judgement                   |
-| Ab Minor | Grumbling, Moaning, Wailing                  |
-| A Major  | Joyful, Pastoral, Declaration of Love        |
-| A Minor  | Tender, Plaintive, Pious                     |
-| Bb Major | Joyful, Quaint, Cheerful                     |
-| Bb Minor | Terrible, the Night, Mocking                 |
-| B Major  | Harsh, Strong, Wild, Rage                    |
-| B Minor  | Solitary, Melancholic, Patience              |
+| Key      | Emotion        |
+| -------- | -------------- |
+| C Major  | Joyful         |
+| C Minor  | Depressive     |
+| C# Minor | Despair        |
+| Db Major | Depressive     |
+| D Major  | Delicate       |
+| D Minor  | Lonely         |
+| D# Minor | Despair        |
+| Eb Major | Love           |
+| E Major  | Vital          |
+| E Minor  | Delicate       |
+| F Major  | soft           |
+| F Minor  | Despair        |
+| F# Major | Victorious     |
+| F# Minor | Gloomy         |
+| G Major  | Fantasy        |
+| G Minor  | Uneasiness     |
+| Ab Major | Epic           |
+| Ab Minor | Depressive     |
+| A Major  | Joyful         |
+| A Minor  | soft           |
+| Bb Major | Joyful         |
+| Bb Minor | Despair        |
+| B Major  | Fantasy        |
+| B Minor  | Lonely         |
