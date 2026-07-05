@@ -12,11 +12,11 @@ The system bridges a machine learning model and the Csound audio programming env
 
 Two curated datasets are combined:
 
-| Dataset | File | Rows | Progressions | Scales |
+| Dataset | File | Rows | Progressions | Coverage |
 |---|---|---|---|---|
-| Jazz harmony | `jazz_harmony_ml_dataset.csv` | 816 | 17 | 4 |
-| Pop harmony | `pop_harmony_dataset.csv` | 446 | 63 | 7 |
-| **Combined** | — | **1,262** | **80** | **7** |
+| Jazz harmony | `jazz_harmony_ml_dataset.csv` | 1,200 | 25 | 12 keys × 4 voicings |
+| Pop harmony | `pop_harmony_dataset.csv` | 996 | 83 | 12 keys |
+| **Combined** | — | **2,196** | **108** | — |
 
 ### 2.2 Schema
 
@@ -26,35 +26,44 @@ Two curated datasets are combined:
 
 The `Voicing` column (jazz-only) encodes four close-position voicing transforms: *Four-Way Close*, *Drop 2*, *Drop 3*, *Drop 2+4*. This column is discarded during chord progression training — it is a rendering detail, not a harmonic classification feature.
 
+Progressions are encoded in Roman numeral notation (e.g. `I-V-vi-IV`), making the representation key-invariant: the model learns harmonic character, not absolute pitch. Pop progressions were expanded to all 12 keys via automated transposition using key-aware enharmonic spelling tables.
+
 ### 2.3 Annotation Dimensions
 
-Each row represents one concrete instantiation of a chord progression, annotated along three orthogonal dimensions:
+Each row is annotated along three orthogonal dimensions:
 
-- **Emotion** (13 classes): Delicate, Depressive, Despair, Epic, Fantasy, Gloomy, Joyful, Lonely, Love, Uneasiness, Victorious, Vital, soft
+- **Emotion** (6 classes): Joyful, Vital, Epic, Uneasiness, Depressive, Despair
 - **Scale / Mode** (7 classes): Ionian, Aeolian, Dorian, Phrygian, Lydian, Mixolydian, Harmonic minor
 - **Key** (24 values): all 12 major and 12 minor keys
 
-The jazz dataset covers 4 of the 7 modes (Ionian, Aeolian, Mixolydian, Harmonic minor); the pop dataset introduces Dorian, Lydian, and Phrygian. Combining the two datasets extends harmonic coverage across all common Western scales.
+The jazz dataset covers Ionian, Aeolian, Mixolydian, and Harmonic minor; the pop dataset extends coverage to Dorian, Lydian, and Phrygian. The combined dataset spans 23 of the 42 possible (emotion, scale) pairs.
 
 ### 2.4 Class Distribution
 
-The emotion distribution is unbalanced. Joyful is the most represented class (235 instances); Gloomy and Uneasiness the least (26–27 instances each). This imbalance reflects the source material rather than annotation error. The Random Forest handles it naturally through its majority-vote aggregation, and the subsequent temperature-weighted sampling at runtime further mitigates over-concentration on dominant classes.
+**Emotion distribution (combined dataset):**
 
 | Emotion | Count |
 |---|---|
-| Joyful | 235 |
-| Fantasy | 157 |
-| Depressive | 132 |
-| Despair | 107 |
-| Delicate | 106 |
-| soft | 106 |
-| Love | 78 |
-| Vital | 78 |
-| Victorious | 78 |
-| Epic | 78 |
-| Lonely | 54 |
-| Uneasiness | 27 |
-| Gloomy | 26 |
+| Joyful | 576 |
+| Depressive | 564 |
+| Uneasiness | 444 |
+| Despair | 204 |
+| Vital | 204 |
+| Epic | 204 |
+
+**Scale distribution (combined dataset):**
+
+| Scale | Count |
+|---|---|
+| Ionian | 1,332 |
+| Aeolian | 372 |
+| Harmonic minor | 240 |
+| Mixolydian | 108 |
+| Dorian | 60 |
+| Lydian | 48 |
+| Phrygian | 36 |
+
+The emotion distribution is unbalanced, reflecting the source material. The Random Forest handles this naturally through majority-vote aggregation; temperature-weighted sampling at runtime further mitigates over-concentration on dominant classes.
 
 ---
 
@@ -66,7 +75,7 @@ The classification task is:
 
 > **Given an emotion and a scale, predict the most probable chord progression.**
 
-The feature vector is therefore two-dimensional:
+The feature vector is two-dimensional:
 
 ```
 X = [emotion_id,  scale_id]
@@ -78,15 +87,15 @@ The `Chord_Progression` column (Roman numeral notation, key-invariant) is the pr
 
 ### 3.2 Label Encoding
 
-All three variables are ordinally encoded with scikit-learn `LabelEncoder`, which maps each unique string to a contiguous integer index:
+All three variables are ordinally encoded with scikit-learn `LabelEncoder`, mapping each unique string to a contiguous integer index:
 
 | Variable | Encoder | Vocabulary size |
 |---|---|---|
-| `Emotion` | `le_emotion` | 13 |
+| `Emotion` | `le_emotion` | 6 |
 | `Scale` | `le_scale` | 7 |
-| `Chord_Progression` | `le_prog` | 80 |
+| `Chord_Progression` | `le_prog` | 108 |
 
-Encoding is fit on the full combined dataset to ensure consistent integer indices. The final feature matrix is shape `(1262, 2)` with integer-valued entries; the target vector is shape `(1262,)`.
+Encoding is fit on the full combined dataset to ensure consistent integer indices. The final feature matrix is shape `(2196, 2)` with integer-valued entries; the target vector is shape `(2196,)`.
 
 ---
 
@@ -96,16 +105,16 @@ Encoding is fit on the full combined dataset to ensure consistent integer indice
 
 A **Random Forest Classifier** (scikit-learn `RandomForestClassifier`) is used. Random Forest is chosen for this task because:
 
-- **Calibrated probability output**: `predict_proba()` returns a well-calibrated distribution over all 80 progression classes, directly usable as a sampling distribution at runtime.
-- **Handles small, structured datasets**: with 1,262 rows and a 2-dimensional feature space, shallow ensembles generalise better than deep models.
-- **ONNX-exportable**: scikit-learn models can be converted to the standard ONNX format via `skl2onnx`, enabling runtime inference in C without any Python dependency.
+- **Calibrated probability output**: `predict_proba()` returns a well-calibrated distribution over all 108 progression classes, directly usable as a sampling distribution at runtime.
+- **Handles small, structured datasets**: with 2,196 rows and a 2-dimensional feature space, shallow ensembles generalise better than deep models.
+- **ONNX-exportable**: scikit-learn models convert to ONNX via `skl2onnx`, enabling runtime inference in C without any Python dependency.
 
 Two classifiers are trained:
 
 | Classifier | Target | Training data |
 |---|---|---|
-| `clf_prog` | Chord progression (80 classes) | Combined jazz + pop (1,262 rows) |
-| `clf_voicing` | Voicing style (4 classes) | Jazz only (816 rows) |
+| `clf_prog` | Chord progression (108 classes) | Combined jazz + pop (2,196 rows) |
+| `clf_voicing` | Voicing style (4 classes) | Jazz only (1,200 rows) |
 
 Only `clf_prog` is exported to ONNX for the Csound opcode. `clf_voicing` is available for future extension.
 
@@ -132,7 +141,14 @@ Search space:
 
 ### 4.3 Training Procedure
 
-Optuna tuning is performed on an 80/20 train/test split (`random_state=42`, stratified by emotion) to obtain the best hyperparameters. The final classifier for ONNX export is then **retrained on the complete dataset** (all 1,262 rows). This two-stage procedure is critical: training on the full dataset ensures all 80 chord progression classes appear in the model output. Training only on the 80% split leaves 7 rare classes unseen, reducing the output dimension to 73 and breaking the index mapping at runtime.
+Optuna tuning is performed on an 80/20 train/test split (`random_state=42`, stratified by emotion) to obtain the best hyperparameters. The final classifier for ONNX export is then **retrained on the complete dataset** (all 2,196 rows). This two-stage procedure is critical: the split is stratified by emotion (6 classes), not by the 108-class progression target, so rare progressions may be absent from the 80% fold and break index mappings at runtime. Training on the full dataset ensures all 108 classes appear in the model output.
+
+**Held-out accuracy** (80/20 split, before retraining on full data):
+- Top-1: 24.8%
+- Top-3: 49.1%
+- Majority-class-per-pair baseline: 24.8%
+
+The model faithfully learns the dominant harmonic preference per (emotion, scale) cell. Its primary role is to package the full learned class distribution as an ONNX tensor for temperature-weighted runtime sampling — the argmax case reduces to the majority-class lookup, while temperature sampling draws from the full distribution.
 
 ### 4.4 Export to ONNX via skl2onnx
 
@@ -146,23 +162,24 @@ onnx_model = convert_sklearn(
     clf_prog,
     initial_types=[("input", FloatTensorType([None, 2]))],
     options={id(clf_prog): {"zipmap": False}},
+    target_opset=18,
 )
 ```
 
-The `zipmap=False` option is required to produce a plain float32 probability tensor rather than a list of dictionaries. The resulting `gen_model.onnx` encodes the full Random Forest decision structure and all learned parameters in a standard, runtime-agnostic format.
+The `zipmap=False` option produces a plain float32 probability tensor rather than a list of dictionaries. `target_opset=18` is required: the bundled `libonnxruntime.dylib` (v1.20.1) officially supports opsets up to 21; skl2onnx's default is opset 22, which causes a load error at runtime.
 
 The ONNX model has:
 - **Input** `"input"`: float32 tensor of shape `[N, 2]` — `[emotion_id, scale_id]`
 - **Output** `"label"`: int64 tensor of shape `[N]` — argmax class prediction (unused at runtime)
-- **Output** `"probabilities"`: float32 tensor of shape `[N, 80]` — calibrated class probabilities
+- **Output** `"probabilities"`: float32 tensor of shape `[N, 108]` — calibrated class probabilities
 
 ### 4.5 Vocabulary Lookup Table
 
-In addition to the ONNX file, `train_model.py` exports `gen_data.tsv` — a tab-separated table with 650 rows:
+In addition to the ONNX file, `train_model.py` exports `gen_data.tsv` — a tab-separated table with 1,296 rows:
 
 ```
 emotion  scale  emotion_id  scale_id  prog_id  key  chord_name
-Joyful   Ionian  6          3         47       C    C-G-Am-F
+Joyful   Ionian  2          3         47       C    C-G-Am-F
 ...
 ```
 
@@ -214,11 +231,15 @@ The `<CsScore>` section is a static event scheduler — it defines timing and pa
 
 ### 5.4 Inference Procedure (`emoChord`)
 
-**Step 1 — Resolve emotion_id and sample scale**
+**Step 1 — Resolve emotion_id**
 
-Scan `DataEntry[]` for rows matching the emotion string (case-insensitive). Extract `emotion_id`. Collect all unique `scale_id` values for that emotion, weighted by their frequency of occurrence in the dataset. Apply temperature scaling and sample one `scale_id`.
+Scan `DataEntry[]` for rows matching the emotion string (case-insensitive) and obtain `emotion_id`.
 
-**Step 2 — ONNX Runtime inference**
+**Step 2 — Sample scale_id**
+
+Collect all unique `scale_id` values present for that emotion, weighted by their frequency of occurrence in the dataset. Apply temperature scaling and sample one `scale_id` by weighted inverse-CDF.
+
+**Step 3 — ONNX Runtime inference**
 
 Construct a float32 input tensor `[1, 2]` and call `OrtApi->Run()`:
 
@@ -231,32 +252,34 @@ float *probs;
 ort->GetTensorMutableData(out_tensor, (void**)&probs);
 ```
 
-`probs[0..79]` contains the Random Forest's calibrated probability distribution over all 80 chord progression classes. Because the RF's `predict_proba()` output is already normalised (sums to 1.0), no softmax is applied.
+`probs[0..107]` contains the Random Forest's calibrated probability distribution over all 108 chord progression classes. Because the RF's `predict_proba()` output is already normalised (sums to 1.0), no softmax is applied.
 
-**Step 3 — Temperature scaling**
+**Step 4 — Filter to observed progressions**
 
-Temperature is applied using the power law directly on the RF probabilities. For a probability vector `p` and temperature `T`:
+Mask `probs` to only the `prog_id` values present in `gen_data.tsv` for the sampled `(emotion_id, scale_id)` pair. This is guaranteed non-empty by construction: Step 2 draws only from `scale_id` values observed for the given emotion.
+
+**Step 5 — Temperature scaling**
+
+Temperature is applied using the power law on the filtered probabilities. For a probability vector `p` and temperature `T`:
 
 ```
 p'_i = p_i^(1/T)
 p'_i = p'_i / sum_j(p'_j)
 ```
 
-- `T → 0`: approaches argmax (always picks the highest-probability progression)
+- `T` near 0: near-deterministic — strongly favors highest-probability progression
 - `T = 1`: preserves the RF's trained distribution exactly
 - `T > 1`: flattens toward uniform, increasing harmonic variety
 
-**Step 4 — Filter and sample progression**
+**Step 6 — Sample progression**
 
-The probability vector is filtered to only the `prog_id` values present in `gen_data.tsv` for the sampled `(emotion_id, scale_id)` pair. Temperature-weighted inverse-CDF sampling selects one `prog_id`.
+Draw one `prog_id` from the temperature-adjusted distribution by weighted inverse-CDF.
 
-**Step 5 — Chord name lookup and display**
+**Step 7 — Chord name lookup and scheduling**
 
-All `DataEntry` rows matching `(emotion_id, scale_id, prog_id)` are collected — these are different key transpositions of the same progression. One is selected at random. The `chord_name` string (e.g. `Cm7-F7-Bbmaj7-Ebmaj7`) is printed to the Csound console so the user can see what was generated.
+All `DataEntry` rows matching `(emotion_id, scale_id, prog_id)` are collected — these are different key transpositions of the same progression. One is selected at random. The `chord_name` string (e.g. `Cm7-F7-Bbmaj7-Ebmaj7`) is printed to the Csound console.
 
-**Step 6 — MIDI note scheduling**
-
-The `chord_name` string is tokenised on `-` delimiters. Each token is parsed into a root pitch class and chord quality suffix, converted to MIDI note numbers, and submitted to Csound's event scheduler via `csound->insert_score_event()` as `EVTBLK` structs. The synthesis instrument specified by `iInstr` receives `p4 = MIDI note` and `p5 = amplitude` for each note in each chord.
+The `chord_name` is tokenised on `-` delimiters. Each token is parsed into a root pitch class and chord quality suffix, converted to MIDI note numbers, and submitted to Csound's event scheduler via `csound->insert_score_event()` as `EVTBLK` structs. The synthesis instrument specified by `iInstr` receives `p4 = MIDI note` and `p5 = amplitude` for each note in each chord.
 
 ---
 
@@ -277,7 +300,7 @@ The `chord_name` string is tokenised on `-` delimiters. Each token is parsed int
 │                                         │                   │
 │                          RandomForestClassifier             │
 │                          retrained on full dataset          │
-│                          (1,262 rows → 80 classes)         │
+│                          (2,196 rows → 108 classes)        │
 │                                         │                   │
 │                          skl2onnx.convert_sklearn()        │
 │                                         │                   │
@@ -290,20 +313,20 @@ The `chord_name` string is tokenised on `-` delimiters. Each token is parsed int
 ┌─────────────────────────────────────────────────────────────┐
 │  RUNTIME (C / ONNX Runtime, inside Csound)                  │
 │                                                             │
-│  emoChord_init ──► OrtCreateSession(gen_model.onnx)            │
+│  emoChord_init ──► OrtCreateSession(gen_model.onnx)        │
 │               load gen_data.tsv → DataEntry[]              │
 │                                                             │
-│  i1 0 4 "joyful"  ──► instr 1 ──► emoChord "joyful", 2, ...│
+│  i1 0 4 "joyful"  ──► instr 1 ──► emoChord "joyful", 2, ..│
 │                                         │                   │
 │                   resolve emotion_id from DataEntry[]      │
-│                   sample scale_id (data frequency)         │
+│                   sample scale_id (frequency-weighted)     │
 │                                         │                   │
 │                   OrtRun(input=[emotion_id, scale_id])     │
 │                        │                                    │
-│                   probs[80]  (RF calibrated, sums to 1)    │
+│                   probs[108]  (RF calibrated, sums to 1)   │
 │                        │                                    │
-│                   temperature scaling (power law)          │
 │                   filter to observed prog_ids              │
+│                   temperature scaling (power law)          │
 │                   weighted sample → prog_id                │
 │                        │                                    │
 │                   lookup chord_name → print to user        │
@@ -314,7 +337,7 @@ The `chord_name` string is tokenised on `-` delimiters. Each token is parsed int
 └─────────────────────────────────────────────────────────────┘
 ```
 
-The ONNX file is the single source of truth for the model. The C plugin contains no weight values, no probability tables, and no model-specific arithmetic beyond temperature scaling — it is a generic execution harness around ONNX Runtime that would work unchanged with any replacement model exported to the same ONNX input/output signature (`"input"` [N,2] → `"probabilities"` [N,80]).
+The ONNX file is the single source of truth for the model. The C plugin contains no weight values, no probability tables, and no model-specific arithmetic beyond temperature scaling — it is a generic execution harness around ONNX Runtime that would work unchanged with any replacement model exported to the same ONNX input/output signature (`"input"` [N,2] → `"probabilities"` [N,108]).
 
 ---
 
@@ -341,21 +364,20 @@ pip install scikit-learn optuna skl2onnx onnxruntime numpy pandas
 
 ```
 AHM-Dataset/
-├── jazz_harmony_ml_dataset.csv   # 816-row jazz dataset
-├── pop_harmony_dataset.csv       # 446-row pop dataset
-├── train_model.py                # training + export script
-├── Model/
-│   └── Encoder.ipynb             # original notebook (reference)
+├── jazz_harmony_ml_dataset.csv    # 1,200-row jazz dataset
+├── pop_harmony_dataset.csv        # 996-row pop dataset
+├── emotion_tags.csv               # master annotation reference
+├── train_model.py                 # training + export script
 └── Csound/
     └── opcode/
-        ├── gen.c                 # C plugin source
+        ├── gen.c                  # C plugin source
         ├── Makefile
-        ├── onnxruntime_c_api.h   # ONNX Runtime C header (v1.20.1)
-        ├── libonnxruntime.dylib  # ONNX Runtime universal binary (v1.20.1)
-        ├── gen_model.onnx        # generated by train_model.py
-        ├── gen_data.tsv          # generated by train_model.py
-        ├── libgen.dylib          # compiled by make
-        └── gen_demo.csd          # demo score
+        ├── onnxruntime_c_api.h    # ONNX Runtime C header (v1.20.1)
+        ├── libonnxruntime.dylib   # ONNX Runtime universal binary (v1.20.1)
+        ├── gen_model.onnx         # generated by train_model.py
+        ├── gen_data.tsv           # generated by train_model.py
+        ├── libgen.dylib           # compiled by make
+        └── gen_demo.csd           # demo score
 ```
 
 ### 7.3 Step 1 — Train the model and export ONNX
@@ -367,26 +389,24 @@ python train_model.py
 
 What `train_model.py` does:
 
-1. **Loads** `jazz_harmony_ml_dataset.csv` and `pop_harmony_dataset.csv`, concatenates them into 1,262 rows.
-2. **Encodes** `Emotion` (13 classes), `Scale` (7 classes), and `Chord_Progression` (80 classes) as integer IDs using `sklearn.LabelEncoder`.
+1. **Loads** `jazz_harmony_ml_dataset.csv` and `pop_harmony_dataset.csv`, concatenates them into 2,196 rows.
+2. **Encodes** `Emotion` (6 classes), `Scale` (7 classes), and `Chord_Progression` (108 classes) as integer IDs using `sklearn.LabelEncoder`.
 3. **Tunes hyperparameters** with Optuna (50 trials, 5-fold stratified CV) jointly optimising accuracy on both progression and voicing classifiers.
 4. **Evaluates** the best configuration on an 80/20 held-out split and prints test accuracy.
-5. **Retrains** `clf_prog` on the full 1,262-row dataset so all 80 progression classes appear in the ONNX model output.
+5. **Retrains** `clf_prog` on the full 2,196-row dataset so all 108 progression classes appear in the ONNX model output.
 6. **Exports** via `skl2onnx.convert_sklearn(clf_prog, ..., target_opset=18, options={...: {"zipmap": False}})` to `Csound/opcode/gen_model.onnx`.
 7. **Writes** a deduplicated vocabulary table to `Csound/opcode/gen_data.tsv`.
-
-The `target_opset=18` parameter is required: the bundled `libonnxruntime.dylib` (v1.20.1) officially supports opsets up to 21; skl2onnx's default is opset 22, which causes a load error at runtime.
 
 Expected output:
 
 ```
-Jazz: 816 | Pop: 446 | Combined: 1262
+Jazz: 1200 | Pop: 996 | Combined: 2196
 Running Optuna (50 trials)...
 Best CV accuracy: 0.xxxx
-Test accuracy  progression=0.xxx  voicing=0.xxx
-Final model classes: progression=80  voicing=4
+Test accuracy  progression=0.248  voicing=0.xxx
+Final model classes: progression=108  voicing=4
 ONNX     → .../Csound/opcode/gen_model.onnx
-Data     → .../Csound/opcode/gen_data.tsv  (650 rows)
+Data     → .../Csound/opcode/gen_data.tsv  (1296 rows)
 ```
 
 ### 7.4 Step 2 — Build the Csound plugin
@@ -424,8 +444,6 @@ Do **not** point `OPCODE6DIR64` in CsoundQt Preferences to the `opcode/` directo
 
 ### 7.6 Step 4 — Write a Csound score
 
-The plugin exposes two opcodes. A minimal `.csd` looks like this:
-
 ```csound
 <CsoundSynthesizer>
 <CsOptions>
@@ -455,24 +473,19 @@ endin
 
 ; Emotion-driven instrument — p4=emotion string
 instr 1
-  Sem strget p4         ; read emotion string from score p-field
-  emoChord Sem, 2, p2, p3, 0.7   ; infer + schedule chords into instr 2
+  Sem strget p4
+  emoChord Sem, 2, p2, p3, 0.7
 endin
 
 </CsInstruments>
 <CsScore>
-; instrument  start  duration  emotion
 i1   0   4   "joyful"
 i1   6   4   "depressive"
-i1  12   4   "fantasy"
+i1  12   4   "uneasiness"
 e
 </CsScore>
 </CsoundSynthesizer>
 ```
-
-**Why the emotion string goes through the score, not the opcode directly:**
-
-`<CsScore>` is a static event scheduler — it is parsed before Csound starts running instruments. Only timing data and p-fields can be written there; opcode calls cannot execute in score context. The pattern `i1 0 4 "joyful"` passes the string as `p4` to instrument 1, which then calls `emoChord` at i-time. This is the standard Csound idiom for parameterised instruments.
 
 ### 7.7 What happens at runtime
 
@@ -481,9 +494,10 @@ When `i1 0 4 "joyful"` fires:
 1. **`strget p4`** retrieves `"joyful"` from the p-field.
 2. **`emoChord`** scans `gen_data.tsv` for rows where `emotion == "joyful"`, obtains `emotion_id`, and collects the associated `scale_id` distribution.
 3. A **scale is sampled** (weighted by training data frequency, temperature-scaled).
-4. **ONNX Runtime** runs the Random Forest on input `[emotion_id, scale_id]`, returning `probs[80]` — the model's probability distribution over all 80 chord progressions.
-5. **Temperature scaling** (power law `p'_i = p_i^(1/T)`) is applied to the RF probabilities. Because RF's `predict_proba()` output is already normalised, no softmax is applied.
-6. **A `prog_id` is sampled** from the temperature-adjusted distribution, filtered to progressions observed for the `(emotion, scale)` pair.
-7. A **chord name** (e.g. `Cm7-F7-Bbmaj7-Ebmaj7`) is selected and printed to the Csound console.
-8. The chord name is **tokenised on `-`**, each token parsed into a root pitch class and quality suffix, converted to MIDI note numbers, and submitted via `csound->insert_score_event()`.
-9. **Instrument 2** receives each note as a separate event with `p4=MIDI` and `p5=amplitude`.
+4. **ONNX Runtime** runs the Random Forest on input `[emotion_id, scale_id]`, returning `probs[108]` — the model's probability distribution over all 108 chord progressions.
+5. The probability vector is **filtered** to `prog_id` values observed for the sampled `(emotion, scale)` pair.
+6. **Temperature scaling** (`p'_i = p_i^(1/T)`) is applied to the filtered probabilities. Because RF's `predict_proba()` output is already normalised, no softmax is applied.
+7. **A `prog_id` is sampled** from the temperature-adjusted distribution by weighted inverse-CDF.
+8. A **chord name** (e.g. `C-G-Am-F`) is selected from the matching key transpositions and printed to the Csound console.
+9. The chord name is **tokenised on `-`**, each token parsed into a root pitch class and quality suffix, converted to MIDI note numbers, and submitted via `csound->insert_score_event()`.
+10. **Instrument 2** receives each note as a separate event with `p4=MIDI` and `p5=amplitude`.
