@@ -2,13 +2,7 @@
 
 A dataset, training pipeline, and native Csound opcode for emotion-driven chord progression generation using machine learning.
 
----
-
-## What this is
-
-**emoChord** is a Csound plugin opcode that takes an emotion string at i-rate, runs a Random Forest classifier via the ONNX Runtime C API inside the Csound process, and schedules harmonically appropriate chord events into any synthesis instrument — no Python, no external process at runtime.
-
-The model is trained on a curated dataset of jazz and pop chord progressions annotated with emotion, scale/mode, and key.
+**emoChord** is a Csound plugin opcode that takes an emotion string at i-rate, runs a Random Forest classifier via the ONNX Runtime C API inside the Csound process, and schedules chord events into any synthesis instrument — no Python, no external process at runtime.
 
 ---
 
@@ -20,9 +14,8 @@ The model is trained on a curated dataset of jazz and pop chord progressions ann
 | Pop | 83 | 996 | 12 keys |
 | **Combined** | **108** | **2,196** | — |
 
-**6 emotion classes:** Joyful, Vital, Epic, Uneasiness, Depressive, Despair
-
-**7 scale/mode categories:** Ionian, Aeolian, Dorian, Phrygian, Lydian, Mixolydian, Harmonic minor
+- **6 emotion classes:** Joyful, Vital, Epic, Uneasiness, Depressive, Despair
+- **7 scale/mode categories:** Ionian, Aeolian, Dorian, Phrygian, Lydian, Mixolydian, Harmonic minor
 
 Dataset files:
 - `jazz_harmony_ml_dataset.csv` — jazz progressions with 4 voicing styles per key
@@ -46,22 +39,25 @@ Outputs to `Csound/opcode/`:
 
 ## Csound opcode
 
-See [`Csound/opcode/README.md`](Csound/opcode/README.md) for full build and usage instructions.
+See [`Csound/opcode/README.md`](Csound/opcode/README.md) for build instructions and full opcode reference.
+
+Minimal usage:
 
 ```csound
+<CsInstruments>
 emoChord_init "/path/to/gen_model.onnx", "/path/to/gen_data.tsv"
 
-instr 1
+instr 1  ; p4 = emotion string
   Sem strget p4
   emoChord Sem, 2, p2, p3, 0.7
 endin
-```
-
-```csound
-; score
-i1  0   4  "joyful"
-i1  6   4  "depressive"
-i1  12  4  "uneasiness"
+</CsInstruments>
+<CsScore>
+i1   0   4  "joyful"
+i1   6   4  "depressive"
+i1  12   4  "uneasiness"
+e
+</CsScore>
 ```
 
 ---

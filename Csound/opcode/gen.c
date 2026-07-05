@@ -32,7 +32,8 @@
  *   iDur       — duration per chord in seconds
  *   iAmp       — amplitude 0–1
  *   iTemp      — sampling temperature (optional, default 1.0)
- *                  0 = deterministic (argmax), 1 = model distribution, >1 = random
+ *                  0 = near-deterministic; strongly favors highest-probability progression
+ *                  1 = model distribution, >1 = more harmonic variety
  *   iOctave    — root octave (optional, default 4 → C4 = MIDI 60)
  *
  * Build:
