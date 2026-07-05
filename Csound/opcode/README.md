@@ -1,6 +1,6 @@
 # emoChord — Emotion-Driven Chord Generation for Csound
 
-A Csound plugin opcode that generates chord progressions from natural-language emotion descriptions using a machine-learning model at runtime. No Python required during performance.
+A Csound plugin opcode that generates chord progressions from emotion strings using a machine-learning model at runtime. No Python required during performance.
 
 | Opcode | Purpose |
 |---|---|
@@ -17,17 +17,20 @@ A Csound plugin opcode that generates chord progressions from natural-language e
         ▼
   instr 1: emoChord "joyful", 2, p2, p3, 0.7
         │
+        ├─► Resolve emotion_id → sample scale_id (frequency-weighted)
+        │
         ├─► ONNX Runtime (Random Forest model)
         │     input: [emotion_id, scale_id]
         │     output: probabilities[108 chord progressions]
         │
-        ├─► temperature sampling → chord name (e.g. "Cm7-F7-Bbmaj7-Ebmaj7")
+        ├─► filter to observed (emotion, scale) pairs
+        │   temperature sampling → prog_id → chord name (e.g. "Cm7-F7-Bbmaj7")
         │     printed to console
         │
         └─► insert_score_event → MIDI notes → instr 2 → audio out
 ```
 
-The model is a Random Forest trained on 2,196 annotated jazz and pop rows covering 108 unique chord progressions across 6 emotion classes and 7 scale/mode categories. It is exported to ONNX format and runs entirely in C via the ONNX Runtime C API.
+The model is a Random Forest trained on 2,196 annotated jazz and pop rows covering 108 unique chord progressions across 6 emotion classes and 7 scale/mode categories. It runs entirely in C via the ONNX Runtime C API.
 
 ---
 
@@ -53,7 +56,7 @@ python train_model.py
 
 This produces two files in `Csound/opcode/`:
 - `gen_model.onnx` — the trained Random Forest in ONNX format
-- `gen_data.tsv` — vocabulary and chord name lookup table
+- `gen_data.tsv` — vocabulary and chord name lookup table (1,296 rows)
 
 ### Step 2 — Build the plugin
 
@@ -72,9 +75,7 @@ sudo cp /path/to/AHM-Dataset/Csound/opcode/libgen.dylib \
   /Library/Frameworks/CsoundLib64.framework/Versions/6.0/Resources/Opcodes64/
 ```
 
-Or drag `libgen.dylib` there in Finder.
-
-Alternatively, load it per-file by adding to `<CsOptions>`:
+Or load it per-file by adding to `<CsOptions>`:
 
 ```
 --opcode-lib=/absolute/path/to/AHM-Dataset/Csound/opcode/libgen.dylib
