@@ -14,8 +14,8 @@ nchnls = 2
 gitab ftgen 0, 0, 4096, 10, 1
 
 ; Load ONNX model and lookup table once at startup.
-emoChord_init "/Users/zhaojinlan/Documents/GitHub/AHM-Dataset/Csound/opcode/gen_model.onnx", \
-              "/Users/zhaojinlan/Documents/GitHub/AHM-Dataset/Csound/opcode/gen_data.tsv"
+emoChord_init "/path/to/AHM-Dataset/Csound/opcode/gen_model.onnx", \
+              "/path/to/AHM-Dataset/Csound/opcode/gen_data.tsv"
 
 ; ── Synthesis instrument ──────────────────────────────────────────────────────
 ; p4 = MIDI note number, p5 = amplitude 0–1
