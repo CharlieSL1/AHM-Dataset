@@ -19,7 +19,7 @@ A Csound plugin opcode that generates chord progressions from natural-language e
         │
         ├─► ONNX Runtime (Random Forest model)
         │     input: [emotion_id, scale_id]
-        │     output: probabilities[80 chord progressions]
+        │     output: probabilities[88 chord progressions]
         │
         ├─► temperature sampling → chord name (e.g. "Cm7-F7-Bbmaj7-Ebmaj7")
         │     printed to console
@@ -27,7 +27,7 @@ A Csound plugin opcode that generates chord progressions from natural-language e
         └─► insert_score_event → MIDI notes → instr 2 → audio out
 ```
 
-The model is a Random Forest trained on 1,262 annotated jazz and pop chord progressions across 13 emotion categories and 7 scales. It is exported to ONNX format and runs entirely in C via the ONNX Runtime C API.
+The model is a Random Forest trained on 1,956 annotated jazz and pop chord progressions across 6 emotion classes and 7 scales. It is exported to ONNX format and runs entirely in C via the ONNX Runtime C API.
 
 ---
 
@@ -130,9 +130,7 @@ Run inference and schedule note events.
 **Supported emotions** (case-insensitive):
 
 ```
-Delicate   Depressive   Despair      Epic       Fantasy
-Gloomy     Joyful       Lonely       Love       Uneasiness
-Victorious Vital        soft
+Joyful   Vital   Epic   Uneasiness   Depressive   Despair
 ```
 
 **Supported chord qualities:**
@@ -190,7 +188,7 @@ endin
 <CsScore>
 i1   0   4   "joyful"
 i1   6   4   "depressive"
-i1  12   4   "fantasy"
+i1  12   4   "uneasiness"
 e
 </CsScore>
 </CsoundSynthesizer>
