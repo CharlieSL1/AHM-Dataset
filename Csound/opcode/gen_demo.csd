@@ -40,10 +40,10 @@ endin
 ; User writes: instrument  start  duration  "emotion"
 ; emoChord prints the chord progression name to the console and plays it.
 
-i1   0   4   "soft"
+i1   0   4   "joyful"
 i1   6   4   "depressive"
-i1  12   4   "fantasy"
-i1  18   4   "soft"
+i1  12   4   "epic"
+i1  18   4   "uneasiness"
 e
 </CsScore>
 </CsoundSynthesizer>
