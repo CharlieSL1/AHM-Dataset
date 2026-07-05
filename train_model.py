@@ -13,7 +13,7 @@ Usage:
     python train_model.py
 
 Outputs:
-    Csound/opcode/gen_model.onnx  — ONNX model (input: [1,2] float32 → probabilities: [1,80] float32)
+    Csound/opcode/gen_model.onnx  — ONNX model (input: [1,2] float32 → probabilities: [1,108] float32)
     Csound/opcode/gen_data.tsv    — emotion / scale / progression lookup table
 """
 
@@ -35,10 +35,10 @@ ROOT = Path(__file__).parent
 # ── Load and combine datasets ─────────────────────────────────────────────────
 jazz = pd.read_csv(ROOT / "jazz_harmony_ml_dataset.csv")
 pop  = pd.read_csv(ROOT / "pop_harmony_dataset.csv")
-data = pd.concat([
-    jazz[["Key", "Chord_Progression", "ChordName", "Emotion", "Scale"]],
-    pop[["Key",  "Chord_Progression", "ChordName", "Emotion", "Scale"]],
-], ignore_index=True)
+
+jazz_df = jazz[["Key", "Chord_Progression", "ChordName", "Emotion", "Scale"]].copy()
+pop_df  = pop[["Key",  "Chord_Progression", "ChordName", "Emotion", "Scale"]].copy()
+data = pd.concat([jazz_df, pop_df], ignore_index=True)
 
 print(f"Jazz: {len(jazz)} | Pop: {len(pop)} | Combined: {len(data)}")
 
@@ -49,23 +49,40 @@ le_prog    = LabelEncoder().fit(data["Chord_Progression"])
 le_voicing = LabelEncoder().fit(jazz["Voicing"])
 
 # ── Training arrays ───────────────────────────────────────────────────────────
-X_all     = np.column_stack([le_emotion.transform(data["Emotion"]),
-                              le_scale.transform(data["Scale"])]).astype(np.float32)
-y_prog    = le_prog.transform(data["Chord_Progression"])
+X_all = np.column_stack([
+    le_emotion.transform(data["Emotion"]),
+    le_scale.transform(data["Scale"]),
+]).astype(np.float32)
+y_prog = le_prog.transform(data["Chord_Progression"])
 
-X_jazz    = np.column_stack([le_emotion.transform(jazz["Emotion"]),
-                              le_scale.transform(jazz["Scale"])]).astype(np.float32)
+X_jazz = np.column_stack([
+    le_emotion.transform(jazz["Emotion"]),
+    le_scale.transform(jazz["Scale"]),
+]).astype(np.float32)
 y_voicing = le_voicing.transform(jazz["Voicing"])
 
+# For Optuna CV: filter progressions with <5 total samples to avoid StratifiedKFold
+# failures on rare progressions. Final model still trains on all data.
+MIN_CV = 5
+prog_counts = pd.Series(y_prog).value_counts()
+cv_mask = pd.Series(y_prog).isin(prog_counts[prog_counts >= MIN_CV].index).values
+data_cv   = data[cv_mask].reset_index(drop=True)
+X_cv_all  = X_all[cv_mask]
+y_cv_prog = le_prog.transform(data_cv["Chord_Progression"])
+
 X_tr_p, X_te_p, ytr_p, yte_p = train_test_split(
-    X_all,  y_prog,    test_size=0.2, random_state=42, stratify=data["Emotion"])
+    X_cv_all, y_cv_prog, test_size=0.2, random_state=42, stratify=data_cv["Emotion"])
 X_tr_v, X_te_v, ytr_v, yte_v = train_test_split(
-    X_jazz, y_voicing, test_size=0.2, random_state=42, stratify=jazz["Emotion"])
+    X_jazz, y_voicing,   test_size=0.2, random_state=42, stratify=jazz["Emotion"])
+
+n_filtered = (~cv_mask).sum()
+print(f"CV data: {cv_mask.sum()} rows ({data_cv['Chord_Progression'].nunique()} progressions, "
+      f"{n_filtered} rows from rare progressions excluded from tuning only)")
 
 N_TRIALS = 50
 CV = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
-# ── Optuna tuning (same objective as Encoder.ipynb) ───────────────────────────
+# ── Optuna tuning ─────────────────────────────────────────────────────────────
 def objective(trial):
     params = {
         "n_estimators":      trial.suggest_int("n_estimators", 50, 500, step=50),
@@ -90,7 +107,6 @@ print(f"Best CV accuracy: {study.best_value:.4f}")
 print(f"Best params: {best_params}")
 
 # ── Train final classifiers ───────────────────────────────────────────────────
-# Evaluate on held-out test split first
 clf_prog    = RandomForestClassifier(**best_params)
 clf_voicing = RandomForestClassifier(**best_params)
 clf_prog.fit(X_tr_p, ytr_p)
@@ -98,7 +114,7 @@ clf_voicing.fit(X_tr_v, ytr_v)
 print(f"\nTest accuracy  progression={accuracy_score(yte_p, clf_prog.predict(X_te_p)):.3f}"
       f"  voicing={accuracy_score(yte_v, clf_voicing.predict(X_te_v)):.3f}")
 
-# Retrain on full dataset for ONNX export — ensures all 80 classes are present
+# Retrain on full dataset for ONNX export — ensures all classes are present
 clf_prog    = RandomForestClassifier(**best_params)
 clf_voicing = RandomForestClassifier(**best_params)
 clf_prog.fit(X_all, y_prog)
@@ -107,9 +123,7 @@ print(f"Final model classes: progression={len(clf_prog.classes_)}  voicing={len(
 
 # ── Export clf_prog to ONNX ───────────────────────────────────────────────────
 # Input:  float32 tensor "input" of shape [N, 2]  (emotion_id, scale_id)
-# Output: float32 tensor "probabilities" of shape [N, 80]
-#
-# zipmap=False returns a plain float32 array instead of a list of dicts.
+# Output: float32 tensor "probabilities" of shape [N, 108]
 
 out_onnx = ROOT / "Csound" / "opcode" / "gen_model.onnx"
 

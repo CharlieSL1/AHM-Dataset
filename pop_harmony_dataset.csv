@@ -1,447 +1,997 @@
 Key,Chord_Progression,ChordName,Emotion,Scale
-C,I-V-vi-IV,C-G-Am-F,Joyful,Ionian
-C,I-V-vi-ii,C-G-Am-Dm,Joyful,Ionian
-C,IV-I-V-vi,F-C-G-Am,Joyful,Ionian
-C,I-IV-V-I,C-F-G-C,Joyful,Ionian
-C,vi-IV-I-V,Am-F-C-G,Joyful,Ionian
-C,I-vi-IV-V,C-Am-F-G,Joyful,Ionian
-C,I-ii-iii-IV,C-Dm-Em-F,Joyful,Ionian
-C minor,i-v-VII-v,Cm-Gm-Bb-Gm,Depressive,Aeolian
-C minor,i-VII-VI-VII,Cm-Bb-Ab-Bb,Depressive,Aeolian
-C minor,VI-VII-v,Ab-Bb-Gm,Depressive,Aeolian
-C minor,i-VII-VI-V,Cm-Bb-Ab-G,Depressive,Aeolian
-C minor,i-iv-VII-III,Cm-Fm-Bb-Eb,Depressive,Aeolian
-C# minor,i-iv-VI-VII,C#m-F#m-A-B,Despair,Aeolian
-C# minor,i-v-VII-VI,C#m-G#m-B-A,Despair,Aeolian
-C# minor,i-VII-VI-VII,C#m-B-A-B,Despair,Aeolian
-C# minor,VI-VII-i,A-B-C#m,Despair,Aeolian
-C# minor,i-VII-VI-V,C#m-B-A-G#,Despair,Harmonic minor
-Db,I-V-vi-IV,Db-Ab-Bbm-Gb,Depressive,Ionian
-Db,I-IV-V,Db-Gb-Ab,Depressive,Ionian
-Db,I-IVsus-bVII-Vsus,Db-Gbsus-Cb-Ebsus,Depressive,Mixolydian
-Db,ii-iii-vi,Ebm-Fm-Bbm,Depressive,Ionian
-Db,vi-IV-I-V,Bbm-Gb-Db-Ab,Depressive,Ionian
-D,I-V-vi-IV,D-A-Bm-G,Delicate,Ionian
-D,I-IV-vi-IV,D-G-Bm-G,Delicate,Ionian
-D,vi-IV-I-V,Bm-G-D-A,Delicate,Ionian
-D,I-V-IV-I,D-A-G-D,Delicate,Ionian
-D,I-IV-V,D-G-A,Delicate,Ionian
-D,I-vi-IV-V,D-Bm-G-A,Delicate,Ionian
-D,I-V-vi-iii,D-A-Bm-F#m,Delicate,Ionian
-D minor,i-VII-VI-VII,Dm-C-Bb-C,Lonely,Aeolian
-D minor,i-VI-III-VII,Dm-Bb-F-C,Lonely,Aeolian
-D minor,i-iv-VII-III,Dm-Gm-C-F,Lonely,Aeolian
-D minor,VI-VII-i,Bb-C-Dm,Lonely,Aeolian
-D minor,i-v-VII-VI,Dm-Am-C-Bb,Lonely,Aeolian
-Eb minor,i-IV7,Ebm-Ab7,Despair,Dorian
-Eb minor,i-VII-VI-VII,Ebm-Db-B-Db,Despair,Aeolian
-Eb minor,i-VII-III-VI,Ebm-Db-Gb-B,Despair,Aeolian
-Eb minor,VI-VII-i,B-Db-Ebm,Despair,Aeolian
-Eb minor,i-v-VII-VI,Ebm-Bbm-Db-B,Despair,Aeolian
-Eb,I-IV,Eb-Ab,Love,Ionian
-Eb,I-V-vi-IV,Eb-Bb-Cm-Ab,Love,Ionian
-Eb,I-IV-V,Eb-Ab-Bb,Love,Ionian
-Eb,vi-IV-I-V,Cm-Ab-Eb-Bb,Love,Ionian
-Eb,I-IV-vi-V,Eb-Ab-Cm-Bb,Love,Ionian
-E,vi-II-V-I,C#m-F#-B-E,Vital,Ionian
-E,IV-I-V-vi,A-E-B-C#m,Vital,Ionian
-E,I-V-vi-IV,E-B-C#m-A,Vital,Ionian
-E,I-IV-V,E-A-B,Vital,Ionian
-E,I-IV-vi-V,E-A-C#m-B,Vital,Ionian
-E minor,i-VI-III-VII,Em-C-G-D,Delicate,Aeolian
-E minor,i-VII-VI-VII,Em-D-C-D,Delicate,Aeolian
-E minor,VI-VII-i,C-D-Em,Delicate,Aeolian
-E minor,i-iv-VII-III,Em-Am-D-G,Delicate,Aeolian
-E minor,i-v-VII-VI,Em-Bm-D-C,Delicate,Aeolian
-F,vi-IV-I,Dm-Bb-F,soft,Ionian
-F,vi-IV-I-V,Dm-Bb-F-C,soft,Ionian
-F,I-IV-V,F-Bb-C,soft,Ionian
-F,I-V-vi-IV,F-C-Dm-Bb,soft,Ionian
-F,I-IV-vi-V,F-Bb-Dm-C,soft,Ionian
-F minor,i-III-VII-VI,Fm-Ab-Eb-Db,Despair,Aeolian
-F minor,i-VII-v-VI,Fm-Eb-Cm-Db,Despair,Aeolian
-F minor,i-VI-III-VII,Fm-Db-Ab-Eb,Despair,Aeolian
-F minor,VI-VII-i,Db-Eb-Fm,Despair,Aeolian
-F minor,i-VII-VI-VII,Fm-Eb-Db-Eb,Despair,Aeolian
-F#,I-V-vi-IV,F#-C#-D#m-B,Victorious,Ionian
-F#,I-IV-V,F#-B-C#,Victorious,Ionian
-F#,I-IV-vi-V,F#-B-D#m-C#,Victorious,Ionian
-F#,vi-IV-I-V,D#m-B-F#-C#,Victorious,Ionian
-F#,I-V-IV-I,F#-C#-B-F#,Victorious,Ionian
-F# minor,VI-VII-v,D-E-C#m,Gloomy,Aeolian
-F# minor,i-VI-VII,F#m-D-E,Gloomy,Aeolian
-F# minor,i-VII-VI-VII,F#m-E-D-E,Gloomy,Aeolian
-F# minor,VI-VII-i,D-E-F#m,Gloomy,Aeolian
-F# minor,i-iv-VII,F#m-Bm-E,Gloomy,Aeolian
-G,I-V-vi-IV,G-D-Em-C,Fantasy,Ionian
-G,I-IV-V,G-C-D,Fantasy,Ionian
-G,I-IV-vi-V,G-C-Em-D,Fantasy,Ionian
-G,vi-IV-I-V,Em-C-G-D,Fantasy,Ionian
-G,I-V-IV-I,G-D-C-G,Fantasy,Ionian
-G,I-vi-IV-V,G-Em-C-D,Fantasy,Ionian
-G minor,i-VII-VI-VII,Gm-F-Eb-F,Uneasiness,Aeolian
-G minor,i-VI-III-VII,Gm-Eb-Bb-F,Uneasiness,Aeolian
-G minor,i-iv-VII,Gm-Cm-F,Uneasiness,Aeolian
-G minor,VI-VII-i,Eb-F-Gm,Uneasiness,Aeolian
-G minor,i-v-VII-VI,Gm-Dm-F-Eb,Uneasiness,Aeolian
-Ab,V-I-vi-IV,Eb-Ab-Fm-Db,Epic,Ionian
-Ab,I-V-vi-IV,Ab-Eb-Fm-Db,Epic,Ionian
-Ab,I-IV-V,Ab-Db-Eb,Epic,Ionian
-Ab,I-IV-vi-V,Ab-Db-Fm-Eb,Epic,Ionian
-Ab,vi-IV-I-V,Fm-Db-Ab-Eb,Epic,Ionian
-Ab minor,i-VII-VI-VII,G#m-F#-E-F#,Depressive,Aeolian
-Ab minor,i-VI-III-VII,G#m-E-B-F#,Depressive,Aeolian
-Ab minor,VI-VII-i,E-F#-G#m,Depressive,Aeolian
-Ab minor,i-v-III-VII,G#m-D#m-B-F#,Depressive,Aeolian
-Ab minor,i-V-iv-i,G#m-D#-C#m-G#m,Depressive,Harmonic minor
-A,I-V-vi-IV,A-E-F#m-D,Joyful,Ionian
-A,I-IV-V,A-D-E,Joyful,Ionian
-A,I-IV-vi-V,A-D-F#m-E,Joyful,Ionian
-A,vi-IV-I-V,F#m-D-A-E,Joyful,Ionian
-A,I-V-IV-I,A-E-D-A,Joyful,Ionian
-A minor,i-VI-III-VII,Am-F-C-G,soft,Aeolian
-A minor,i-VII-VI-VII,Am-G-F-G,soft,Aeolian
-A minor,VI-VII-i,F-G-Am,soft,Aeolian
-A minor,i-iv-VII-III,Am-Dm-G-C,soft,Aeolian
-A minor,i-v-VII-VI,Am-Em-G-F,soft,Aeolian
-A minor,i-VII-VI-V,Am-G-F-E,soft,Harmonic minor
-Bb,vi-I-V-IV,Gm-Bb-F-Eb,Joyful,Ionian
-Bb,I-V-vi-IV,Bb-F-Gm-Eb,Joyful,Ionian
-Bb,I-IV-V,Bb-Eb-F,Joyful,Ionian
-Bb,I-IV-vi-V,Bb-Eb-Gm-F,Joyful,Ionian
-Bb,vi-IV-I-V,Gm-Eb-Bb-F,Joyful,Ionian
-Bb minor,i-VII-VI-VII,Bbm-Ab-Gb-Ab,Despair,Aeolian
-Bb minor,i-VI-III-VII,Bbm-Gb-Db-Ab,Despair,Aeolian
-Bb minor,VI-VII-i,Gb-Ab-Bbm,Despair,Aeolian
-Bb minor,i-iv-v,Bbm-Ebm-Fm,Despair,Aeolian
-Bb minor,i-iv-VII-III,Bbm-Ebm-Ab-Db,Despair,Aeolian
-B,I-IV-iii-VI,B-E-D#m-G#,Fantasy,Ionian
-B,ii-V-I,C#m-F#-B,Fantasy,Ionian
-B,I-iii-V-ii-IV,B-D#m-F#-C#m-E,Fantasy,Ionian
-B,I-V-vi-IV,B-F#-G#m-E,Fantasy,Ionian
-B,I-IV-V,B-E-F#,Fantasy,Ionian
-B,vi-IV-I-V,G#m-E-B-F#,Fantasy,Ionian
-B,I-V-IV-I,B-F#-E-B,Fantasy,Ionian
-B minor,i-VII-VI-VII,Bm-A-G-A,Lonely,Aeolian
-B minor,i-VI-III-VII,Bm-G-D-A,Lonely,Aeolian
-B minor,VI-VII-i,G-A-Bm,Lonely,Aeolian
-B minor,i-iv-VII,Bm-Em-A,Lonely,Aeolian
-B minor,i-v-VII-VI,Bm-F#m-A-G,Lonely,Aeolian
-C,I-IV-V-IV,C-F-G-F,Joyful,Ionian
-Db,I-IV-V-IV,Db-Gb-Ab-Gb,Depressive,Ionian
-D,I-IV-V-IV,D-G-A-G,Delicate,Ionian
-Eb,I-IV-V-IV,Eb-Ab-Bb-Ab,Love,Ionian
-E,I-IV-V-IV,E-A-B-A,Vital,Ionian
-F,I-IV-V-IV,F-Bb-C-Bb,soft,Ionian
-F#,I-IV-V-IV,F#-B-C#-B,Victorious,Ionian
-G,I-IV-V-IV,G-C-D-C,Fantasy,Ionian
-Ab,I-IV-V-IV,Ab-Db-Eb-Db,Epic,Ionian
-A,I-IV-V-IV,A-D-E-D,Joyful,Ionian
-Bb,I-IV-V-IV,Bb-Eb-F-Eb,Joyful,Ionian
-B,I-IV-V-IV,B-E-F#-E,Fantasy,Ionian
-C,I-bVII-IV,C-Bb-F,Joyful,Mixolydian
-Db,I-bVII-IV,Db-B-Gb,Depressive,Mixolydian
-D,I-bVII-IV,D-C-G,Delicate,Mixolydian
-Eb,I-bVII-IV,Eb-Db-Ab,Love,Mixolydian
-E,I-bVII-IV,E-D-A,Vital,Mixolydian
-F,I-bVII-IV,F-Eb-Bb,soft,Mixolydian
-F#,I-bVII-IV,F#-E-B,Victorious,Mixolydian
-G,I-bVII-IV,G-F-C,Fantasy,Mixolydian
-Ab,I-bVII-IV,Ab-Gb-Db,Epic,Mixolydian
-A,I-bVII-IV,A-G-D,Joyful,Mixolydian
-Bb,I-bVII-IV,Bb-Ab-Eb,Joyful,Mixolydian
-B,I-bVII-IV,B-A-E,Fantasy,Mixolydian
-C,I-IV-iii-vi,C-F-Em-Am,Joyful,Ionian
-Db,I-IV-iii-vi,Db-Gb-Fm-Bbm,Depressive,Ionian
-D,I-IV-iii-vi,D-G-F#m-Bm,Delicate,Ionian
-Eb,I-IV-iii-vi,Eb-Ab-Gm-Cm,Love,Ionian
-E,I-IV-iii-vi,E-A-G#m-C#m,Vital,Ionian
-F,I-IV-iii-vi,F-Bb-Am-Dm,soft,Ionian
-F#,I-IV-iii-vi,F#-B-A#m-D#m,Victorious,Ionian
-G,I-IV-iii-vi,G-C-Bm-Em,Fantasy,Ionian
-Ab,I-IV-iii-vi,Ab-Db-Cm-Fm,Epic,Ionian
-A,I-IV-iii-vi,A-D-C#m-F#m,Joyful,Ionian
-Bb,I-IV-iii-vi,Bb-Eb-Dm-Gm,Joyful,Ionian
-B,I-IV-iii-vi,B-E-D#m-G#m,Fantasy,Ionian
-C,I-III-IV-iv,C-E-F-Fm,Joyful,Ionian
-Db,I-III-IV-iv,Db-F-Gb-Gbm,Depressive,Ionian
-D,I-III-IV-iv,D-F#-G-Gm,Delicate,Ionian
-Eb,I-III-IV-iv,Eb-G-Ab-Abm,Love,Ionian
-E,I-III-IV-iv,E-G#-A-Am,Vital,Ionian
-F,I-III-IV-iv,F-A-Bb-Bbm,soft,Ionian
-F#,I-III-IV-iv,F#-A#-B-Bm,Victorious,Ionian
-G,I-III-IV-iv,G-B-C-Cm,Fantasy,Ionian
-Ab,I-III-IV-iv,Ab-C-Db-Dbm,Epic,Ionian
-A,I-III-IV-iv,A-C#-D-Dm,Joyful,Ionian
-Bb,I-III-IV-iv,Bb-D-Eb-Ebm,Joyful,Ionian
-B,I-III-IV-iv,B-D#-E-Em,Fantasy,Ionian
-Db,I-vi-IV-V,Db-Bbm-Gb-Ab,Depressive,Ionian
-Eb,I-vi-IV-V,Eb-Cm-Ab-Bb,Love,Ionian
-E,I-vi-IV-V,E-C#m-A-B,Vital,Ionian
-F,I-vi-IV-V,F-Dm-Bb-C,soft,Ionian
-F#,I-vi-IV-V,F#-D#m-B-C#,Victorious,Ionian
-Ab,I-vi-IV-V,Ab-Fm-Db-Eb,Epic,Ionian
-A,I-vi-IV-V,A-F#m-D-E,Joyful,Ionian
-Bb,I-vi-IV-V,Bb-Gm-Eb-F,Joyful,Ionian
-B,I-vi-IV-V,B-G#m-E-F#,Fantasy,Ionian
-C,I-v-bVII-IV,C-Gm-Bb-F,Joyful,Mixolydian
-Db,I-v-bVII-IV,Db-Abm-B-Gb,Depressive,Mixolydian
-D,I-v-bVII-IV,D-Am-C-G,Delicate,Mixolydian
-Eb,I-v-bVII-IV,Eb-Bbm-Db-Ab,Love,Mixolydian
-E,I-v-bVII-IV,E-Bm-D-A,Vital,Mixolydian
-F,I-v-bVII-IV,F-Cm-Eb-Bb,soft,Mixolydian
-F#,I-v-bVII-IV,F#-C#m-E-B,Victorious,Mixolydian
-G,I-v-bVII-IV,G-Dm-F-C,Fantasy,Mixolydian
-Ab,I-v-bVII-IV,Ab-Ebm-Gb-Db,Epic,Mixolydian
-A,I-v-bVII-IV,A-Em-G-D,Joyful,Mixolydian
-Bb,I-v-bVII-IV,Bb-Fm-Ab-Eb,Joyful,Mixolydian
-B,I-v-bVII-IV,B-F#m-A-E,Fantasy,Mixolydian
-C,ii-V-I,Dm-G-C,Joyful,Ionian
-Db,ii-V-I,Ebm-Ab-Db,Depressive,Ionian
-D,ii-V-I,Em-A-D,Delicate,Ionian
-Eb,ii-V-I,Fm-Bb-Eb,Love,Ionian
-E,ii-V-I,F#m-B-E,Vital,Ionian
-F,ii-V-I,Gm-C-F,soft,Ionian
-F#,ii-V-I,G#m-C#-F#,Victorious,Ionian
-G,ii-V-I,Am-D-G,Fantasy,Ionian
-Ab,ii-V-I,Bbm-Eb-Ab,Epic,Ionian
-A,ii-V-I,Bm-E-A,Joyful,Ionian
-Bb,ii-V-I,Cm-F-Bb,Joyful,Ionian
-C,I-IV-I-V,C-F-C-G,Joyful,Ionian
-Db,I-IV-I-V,Db-Gb-Db-Ab,Depressive,Ionian
-D,I-IV-I-V,D-G-D-A,Delicate,Ionian
-Eb,I-IV-I-V,Eb-Ab-Eb-Bb,Love,Ionian
-E,I-IV-I-V,E-A-E-B,Vital,Ionian
-F,I-IV-I-V,F-Bb-F-C,soft,Ionian
-F#,I-IV-I-V,F#-B-F#-C#,Victorious,Ionian
-G,I-IV-I-V,G-C-G-D,Fantasy,Ionian
-Ab,I-IV-I-V,Ab-Db-Ab-Eb,Epic,Ionian
-A,I-IV-I-V,A-D-A-E,Joyful,Ionian
-Bb,I-IV-I-V,Bb-Eb-Bb-F,Joyful,Ionian
-B,I-IV-I-V,B-E-B-F#,Fantasy,Ionian
-C,IV-V-I,F-G-C,Joyful,Ionian
-Db,IV-V-I,Gb-Ab-Db,Depressive,Ionian
-D,IV-V-I,G-A-D,Delicate,Ionian
-Eb,IV-V-I,Ab-Bb-Eb,Love,Ionian
-E,IV-V-I,A-B-E,Vital,Ionian
-F,IV-V-I,Bb-C-F,soft,Ionian
-F#,IV-V-I,B-C#-F#,Victorious,Ionian
-G,IV-V-I,C-D-G,Fantasy,Ionian
-Ab,IV-V-I,Db-Eb-Ab,Epic,Ionian
-A,IV-V-I,D-E-A,Joyful,Ionian
-Bb,IV-V-I,Eb-F-Bb,Joyful,Ionian
-B,IV-V-I,E-F#-B,Fantasy,Ionian
-C,I-bVII-bVI-bVII,C-Bb-Ab-Bb,Joyful,Aeolian
-Db,I-bVII-bVI-bVII,Db-B-A-B,Depressive,Aeolian
-D,I-bVII-bVI-bVII,D-C-Bb-C,Delicate,Aeolian
-Eb,I-bVII-bVI-bVII,Eb-Db-B-Db,Love,Aeolian
-E,I-bVII-bVI-bVII,E-D-C-D,Vital,Aeolian
-F,I-bVII-bVI-bVII,F-Eb-Db-Eb,soft,Aeolian
-F#,I-bVII-bVI-bVII,F#-E-D-E,Victorious,Aeolian
-G,I-bVII-bVI-bVII,G-F-Eb-F,Fantasy,Aeolian
-Ab,I-bVII-bVI-bVII,Ab-Gb-E-Gb,Epic,Aeolian
-A,I-bVII-bVI-bVII,A-G-F-G,Joyful,Aeolian
-Bb,I-bVII-bVI-bVII,Bb-Ab-Gb-Ab,Joyful,Aeolian
-B,I-bVII-bVI-bVII,B-A-G-A,Fantasy,Aeolian
-C,I-V-iii-IV,C-G-Em-F,Joyful,Ionian
-Db,I-V-iii-IV,Db-Ab-Fm-Gb,Depressive,Ionian
-D,I-V-iii-IV,D-A-F#m-G,Delicate,Ionian
-Eb,I-V-iii-IV,Eb-Bb-Gm-Ab,Love,Ionian
-E,I-V-iii-IV,E-B-G#m-A,Vital,Ionian
-F,I-V-iii-IV,F-C-Am-Bb,soft,Ionian
-F#,I-V-iii-IV,F#-C#-A#m-B,Victorious,Ionian
-G,I-V-iii-IV,G-D-Bm-C,Fantasy,Ionian
-Ab,I-V-iii-IV,Ab-Eb-Cm-Db,Epic,Ionian
-A,I-V-iii-IV,A-E-C#m-D,Joyful,Ionian
-Bb,I-V-iii-IV,Bb-F-Dm-Eb,Joyful,Ionian
-B,I-V-iii-IV,B-F#-D#m-E,Fantasy,Ionian
-C,IV-I,F-C,Joyful,Ionian
-Db,IV-I,Gb-Db,Depressive,Ionian
-D,IV-I,G-D,Delicate,Ionian
-Eb,IV-I,Ab-Eb,Love,Ionian
-E,IV-I,A-E,Vital,Ionian
-F,IV-I,Bb-F,soft,Ionian
-F#,IV-I,B-F#,Victorious,Ionian
-G,IV-I,C-G,Fantasy,Ionian
-Ab,IV-I,Db-Ab,Epic,Ionian
-A,IV-I,D-A,Joyful,Ionian
-Bb,IV-I,Eb-Bb,Joyful,Ionian
-B,IV-I,E-B,Fantasy,Ionian
-C,IV-iii-vi-II,F-Em-Am-D,Joyful,Ionian
-Db,IV-iii-vi-II,Gb-Fm-Bbm-Eb,Depressive,Ionian
-D,IV-iii-vi-II,G-F#m-Bm-E,Delicate,Ionian
-Eb,IV-iii-vi-II,Ab-Gm-Cm-F,Love,Ionian
-E,IV-iii-vi-II,A-G#m-C#m-F#,Vital,Ionian
-F,IV-iii-vi-II,Bb-Am-Dm-G,soft,Ionian
-F#,IV-iii-vi-II,B-A#m-D#m-G#,Victorious,Ionian
-G,IV-iii-vi-II,C-Bm-Em-A,Fantasy,Ionian
-Ab,IV-iii-vi-II,Db-Cm-Fm-Bb,Epic,Ionian
-A,IV-iii-vi-II,D-C#m-F#m-B,Joyful,Ionian
-Bb,IV-iii-vi-II,Eb-Dm-Gm-C,Joyful,Ionian
-B,IV-iii-vi-II,E-D#m-G#m-C#,Fantasy,Ionian
-C,iv-bVII-I,Fm-Bb-C,Joyful,Ionian
-Db,iv-bVII-I,Gbm-B-Db,Depressive,Ionian
-D,iv-bVII-I,Gm-C-D,Delicate,Ionian
-Eb,iv-bVII-I,Abm-Db-Eb,Love,Ionian
-E,iv-bVII-I,Am-D-E,Vital,Ionian
-F,iv-bVII-I,Bbm-Eb-F,soft,Ionian
-F#,iv-bVII-I,Bm-E-F#,Victorious,Ionian
-G,iv-bVII-I,Cm-F-G,Fantasy,Ionian
-Ab,iv-bVII-I,Dbm-Gb-Ab,Epic,Ionian
-A,iv-bVII-I,Dm-G-A,Joyful,Ionian
-Bb,iv-bVII-I,Ebm-Ab-Bb,Joyful,Ionian
-B,iv-bVII-I,Em-A-B,Fantasy,Ionian
-C,I-II-V-I,C-D-G-C,Joyful,Lydian
-Db,I-II-V-I,Db-Eb-Ab-Db,Depressive,Lydian
-D,I-II-V-I,D-E-A-D,Delicate,Lydian
-Eb,I-II-V-I,Eb-F-Bb-Eb,Love,Lydian
-E,I-II-V-I,E-F#-B-E,Vital,Lydian
-F,I-II-V-I,F-G-C-F,soft,Lydian
-F#,I-II-V-I,F#-G#-C#-F#,Victorious,Lydian
-G,I-II-V-I,G-A-D-G,Fantasy,Lydian
-Ab,I-II-V-I,Ab-Bb-Eb-Ab,Epic,Lydian
+A,I-II-I,A-B-A,Joyful,Lydian
+Ab,I-II-I,Ab-Bb-Ab,Joyful,Lydian
+B,I-II-I,B-C#-B,Joyful,Lydian
+Bb,I-II-I,Bb-C-Bb,Joyful,Lydian
+C,I-II-I,C-D-C,Joyful,Lydian
+D,I-II-I,D-E-D,Joyful,Lydian
+Db,I-II-I,Db-Eb-Db,Joyful,Lydian
+E,I-II-I,E-F#-E,Joyful,Lydian
+Eb,I-II-I,Eb-F-Eb,Joyful,Lydian
+F,I-II-I,F-G-F,Joyful,Lydian
+F#,I-II-I,F#-G#-F#,Joyful,Lydian
+G,I-II-I,G-A-G,Joyful,Lydian
 A,I-II-V-I,A-B-E-A,Joyful,Lydian
+Ab,I-II-V-I,Ab-Bb-Eb-Ab,Joyful,Lydian
+B,I-II-V-I,B-C#-F#-B,Joyful,Lydian
 Bb,I-II-V-I,Bb-C-F-Bb,Joyful,Lydian
-B,I-II-V-I,B-C#-F#-B,Fantasy,Lydian
-C,I-IV-V-vi,C-F-G-Am,Joyful,Ionian
-Db,I-IV-V-vi,Db-Gb-Ab-Bbm,Depressive,Ionian
-D,I-IV-V-vi,D-G-A-Bm,Delicate,Ionian
-Eb,I-IV-V-vi,Eb-Ab-Bb-Cm,Love,Ionian
+C,I-II-V-I,C-D-G-C,Joyful,Lydian
+D,I-II-V-I,D-E-A-D,Joyful,Lydian
+Db,I-II-V-I,Db-Eb-Ab-Db,Joyful,Lydian
+E,I-II-V-I,E-F#-B-E,Joyful,Lydian
+Eb,I-II-V-I,Eb-F-Bb-Eb,Joyful,Lydian
+F,I-II-V-I,F-G-C-F,Joyful,Lydian
+F#,I-II-V-I,F#-G#-C#-F#,Joyful,Lydian
+G,I-II-V-I,G-A-D-G,Joyful,Lydian
+A,I-II-vi-V,A-B-F#m-E,Vital,Lydian
+Ab,I-II-vi-V,Ab-Bb-Fm-Eb,Vital,Lydian
+B,I-II-vi-V,B-C#-G#m-F#,Vital,Lydian
+Bb,I-II-vi-V,Bb-C-Gm-F,Vital,Lydian
+C,I-II-vi-V,C-D-Am-G,Vital,Lydian
+D,I-II-vi-V,D-E-Bm-A,Vital,Lydian
+Db,I-II-vi-V,Db-Eb-Bbm-Ab,Vital,Lydian
+E,I-II-vi-V,E-F#-C#m-B,Vital,Lydian
+Eb,I-II-vi-V,Eb-F-Cm-Bb,Vital,Lydian
+F,I-II-vi-V,F-G-Dm-C,Vital,Lydian
+F#,I-II-vi-V,F#-G#-D#m-C#,Vital,Lydian
+G,I-II-vi-V,G-A-Em-D,Vital,Lydian
+A,I-III-IV-iv,A-C#-D-Dm,Uneasiness,Ionian
+Ab,I-III-IV-iv,Ab-C-Db-Dbm,Uneasiness,Ionian
+B,I-III-IV-iv,B-D#-E-Em,Uneasiness,Ionian
+Bb,I-III-IV-iv,Bb-D-Eb-Ebm,Uneasiness,Ionian
+C,I-III-IV-iv,C-E-F-Fm,Uneasiness,Ionian
+D,I-III-IV-iv,D-F#-G-Gm,Uneasiness,Ionian
+Db,I-III-IV-iv,Db-F-Gb-Gbm,Uneasiness,Ionian
+E,I-III-IV-iv,E-G#-A-Am,Uneasiness,Ionian
+Eb,I-III-IV-iv,Eb-G-Ab-Abm,Uneasiness,Ionian
+F,I-III-IV-iv,F-A-Bb-Bbm,Uneasiness,Ionian
+F#,I-III-IV-iv,F#-A#-B-Bm,Uneasiness,Ionian
+G,I-III-IV-iv,G-B-C-Cm,Uneasiness,Ionian
+A,I-IV,A-D,Joyful,Ionian
+Ab,I-IV,Ab-Db,Joyful,Ionian
+B,I-IV,B-E,Joyful,Ionian
+Bb,I-IV,Bb-Eb,Joyful,Ionian
+C,I-IV,C-F,Joyful,Ionian
+D,I-IV,D-G,Joyful,Ionian
+Db,I-IV,Db-Gb,Joyful,Ionian
+E,I-IV,E-A,Joyful,Ionian
+Eb,I-IV,Eb-Ab,Joyful,Ionian
+F,I-IV,F-Bb,Joyful,Ionian
+F#,I-IV,F#-B,Joyful,Ionian
+G,I-IV,G-C,Joyful,Ionian
+A,I-IV-I-V,A-D-A-E,Joyful,Ionian
+Ab,I-IV-I-V,Ab-Db-Ab-Eb,Joyful,Ionian
+B,I-IV-I-V,B-E-B-F#,Joyful,Ionian
+Bb,I-IV-I-V,Bb-Eb-Bb-F,Joyful,Ionian
+C,I-IV-I-V,C-F-C-G,Joyful,Ionian
+D,I-IV-I-V,D-G-D-A,Joyful,Ionian
+Db,I-IV-I-V,Db-Gb-Db-Ab,Joyful,Ionian
+E,I-IV-I-V,E-A-E-B,Joyful,Ionian
+Eb,I-IV-I-V,Eb-Ab-Eb-Bb,Joyful,Ionian
+F,I-IV-I-V,F-Bb-F-C,Joyful,Ionian
+F#,I-IV-I-V,F#-B-F#-C#,Joyful,Ionian
+G,I-IV-I-V,G-C-G-D,Joyful,Ionian
+A,I-IV-V,A-D-E,Vital,Ionian
+Ab,I-IV-V,Ab-Db-Eb,Vital,Ionian
+B,I-IV-V,B-E-F#,Vital,Ionian
+Bb,I-IV-V,Bb-Eb-F,Vital,Ionian
+C,I-IV-V,C-F-G,Vital,Ionian
+D,I-IV-V,D-G-A,Vital,Ionian
+Db,I-IV-V,Db-Gb-Ab,Vital,Ionian
+E,I-IV-V,E-A-B,Vital,Ionian
+Eb,I-IV-V,Eb-Ab-Bb,Vital,Ionian
+F,I-IV-V,F-Bb-C,Vital,Ionian
+F#,I-IV-V,F#-B-C#,Vital,Ionian
+G,I-IV-V,G-C-D,Vital,Ionian
+A,I-IV-V-I,A-D-E-A,Joyful,Ionian
+Ab,I-IV-V-I,Ab-Db-Eb-Ab,Joyful,Ionian
+B,I-IV-V-I,B-E-F#-B,Joyful,Ionian
+Bb,I-IV-V-I,Bb-Eb-F-Bb,Joyful,Ionian
+C,I-IV-V-I,C-F-G-C,Joyful,Ionian
+D,I-IV-V-I,D-G-A-D,Joyful,Ionian
+Db,I-IV-V-I,Db-Gb-Ab-Db,Joyful,Ionian
+E,I-IV-V-I,E-A-B-E,Joyful,Ionian
+Eb,I-IV-V-I,Eb-Ab-Bb-Eb,Joyful,Ionian
+F,I-IV-V-I,F-Bb-C-F,Joyful,Ionian
+F#,I-IV-V-I,F#-B-C#-F#,Joyful,Ionian
+G,I-IV-V-I,G-C-D-G,Joyful,Ionian
+A,I-IV-V-IV,A-D-E-D,Vital,Ionian
+Ab,I-IV-V-IV,Ab-Db-Eb-Db,Vital,Ionian
+B,I-IV-V-IV,B-E-F#-E,Vital,Ionian
+Bb,I-IV-V-IV,Bb-Eb-F-Eb,Vital,Ionian
+C,I-IV-V-IV,C-F-G-F,Vital,Ionian
+D,I-IV-V-IV,D-G-A-G,Vital,Ionian
+Db,I-IV-V-IV,Db-Gb-Ab-Gb,Vital,Ionian
+E,I-IV-V-IV,E-A-B-A,Vital,Ionian
+Eb,I-IV-V-IV,Eb-Ab-Bb-Ab,Vital,Ionian
+F,I-IV-V-IV,F-Bb-C-Bb,Vital,Ionian
+F#,I-IV-V-IV,F#-B-C#-B,Vital,Ionian
+G,I-IV-V-IV,G-C-D-C,Vital,Ionian
+A,I-IV-V-vi,A-D-E-F#m,Vital,Ionian
+Ab,I-IV-V-vi,Ab-Db-Eb-Fm,Vital,Ionian
+B,I-IV-V-vi,B-E-F#-G#m,Vital,Ionian
+Bb,I-IV-V-vi,Bb-Eb-F-Gm,Vital,Ionian
+C,I-IV-V-vi,C-F-G-Am,Vital,Ionian
+D,I-IV-V-vi,D-G-A-Bm,Vital,Ionian
+Db,I-IV-V-vi,Db-Gb-Ab-Bbm,Vital,Ionian
 E,I-IV-V-vi,E-A-B-C#m,Vital,Ionian
-F,I-IV-V-vi,F-Bb-C-Dm,soft,Ionian
-F#,I-IV-V-vi,F#-B-C#-D#m,Victorious,Ionian
-G,I-IV-V-vi,G-C-D-Em,Fantasy,Ionian
-Ab,I-IV-V-vi,Ab-Db-Eb-Fm,Epic,Ionian
-A,I-IV-V-vi,A-D-E-F#m,Joyful,Ionian
-Bb,I-IV-V-vi,Bb-Eb-F-Gm,Joyful,Ionian
-B,I-IV-V-vi,B-E-F#-G#m,Fantasy,Ionian
-C,I-IV-ii-V,C-F-Dm-G,Joyful,Ionian
-Db,I-IV-ii-V,Db-Gb-Ebm-Ab,Depressive,Ionian
-D,I-IV-ii-V,D-G-Em-A,Delicate,Ionian
-Eb,I-IV-ii-V,Eb-Ab-Fm-Bb,Love,Ionian
-E,I-IV-ii-V,E-A-F#m-B,Vital,Ionian
-F,I-IV-ii-V,F-Bb-Gm-C,soft,Ionian
-F#,I-IV-ii-V,F#-B-G#m-C#,Victorious,Ionian
-G,I-IV-ii-V,G-C-Am-D,Fantasy,Ionian
-Ab,I-IV-ii-V,Ab-Db-Bbm-Eb,Epic,Ionian
+Eb,I-IV-V-vi,Eb-Ab-Bb-Cm,Vital,Ionian
+F,I-IV-V-vi,F-Bb-C-Dm,Vital,Ionian
+F#,I-IV-V-vi,F#-B-C#-D#m,Vital,Ionian
+G,I-IV-V-vi,G-C-D-Em,Vital,Ionian
+A,I-IV-bVII-I,A-D-G-A,Vital,Mixolydian
+Ab,I-IV-bVII-I,Ab-Db-Gb-Ab,Vital,Mixolydian
+B,I-IV-bVII-I,B-E-A-B,Vital,Mixolydian
+Bb,I-IV-bVII-I,Bb-Eb-Ab-Bb,Vital,Mixolydian
+C,I-IV-bVII-I,C-F-Bb-C,Vital,Mixolydian
+D,I-IV-bVII-I,D-G-C-D,Vital,Mixolydian
+Db,I-IV-bVII-I,Db-Gb-B-Db,Vital,Mixolydian
+E,I-IV-bVII-I,E-A-D-E,Vital,Mixolydian
+Eb,I-IV-bVII-I,Eb-Ab-Db-Eb,Vital,Mixolydian
+F,I-IV-bVII-I,F-Bb-Eb-F,Vital,Mixolydian
+F#,I-IV-bVII-I,F#-B-E-F#,Vital,Mixolydian
+G,I-IV-bVII-I,G-C-F-G,Vital,Mixolydian
 A,I-IV-ii-V,A-D-Bm-E,Joyful,Ionian
+Ab,I-IV-ii-V,Ab-Db-Bbm-Eb,Joyful,Ionian
+B,I-IV-ii-V,B-E-C#m-F#,Joyful,Ionian
 Bb,I-IV-ii-V,Bb-Eb-Cm-F,Joyful,Ionian
-B,I-IV-ii-V,B-E-C#m-F#,Fantasy,Ionian
-C minor,i-iv-v,Cm-Fm-Gm,Depressive,Aeolian
-C# minor,i-iv-v,C#m-F#m-G#m,Despair,Aeolian
-D minor,i-iv-v,Dm-Gm-Am,Lonely,Aeolian
-Eb minor,i-iv-v,Ebm-Abm-Bbm,Despair,Aeolian
-E minor,i-iv-v,Em-Am-Bm,Delicate,Aeolian
-F minor,i-iv-v,Fm-Bbm-Cm,Despair,Aeolian
-F# minor,i-iv-v,F#m-Bm-C#m,Gloomy,Aeolian
-G minor,i-iv-v,Gm-Cm-Dm,Uneasiness,Aeolian
-Ab minor,i-iv-v,G#m-C#m-D#m,Depressive,Aeolian
-A minor,i-iv-v,Am-Dm-Em,soft,Aeolian
-B minor,i-iv-v,Bm-Em-F#m,Lonely,Aeolian
-C minor,i-VII-III-VII,Cm-Bb-Eb-Bb,Depressive,Aeolian
-C# minor,i-VII-III-VII,C#m-B-E-B,Despair,Aeolian
-D minor,i-VII-III-VII,Dm-C-F-C,Lonely,Aeolian
-Eb minor,i-VII-III-VII,Ebm-Db-Gb-Db,Despair,Aeolian
-E minor,i-VII-III-VII,Em-D-G-D,Delicate,Aeolian
-F minor,i-VII-III-VII,Fm-Eb-Ab-Eb,Despair,Aeolian
-F# minor,i-VII-III-VII,F#m-E-A-E,Gloomy,Aeolian
-G minor,i-VII-III-VII,Gm-F-Bb-F,Uneasiness,Aeolian
-Ab minor,i-VII-III-VII,G#m-F#-B-F#,Depressive,Aeolian
-A minor,i-VII-III-VII,Am-G-C-G,soft,Aeolian
-Bb minor,i-VII-III-VII,Bbm-Ab-Db-Ab,Despair,Aeolian
-B minor,i-VII-III-VII,Bm-A-D-A,Lonely,Aeolian
-C minor,i-III-IV,Cm-Eb-F,Depressive,Dorian
-C# minor,i-III-IV,C#m-E-F#,Despair,Dorian
-D minor,i-III-IV,Dm-F-G,Lonely,Dorian
-Eb minor,i-III-IV,Ebm-Gb-Ab,Despair,Dorian
-E minor,i-III-IV,Em-G-A,Delicate,Dorian
-F minor,i-III-IV,Fm-Ab-Bb,Despair,Dorian
-F# minor,i-III-IV,F#m-A-B,Gloomy,Dorian
-G minor,i-III-IV,Gm-Bb-C,Uneasiness,Dorian
-Ab minor,i-III-IV,G#m-B-C#,Depressive,Dorian
-A minor,i-III-IV,Am-C-D,soft,Dorian
-Bb minor,i-III-IV,Bbm-Db-Eb,Despair,Dorian
-B minor,i-III-IV,Bm-D-E,Lonely,Dorian
-C minor,VI-III-VII-i,Ab-Eb-Bb-Cm,Depressive,Aeolian
-C# minor,VI-III-VII-i,A-E-B-C#m,Despair,Aeolian
-D minor,VI-III-VII-i,Bb-F-C-Dm,Lonely,Aeolian
-Eb minor,VI-III-VII-i,B-Gb-Db-Ebm,Despair,Aeolian
-E minor,VI-III-VII-i,C-G-D-Em,Delicate,Aeolian
-F minor,VI-III-VII-i,Db-Ab-Eb-Fm,Despair,Aeolian
-F# minor,VI-III-VII-i,D-A-E-F#m,Gloomy,Aeolian
-G minor,VI-III-VII-i,Eb-Bb-F-Gm,Uneasiness,Aeolian
+C,I-IV-ii-V,C-F-Dm-G,Joyful,Ionian
+D,I-IV-ii-V,D-G-Em-A,Joyful,Ionian
+Db,I-IV-ii-V,Db-Gb-Ebm-Ab,Joyful,Ionian
+E,I-IV-ii-V,E-A-F#m-B,Joyful,Ionian
+Eb,I-IV-ii-V,Eb-Ab-Fm-Bb,Joyful,Ionian
+F,I-IV-ii-V,F-Bb-Gm-C,Joyful,Ionian
+F#,I-IV-ii-V,F#-B-G#m-C#,Joyful,Ionian
+G,I-IV-ii-V,G-C-Am-D,Joyful,Ionian
+A,I-IV-iii-VI,A-D-C#m-F#,Uneasiness,Ionian
+Ab,I-IV-iii-VI,Ab-Db-Cm-F,Uneasiness,Ionian
+B,I-IV-iii-VI,B-E-D#m-G#,Uneasiness,Ionian
+Bb,I-IV-iii-VI,Bb-Eb-Dm-G,Uneasiness,Ionian
+C,I-IV-iii-VI,C-F-Em-A,Uneasiness,Ionian
+D,I-IV-iii-VI,D-G-F#m-B,Uneasiness,Ionian
+Db,I-IV-iii-VI,Db-Gb-Fm-Bb,Uneasiness,Ionian
+E,I-IV-iii-VI,E-A-G#m-C#,Uneasiness,Ionian
+Eb,I-IV-iii-VI,Eb-Ab-Gm-C,Uneasiness,Ionian
+F,I-IV-iii-VI,F-Bb-Am-D,Uneasiness,Ionian
+F#,I-IV-iii-VI,F#-B-A#m-D#,Uneasiness,Ionian
+G,I-IV-iii-VI,G-C-Bm-E,Uneasiness,Ionian
+A,I-IV-iii-vi,A-D-C#m-F#m,Joyful,Ionian
+Ab,I-IV-iii-vi,Ab-Db-Cm-Fm,Joyful,Ionian
+B,I-IV-iii-vi,B-E-D#m-G#m,Joyful,Ionian
+Bb,I-IV-iii-vi,Bb-Eb-Dm-Gm,Joyful,Ionian
+C,I-IV-iii-vi,C-F-Em-Am,Joyful,Ionian
+D,I-IV-iii-vi,D-G-F#m-Bm,Joyful,Ionian
+Db,I-IV-iii-vi,Db-Gb-Fm-Bbm,Joyful,Ionian
+E,I-IV-iii-vi,E-A-G#m-C#m,Joyful,Ionian
+Eb,I-IV-iii-vi,Eb-Ab-Gm-Cm,Joyful,Ionian
+F,I-IV-iii-vi,F-Bb-Am-Dm,Joyful,Ionian
+F#,I-IV-iii-vi,F#-B-A#m-D#m,Joyful,Ionian
+G,I-IV-iii-vi,G-C-Bm-Em,Joyful,Ionian
+A,I-IV-vi-IV,A-D-F#m-D,Joyful,Ionian
+Ab,I-IV-vi-IV,Ab-Db-Fm-Db,Joyful,Ionian
+B,I-IV-vi-IV,B-E-G#m-E,Joyful,Ionian
+Bb,I-IV-vi-IV,Bb-Eb-Gm-Eb,Joyful,Ionian
+C,I-IV-vi-IV,C-F-Am-F,Joyful,Ionian
+D,I-IV-vi-IV,D-G-Bm-G,Joyful,Ionian
+Db,I-IV-vi-IV,Db-Gb-Bbm-Gb,Joyful,Ionian
+E,I-IV-vi-IV,E-A-C#m-A,Joyful,Ionian
+Eb,I-IV-vi-IV,Eb-Ab-Cm-Ab,Joyful,Ionian
+F,I-IV-vi-IV,F-Bb-Dm-Bb,Joyful,Ionian
+F#,I-IV-vi-IV,F#-B-D#m-B,Joyful,Ionian
+G,I-IV-vi-IV,G-C-Em-C,Joyful,Ionian
+A,I-IV-vi-V,A-D-F#m-E,Joyful,Ionian
+Ab,I-IV-vi-V,Ab-Db-Fm-Eb,Joyful,Ionian
+B,I-IV-vi-V,B-E-G#m-F#,Joyful,Ionian
+Bb,I-IV-vi-V,Bb-Eb-Gm-F,Joyful,Ionian
+C,I-IV-vi-V,C-F-Am-G,Joyful,Ionian
+D,I-IV-vi-V,D-G-Bm-A,Joyful,Ionian
+Db,I-IV-vi-V,Db-Gb-Bbm-Ab,Joyful,Ionian
+E,I-IV-vi-V,E-A-C#m-B,Joyful,Ionian
+Eb,I-IV-vi-V,Eb-Ab-Cm-Bb,Joyful,Ionian
+F,I-IV-vi-V,F-Bb-Dm-C,Joyful,Ionian
+F#,I-IV-vi-V,F#-B-D#m-C#,Joyful,Ionian
+G,I-IV-vi-V,G-C-Em-D,Joyful,Ionian
+A,I-IVsus-bVII-Vsus,A-Dsus-G-Bsus,Depressive,Mixolydian
+Ab,I-IVsus-bVII-Vsus,Ab-Dbsus-Gb-Bbsus,Depressive,Mixolydian
+B,I-IVsus-bVII-Vsus,B-Esus-A-C#sus,Depressive,Mixolydian
+Bb,I-IVsus-bVII-Vsus,Bb-Ebsus-Ab-Csus,Depressive,Mixolydian
+C,I-IVsus-bVII-Vsus,C-Fsus-Bb-Dsus,Depressive,Mixolydian
+D,I-IVsus-bVII-Vsus,D-Gsus-C-Esus,Depressive,Mixolydian
+Db,I-IVsus-bVII-Vsus,Db-Gbsus-Cb-Ebsus,Depressive,Mixolydian
+E,I-IVsus-bVII-Vsus,E-Asus-D-F#sus,Depressive,Mixolydian
+Eb,I-IVsus-bVII-Vsus,Eb-Absus-Db-Fsus,Depressive,Mixolydian
+F,I-IVsus-bVII-Vsus,F-Bbsus-Eb-Gsus,Depressive,Mixolydian
+F#,I-IVsus-bVII-Vsus,F#-Bsus-E-G#sus,Depressive,Mixolydian
+G,I-IVsus-bVII-Vsus,G-Csus-F-Asus,Depressive,Mixolydian
+A,I-V-II-I,A-E-B-A,Joyful,Lydian
+Ab,I-V-II-I,Ab-Eb-Bb-Ab,Joyful,Lydian
+B,I-V-II-I,B-F#-C#-B,Joyful,Lydian
+Bb,I-V-II-I,Bb-F-C-Bb,Joyful,Lydian
+C,I-V-II-I,C-G-D-C,Joyful,Lydian
+D,I-V-II-I,D-A-E-D,Joyful,Lydian
+Db,I-V-II-I,Db-Ab-Eb-Db,Joyful,Lydian
+E,I-V-II-I,E-B-F#-E,Joyful,Lydian
+Eb,I-V-II-I,Eb-Bb-F-Eb,Joyful,Lydian
+F,I-V-II-I,F-C-G-F,Joyful,Lydian
+F#,I-V-II-I,F#-C#-G#-F#,Joyful,Lydian
+G,I-V-II-I,G-D-A-G,Joyful,Lydian
+A,I-V-IV-I,A-E-D-A,Epic,Ionian
+Ab,I-V-IV-I,Ab-Eb-Db-Ab,Epic,Ionian
+B,I-V-IV-I,B-F#-E-B,Epic,Ionian
+Bb,I-V-IV-I,Bb-F-Eb-Bb,Epic,Ionian
+C,I-V-IV-I,C-G-F-C,Epic,Ionian
+D,I-V-IV-I,D-A-G-D,Epic,Ionian
+Db,I-V-IV-I,Db-Ab-Gb-Db,Epic,Ionian
+E,I-V-IV-I,E-B-A-E,Epic,Ionian
+Eb,I-V-IV-I,Eb-Bb-Ab-Eb,Epic,Ionian
+F,I-V-IV-I,F-C-Bb-F,Epic,Ionian
+F#,I-V-IV-I,F#-C#-B-F#,Epic,Ionian
+G,I-V-IV-I,G-D-C-G,Epic,Ionian
+A,I-V-IV-V,A-E-D-E,Vital,Ionian
+Ab,I-V-IV-V,Ab-Eb-Db-Eb,Vital,Ionian
+B,I-V-IV-V,B-F#-E-F#,Vital,Ionian
+Bb,I-V-IV-V,Bb-F-Eb-F,Vital,Ionian
+C,I-V-IV-V,C-G-F-G,Vital,Ionian
+D,I-V-IV-V,D-A-G-A,Vital,Ionian
+Db,I-V-IV-V,Db-Ab-Gb-Ab,Vital,Ionian
+E,I-V-IV-V,E-B-A-B,Vital,Ionian
+Eb,I-V-IV-V,Eb-Bb-Ab-Bb,Vital,Ionian
+F,I-V-IV-V,F-C-Bb-C,Vital,Ionian
+F#,I-V-IV-V,F#-C#-B-C#,Vital,Ionian
+G,I-V-IV-V,G-D-C-D,Vital,Ionian
+A,I-V-iii-IV,A-E-C#m-D,Joyful,Ionian
+Ab,I-V-iii-IV,Ab-Eb-Cm-Db,Joyful,Ionian
+B,I-V-iii-IV,B-F#-D#m-E,Joyful,Ionian
+Bb,I-V-iii-IV,Bb-F-Dm-Eb,Joyful,Ionian
+C,I-V-iii-IV,C-G-Em-F,Joyful,Ionian
+D,I-V-iii-IV,D-A-F#m-G,Joyful,Ionian
+Db,I-V-iii-IV,Db-Ab-Fm-Gb,Joyful,Ionian
+E,I-V-iii-IV,E-B-G#m-A,Joyful,Ionian
+Eb,I-V-iii-IV,Eb-Bb-Gm-Ab,Joyful,Ionian
+F,I-V-iii-IV,F-C-Am-Bb,Joyful,Ionian
+F#,I-V-iii-IV,F#-C#-A#m-B,Joyful,Ionian
+G,I-V-iii-IV,G-D-Bm-C,Joyful,Ionian
+A,I-V-vi-IV,A-E-F#m-D,Joyful,Ionian
+Ab,I-V-vi-IV,Ab-Eb-Fm-Db,Joyful,Ionian
+B,I-V-vi-IV,B-F#-G#m-E,Joyful,Ionian
+Bb,I-V-vi-IV,Bb-F-Gm-Eb,Joyful,Ionian
+C,I-V-vi-IV,C-G-Am-F,Joyful,Ionian
+D,I-V-vi-IV,D-A-Bm-G,Joyful,Ionian
+Db,I-V-vi-IV,Db-Ab-Bbm-Gb,Joyful,Ionian
+E,I-V-vi-IV,E-B-C#m-A,Joyful,Ionian
+Eb,I-V-vi-IV,Eb-Bb-Cm-Ab,Joyful,Ionian
+F,I-V-vi-IV,F-C-Dm-Bb,Joyful,Ionian
+F#,I-V-vi-IV,F#-C#-D#m-B,Joyful,Ionian
+G,I-V-vi-IV,G-D-Em-C,Joyful,Ionian
+A,I-V-vi-ii,A-E-F#m-Bm,Joyful,Ionian
+Ab,I-V-vi-ii,Ab-Eb-Fm-Bbm,Joyful,Ionian
+B,I-V-vi-ii,B-F#-G#m-C#m,Joyful,Ionian
+Bb,I-V-vi-ii,Bb-F-Gm-Cm,Joyful,Ionian
+C,I-V-vi-ii,C-G-Am-Dm,Joyful,Ionian
+D,I-V-vi-ii,D-A-Bm-Em,Joyful,Ionian
+Db,I-V-vi-ii,Db-Ab-Bbm-Ebm,Joyful,Ionian
+E,I-V-vi-ii,E-B-C#m-F#m,Joyful,Ionian
+Eb,I-V-vi-ii,Eb-Bb-Cm-Fm,Joyful,Ionian
+F,I-V-vi-ii,F-C-Dm-Gm,Joyful,Ionian
+F#,I-V-vi-ii,F#-C#-D#m-G#m,Joyful,Ionian
+G,I-V-vi-ii,G-D-Em-Am,Joyful,Ionian
+A,I-V-vi-iii,A-E-F#m-C#m,Joyful,Ionian
+Ab,I-V-vi-iii,Ab-Eb-Fm-Cm,Joyful,Ionian
+B,I-V-vi-iii,B-F#-G#m-D#m,Joyful,Ionian
+Bb,I-V-vi-iii,Bb-F-Gm-Dm,Joyful,Ionian
+C,I-V-vi-iii,C-G-Am-Em,Joyful,Ionian
+D,I-V-vi-iii,D-A-Bm-F#m,Joyful,Ionian
+Db,I-V-vi-iii,Db-Ab-Bbm-Fm,Joyful,Ionian
+E,I-V-vi-iii,E-B-C#m-G#m,Joyful,Ionian
+Eb,I-V-vi-iii,Eb-Bb-Cm-Gm,Joyful,Ionian
+F,I-V-vi-iii,F-C-Dm-Am,Joyful,Ionian
+F#,I-V-vi-iii,F#-C#-D#m-A#m,Joyful,Ionian
+G,I-V-vi-iii,G-D-Em-Bm,Joyful,Ionian
+A,I-bVI-bVII-I,A-F-G-A,Epic,Ionian
+Ab,I-bVI-bVII-I,Ab-E-Gb-Ab,Epic,Ionian
+B,I-bVI-bVII-I,B-G-A-B,Epic,Ionian
+Bb,I-bVI-bVII-I,Bb-Gb-Ab-Bb,Epic,Ionian
+C,I-bVI-bVII-I,C-Ab-Bb-C,Epic,Ionian
+D,I-bVI-bVII-I,D-Bb-C-D,Epic,Ionian
+Db,I-bVI-bVII-I,Db-A-B-Db,Epic,Ionian
+E,I-bVI-bVII-I,E-C-D-E,Epic,Ionian
+Eb,I-bVI-bVII-I,Eb-B-Db-Eb,Epic,Ionian
+F,I-bVI-bVII-I,F-Db-Eb-F,Epic,Ionian
+F#,I-bVI-bVII-I,F#-D-E-F#,Epic,Ionian
+G,I-bVI-bVII-I,G-Eb-F-G,Epic,Ionian
+A,I-bVII-I,A-G-A,Vital,Mixolydian
+Ab,I-bVII-I,Ab-Gb-Ab,Vital,Mixolydian
+B,I-bVII-I,B-A-B,Vital,Mixolydian
+Bb,I-bVII-I,Bb-Ab-Bb,Vital,Mixolydian
+C,I-bVII-I,C-Bb-C,Vital,Mixolydian
+D,I-bVII-I,D-C-D,Vital,Mixolydian
+Db,I-bVII-I,Db-B-Db,Vital,Mixolydian
+E,I-bVII-I,E-D-E,Vital,Mixolydian
+Eb,I-bVII-I,Eb-Db-Eb,Vital,Mixolydian
+F,I-bVII-I,F-Eb-F,Vital,Mixolydian
+F#,I-bVII-I,F#-E-F#,Vital,Mixolydian
+G,I-bVII-I,G-F-G,Vital,Mixolydian
+A,I-bVII-IV,A-G-D,Epic,Mixolydian
+Ab,I-bVII-IV,Ab-Gb-Db,Epic,Mixolydian
+B,I-bVII-IV,B-A-E,Epic,Mixolydian
+Bb,I-bVII-IV,Bb-Ab-Eb,Epic,Mixolydian
+C,I-bVII-IV,C-Bb-F,Epic,Mixolydian
+D,I-bVII-IV,D-C-G,Epic,Mixolydian
+Db,I-bVII-IV,Db-B-Gb,Epic,Mixolydian
+E,I-bVII-IV,E-D-A,Epic,Mixolydian
+Eb,I-bVII-IV,Eb-Db-Ab,Epic,Mixolydian
+F,I-bVII-IV,F-Eb-Bb,Epic,Mixolydian
+F#,I-bVII-IV,F#-E-B,Epic,Mixolydian
+G,I-bVII-IV,G-F-C,Epic,Mixolydian
+A,I-bVII-bVI-bVII,A-G-F-G,Depressive,Aeolian
+Ab,I-bVII-bVI-bVII,Ab-Gb-E-Gb,Depressive,Aeolian
+B,I-bVII-bVI-bVII,B-A-G-A,Depressive,Aeolian
+Bb,I-bVII-bVI-bVII,Bb-Ab-Gb-Ab,Depressive,Aeolian
+C,I-bVII-bVI-bVII,C-Bb-Ab-Bb,Depressive,Aeolian
+D,I-bVII-bVI-bVII,D-C-Bb-C,Depressive,Aeolian
+Db,I-bVII-bVI-bVII,Db-B-A-B,Depressive,Aeolian
+E,I-bVII-bVI-bVII,E-D-C-D,Depressive,Aeolian
+Eb,I-bVII-bVI-bVII,Eb-Db-B-Db,Depressive,Aeolian
+F,I-bVII-bVI-bVII,F-Eb-Db-Eb,Depressive,Aeolian
+F#,I-bVII-bVI-bVII,F#-E-D-E,Depressive,Aeolian
+G,I-bVII-bVI-bVII,G-F-Eb-F,Depressive,Aeolian
+A,I-ii-iii-IV,A-Bm-C#m-D,Joyful,Ionian
+Ab,I-ii-iii-IV,Ab-Bbm-Cm-Db,Joyful,Ionian
+B,I-ii-iii-IV,B-C#m-D#m-E,Joyful,Ionian
+Bb,I-ii-iii-IV,Bb-Cm-Dm-Eb,Joyful,Ionian
+C,I-ii-iii-IV,C-Dm-Em-F,Joyful,Ionian
+D,I-ii-iii-IV,D-Em-F#m-G,Joyful,Ionian
+Db,I-ii-iii-IV,Db-Ebm-Fm-Gb,Joyful,Ionian
+E,I-ii-iii-IV,E-F#m-G#m-A,Joyful,Ionian
+Eb,I-ii-iii-IV,Eb-Fm-Gm-Ab,Joyful,Ionian
+F,I-ii-iii-IV,F-Gm-Am-Bb,Joyful,Ionian
+F#,I-ii-iii-IV,F#-G#m-A#m-B,Joyful,Ionian
+G,I-ii-iii-IV,G-Am-Bm-C,Joyful,Ionian
+A,I-iii-IV-V,A-C#m-D-E,Vital,Ionian
+Ab,I-iii-IV-V,Ab-Cm-Db-Eb,Vital,Ionian
+B,I-iii-IV-V,B-D#m-E-F#,Vital,Ionian
+Bb,I-iii-IV-V,Bb-Dm-Eb-F,Vital,Ionian
+C,I-iii-IV-V,C-Em-F-G,Vital,Ionian
+D,I-iii-IV-V,D-F#m-G-A,Vital,Ionian
+Db,I-iii-IV-V,Db-Fm-Gb-Ab,Vital,Ionian
+E,I-iii-IV-V,E-G#m-A-B,Vital,Ionian
+Eb,I-iii-IV-V,Eb-Gm-Ab-Bb,Vital,Ionian
+F,I-iii-IV-V,F-Am-Bb-C,Vital,Ionian
+F#,I-iii-IV-V,F#-A#m-B-C#,Vital,Ionian
+G,I-iii-IV-V,G-Bm-C-D,Vital,Ionian
+A,I-iii-V-ii-IV,A-C#m-E-Bm-D,Uneasiness,Ionian
+Ab,I-iii-V-ii-IV,Ab-Cm-Eb-Bbm-Db,Uneasiness,Ionian
+B,I-iii-V-ii-IV,B-D#m-F#-C#m-E,Uneasiness,Ionian
+Bb,I-iii-V-ii-IV,Bb-Dm-F-Cm-Eb,Uneasiness,Ionian
+C,I-iii-V-ii-IV,C-Em-G-Dm-F,Uneasiness,Ionian
+D,I-iii-V-ii-IV,D-F#m-A-Em-G,Uneasiness,Ionian
+Db,I-iii-V-ii-IV,Db-Fm-Ab-Ebm-Gb,Uneasiness,Ionian
+E,I-iii-V-ii-IV,E-G#m-B-F#m-A,Uneasiness,Ionian
+Eb,I-iii-V-ii-IV,Eb-Gm-Bb-Fm-Ab,Uneasiness,Ionian
+F,I-iii-V-ii-IV,F-Am-C-Gm-Bb,Uneasiness,Ionian
+F#,I-iii-V-ii-IV,F#-A#m-C#-G#m-B,Uneasiness,Ionian
+G,I-iii-V-ii-IV,G-Bm-D-Am-C,Uneasiness,Ionian
+A,I-iii-vi-IV,A-C#m-F#m-D,Vital,Ionian
+Ab,I-iii-vi-IV,Ab-Cm-Fm-Db,Vital,Ionian
+B,I-iii-vi-IV,B-D#m-G#m-E,Vital,Ionian
+Bb,I-iii-vi-IV,Bb-Dm-Gm-Eb,Vital,Ionian
+C,I-iii-vi-IV,C-Em-Am-F,Vital,Ionian
+D,I-iii-vi-IV,D-F#m-Bm-G,Vital,Ionian
+Db,I-iii-vi-IV,Db-Fm-Bbm-Gb,Vital,Ionian
+E,I-iii-vi-IV,E-G#m-C#m-A,Vital,Ionian
+Eb,I-iii-vi-IV,Eb-Gm-Cm-Ab,Vital,Ionian
+F,I-iii-vi-IV,F-Am-Dm-Bb,Vital,Ionian
+F#,I-iii-vi-IV,F#-A#m-D#m-B,Vital,Ionian
+G,I-iii-vi-IV,G-Bm-Em-C,Vital,Ionian
+A,I-v-bVII-IV,A-Em-G-D,Depressive,Mixolydian
+Ab,I-v-bVII-IV,Ab-Ebm-Gb-Db,Depressive,Mixolydian
+B,I-v-bVII-IV,B-F#m-A-E,Depressive,Mixolydian
+Bb,I-v-bVII-IV,Bb-Fm-Ab-Eb,Depressive,Mixolydian
+C,I-v-bVII-IV,C-Gm-Bb-F,Depressive,Mixolydian
+D,I-v-bVII-IV,D-Am-C-G,Depressive,Mixolydian
+Db,I-v-bVII-IV,Db-Abm-B-Gb,Depressive,Mixolydian
+E,I-v-bVII-IV,E-Bm-D-A,Depressive,Mixolydian
+Eb,I-v-bVII-IV,Eb-Bbm-Db-Ab,Depressive,Mixolydian
+F,I-v-bVII-IV,F-Cm-Eb-Bb,Depressive,Mixolydian
+F#,I-v-bVII-IV,F#-C#m-E-B,Depressive,Mixolydian
+G,I-v-bVII-IV,G-Dm-F-C,Depressive,Mixolydian
+A,I-vi-IV-V,A-F#m-D-E,Joyful,Ionian
+Ab,I-vi-IV-V,Ab-Fm-Db-Eb,Joyful,Ionian
+B,I-vi-IV-V,B-G#m-E-F#,Joyful,Ionian
+Bb,I-vi-IV-V,Bb-Gm-Eb-F,Joyful,Ionian
+C,I-vi-IV-V,C-Am-F-G,Joyful,Ionian
+D,I-vi-IV-V,D-Bm-G-A,Joyful,Ionian
+Db,I-vi-IV-V,Db-Bbm-Gb-Ab,Joyful,Ionian
+E,I-vi-IV-V,E-C#m-A-B,Joyful,Ionian
+Eb,I-vi-IV-V,Eb-Cm-Ab-Bb,Joyful,Ionian
+F,I-vi-IV-V,F-Dm-Bb-C,Joyful,Ionian
+F#,I-vi-IV-V,F#-D#m-B-C#,Joyful,Ionian
+G,I-vi-IV-V,G-Em-C-D,Joyful,Ionian
+A,IV-I,D-A,Joyful,Ionian
+Ab,IV-I,Db-Ab,Joyful,Ionian
+B,IV-I,E-B,Joyful,Ionian
+Bb,IV-I,Eb-Bb,Joyful,Ionian
+C,IV-I,F-C,Joyful,Ionian
+D,IV-I,G-D,Joyful,Ionian
+Db,IV-I,Gb-Db,Joyful,Ionian
+E,IV-I,A-E,Joyful,Ionian
+Eb,IV-I,Ab-Eb,Joyful,Ionian
+F,IV-I,Bb-F,Joyful,Ionian
+F#,IV-I,B-F#,Joyful,Ionian
+G,IV-I,C-G,Joyful,Ionian
+A,IV-I-V-vi,D-A-E-F#m,Vital,Ionian
+Ab,IV-I-V-vi,Db-Ab-Eb-Fm,Vital,Ionian
+B,IV-I-V-vi,E-B-F#-G#m,Vital,Ionian
+Bb,IV-I-V-vi,Eb-Bb-F-Gm,Vital,Ionian
+C,IV-I-V-vi,F-C-G-Am,Vital,Ionian
+D,IV-I-V-vi,G-D-A-Bm,Vital,Ionian
+Db,IV-I-V-vi,Gb-Db-Ab-Bbm,Vital,Ionian
+E,IV-I-V-vi,A-E-B-C#m,Vital,Ionian
+Eb,IV-I-V-vi,Ab-Eb-Bb-Cm,Vital,Ionian
+F,IV-I-V-vi,Bb-F-C-Dm,Vital,Ionian
+F#,IV-I-V-vi,B-F#-C#-D#m,Vital,Ionian
+G,IV-I-V-vi,C-G-D-Em,Vital,Ionian
+A,IV-V-I,D-E-A,Joyful,Ionian
+Ab,IV-V-I,Db-Eb-Ab,Joyful,Ionian
+B,IV-V-I,E-F#-B,Joyful,Ionian
+Bb,IV-V-I,Eb-F-Bb,Joyful,Ionian
+C,IV-V-I,F-G-C,Joyful,Ionian
+D,IV-V-I,G-A-D,Joyful,Ionian
+Db,IV-V-I,Gb-Ab-Db,Joyful,Ionian
+E,IV-V-I,A-B-E,Joyful,Ionian
+Eb,IV-V-I,Ab-Bb-Eb,Joyful,Ionian
+F,IV-V-I,Bb-C-F,Joyful,Ionian
+F#,IV-V-I,B-C#-F#,Joyful,Ionian
+G,IV-V-I,C-D-G,Joyful,Ionian
+A,IV-V-iii-vi,D-E-C#m-F#m,Uneasiness,Ionian
+Ab,IV-V-iii-vi,Db-Eb-Cm-Fm,Uneasiness,Ionian
+B,IV-V-iii-vi,E-F#-D#m-G#m,Uneasiness,Ionian
+Bb,IV-V-iii-vi,Eb-F-Dm-Gm,Uneasiness,Ionian
+C,IV-V-iii-vi,F-G-Em-Am,Uneasiness,Ionian
+D,IV-V-iii-vi,G-A-F#m-Bm,Uneasiness,Ionian
+Db,IV-V-iii-vi,Gb-Ab-Fm-Bbm,Uneasiness,Ionian
+E,IV-V-iii-vi,A-B-G#m-C#m,Uneasiness,Ionian
+Eb,IV-V-iii-vi,Ab-Bb-Gm-Cm,Uneasiness,Ionian
+F,IV-V-iii-vi,Bb-C-Am-Dm,Uneasiness,Ionian
+F#,IV-V-iii-vi,B-C#-A#m-D#m,Uneasiness,Ionian
+G,IV-V-iii-vi,C-D-Bm-Em,Uneasiness,Ionian
+A,IV-iii-vi-II,D-C#m-F#m-B,Uneasiness,Ionian
+Ab,IV-iii-vi-II,Db-Cm-Fm-Bb,Uneasiness,Ionian
+B,IV-iii-vi-II,E-D#m-G#m-C#,Uneasiness,Ionian
+Bb,IV-iii-vi-II,Eb-Dm-Gm-C,Uneasiness,Ionian
+C,IV-iii-vi-II,F-Em-Am-D,Uneasiness,Ionian
+D,IV-iii-vi-II,G-F#m-Bm-E,Uneasiness,Ionian
+Db,IV-iii-vi-II,Gb-Fm-Bbm-Eb,Uneasiness,Ionian
+E,IV-iii-vi-II,A-G#m-C#m-F#,Uneasiness,Ionian
+Eb,IV-iii-vi-II,Ab-Gm-Cm-F,Uneasiness,Ionian
+F,IV-iii-vi-II,Bb-Am-Dm-G,Uneasiness,Ionian
+F#,IV-iii-vi-II,B-A#m-D#m-G#,Uneasiness,Ionian
+G,IV-iii-vi-II,C-Bm-Em-A,Uneasiness,Ionian
+A,V-I-vi-IV,E-A-F#m-D,Epic,Ionian
+Ab,V-I-vi-IV,Eb-Ab-Fm-Db,Epic,Ionian
+B,V-I-vi-IV,F#-B-G#m-E,Epic,Ionian
+Bb,V-I-vi-IV,F-Bb-Gm-Eb,Epic,Ionian
+C,V-I-vi-IV,G-C-Am-F,Epic,Ionian
+D,V-I-vi-IV,A-D-Bm-G,Epic,Ionian
+Db,V-I-vi-IV,Ab-Db-Bbm-Gb,Epic,Ionian
+E,V-I-vi-IV,B-E-C#m-A,Epic,Ionian
+Eb,V-I-vi-IV,Bb-Eb-Cm-Ab,Epic,Ionian
+F,V-I-vi-IV,C-F-Dm-Bb,Epic,Ionian
+F#,V-I-vi-IV,C#-F#-D#m-B,Epic,Ionian
+G,V-I-vi-IV,D-G-Em-C,Epic,Ionian
+A minor,VI-III-VII-i,F-C-G-Am,Depressive,Aeolian
 Ab minor,VI-III-VII-i,E-B-F#-G#m,Depressive,Aeolian
-A minor,VI-III-VII-i,F-C-G-Am,soft,Aeolian
-Bb minor,VI-III-VII-i,Gb-Db-Ab-Bbm,Despair,Aeolian
-B minor,VI-III-VII-i,G-D-A-Bm,Lonely,Aeolian
-C minor,i-iv-i-v,Cm-Fm-Cm-Gm,Depressive,Aeolian
-C# minor,i-iv-i-v,C#m-F#m-C#m-G#m,Despair,Aeolian
-D minor,i-iv-i-v,Dm-Gm-Dm-Am,Lonely,Aeolian
-Eb minor,i-iv-i-v,Ebm-Abm-Ebm-Bbm,Despair,Aeolian
-E minor,i-iv-i-v,Em-Am-Em-Bm,Delicate,Aeolian
-F minor,i-iv-i-v,Fm-Bbm-Fm-Cm,Despair,Aeolian
-F# minor,i-iv-i-v,F#m-Bm-F#m-C#m,Gloomy,Aeolian
-G minor,i-iv-i-v,Gm-Cm-Gm-Dm,Uneasiness,Aeolian
-Ab minor,i-iv-i-v,G#m-C#m-G#m-D#m,Depressive,Aeolian
-A minor,i-iv-i-v,Am-Dm-Am-Em,soft,Aeolian
-Bb minor,i-iv-i-v,Bbm-Ebm-Bbm-Fm,Despair,Aeolian
-B minor,i-iv-i-v,Bm-Em-Bm-F#m,Lonely,Aeolian
-C minor,ii°-V-i,Ddim-G-Cm,Depressive,Harmonic minor
-C# minor,ii°-V-i,D#dim-G#-C#m,Despair,Harmonic minor
-D minor,ii°-V-i,Edim-A-Dm,Lonely,Harmonic minor
-Eb minor,ii°-V-i,Fdim-Bb-Ebm,Despair,Harmonic minor
-E minor,ii°-V-i,F#dim-B-Em,Delicate,Harmonic minor
-F minor,ii°-V-i,Gdim-C-Fm,Despair,Harmonic minor
-F# minor,ii°-V-i,G#dim-C#-F#m,Gloomy,Harmonic minor
-G minor,ii°-V-i,Adim-D-Gm,Uneasiness,Harmonic minor
-Ab minor,ii°-V-i,A#dim-D#-G#m,Depressive,Harmonic minor
-A minor,ii°-V-i,Bdim-E-Am,soft,Harmonic minor
-Bb minor,ii°-V-i,Cdim-F-Bbm,Despair,Harmonic minor
-B minor,ii°-V-i,C#dim-F#-Bm,Lonely,Harmonic minor
-C minor,i-bII-VII-i,Cm-Db-Bb-Cm,Depressive,Phrygian
-C# minor,i-bII-VII-i,C#m-D-B-C#m,Despair,Phrygian
-D minor,i-bII-VII-i,Dm-Eb-C-Dm,Lonely,Phrygian
-Eb minor,i-bII-VII-i,Ebm-E-Db-Ebm,Despair,Phrygian
-E minor,i-bII-VII-i,Em-F-D-Em,Delicate,Phrygian
-F minor,i-bII-VII-i,Fm-Gb-Eb-Fm,Despair,Phrygian
-F# minor,i-bII-VII-i,F#m-G-E-F#m,Gloomy,Phrygian
-G minor,i-bII-VII-i,Gm-Ab-F-Gm,Uneasiness,Phrygian
-Ab minor,i-bII-VII-i,G#m-A-F#-G#m,Depressive,Phrygian
-A minor,i-bII-VII-i,Am-Bb-G-Am,soft,Phrygian
-Bb minor,i-bII-VII-i,Bbm-B-Ab-Bbm,Despair,Phrygian
-B minor,i-bII-VII-i,Bm-C-A-Bm,Lonely,Phrygian
-C minor,i-VII-VI,Cm-Bb-Ab,Depressive,Aeolian
-C# minor,i-VII-VI,C#m-B-A,Despair,Aeolian
-D minor,i-VII-VI,Dm-C-Bb,Lonely,Aeolian
-Eb minor,i-VII-VI,Ebm-Db-B,Despair,Aeolian
-E minor,i-VII-VI,Em-D-C,Delicate,Aeolian
-F minor,i-VII-VI,Fm-Eb-Db,Despair,Aeolian
-F# minor,i-VII-VI,F#m-E-D,Gloomy,Aeolian
-G minor,i-VII-VI,Gm-F-Eb,Uneasiness,Aeolian
-Ab minor,i-VII-VI,G#m-F#-E,Depressive,Aeolian
-A minor,i-VII-VI,Am-G-F,soft,Aeolian
-Bb minor,i-VII-VI,Bbm-Ab-Gb,Despair,Aeolian
-B minor,i-VII-VI,Bm-A-G,Lonely,Aeolian
-C minor,i-VI-VII,Cm-Ab-Bb,Depressive,Aeolian
-C# minor,i-VI-VII,C#m-A-B,Despair,Aeolian
-D minor,i-VI-VII,Dm-Bb-C,Lonely,Aeolian
-Eb minor,i-VI-VII,Ebm-B-Db,Despair,Aeolian
-E minor,i-VI-VII,Em-C-D,Delicate,Aeolian
-F minor,i-VI-VII,Fm-Db-Eb,Despair,Aeolian
-G minor,i-VI-VII,Gm-Eb-F,Uneasiness,Aeolian
+B minor,VI-III-VII-i,G-D-A-Bm,Depressive,Aeolian
+Bb minor,VI-III-VII-i,Gb-Db-Ab-Bbm,Depressive,Aeolian
+C minor,VI-III-VII-i,Ab-Eb-Bb-Cm,Depressive,Aeolian
+C# minor,VI-III-VII-i,A-E-B-C#m,Depressive,Aeolian
+D minor,VI-III-VII-i,Bb-F-C-Dm,Depressive,Aeolian
+E minor,VI-III-VII-i,C-G-D-Em,Depressive,Aeolian
+Eb minor,VI-III-VII-i,B-Gb-Db-Ebm,Depressive,Aeolian
+F minor,VI-III-VII-i,Db-Ab-Eb-Fm,Depressive,Aeolian
+F# minor,VI-III-VII-i,D-A-E-F#m,Depressive,Aeolian
+G minor,VI-III-VII-i,Eb-Bb-F-Gm,Depressive,Aeolian
+A minor,VI-VII-i,F-G-Am,Despair,Aeolian
+Ab minor,VI-VII-i,E-F#-G#m,Despair,Aeolian
+B minor,VI-VII-i,G-A-Bm,Despair,Aeolian
+Bb minor,VI-VII-i,Gb-Ab-Bbm,Despair,Aeolian
+C minor,VI-VII-i,Ab-Bb-Cm,Despair,Aeolian
+C# minor,VI-VII-i,A-B-C#m,Despair,Aeolian
+D minor,VI-VII-i,Bb-C-Dm,Despair,Aeolian
+E minor,VI-VII-i,C-D-Em,Despair,Aeolian
+Eb minor,VI-VII-i,B-Db-Ebm,Despair,Aeolian
+F minor,VI-VII-i,Db-Eb-Fm,Despair,Aeolian
+F# minor,VI-VII-i,D-E-F#m,Despair,Aeolian
+G minor,VI-VII-i,Eb-F-Gm,Despair,Aeolian
+A minor,VI-VII-v,F-G-Em,Depressive,Aeolian
+Ab minor,VI-VII-v,E-F#-D#m,Depressive,Aeolian
+B minor,VI-VII-v,G-A-F#m,Depressive,Aeolian
+Bb minor,VI-VII-v,Gb-Ab-Fm,Depressive,Aeolian
+C minor,VI-VII-v,Ab-Bb-Gm,Depressive,Aeolian
+C# minor,VI-VII-v,A-B-G#m,Depressive,Aeolian
+D minor,VI-VII-v,Bb-C-Am,Depressive,Aeolian
+E minor,VI-VII-v,C-D-Bm,Depressive,Aeolian
+Eb minor,VI-VII-v,B-Db-Bbm,Depressive,Aeolian
+F minor,VI-VII-v,Db-Eb-Cm,Depressive,Aeolian
+F# minor,VI-VII-v,D-E-C#m,Depressive,Aeolian
+G minor,VI-VII-v,Eb-F-Dm,Depressive,Aeolian
+A minor,bII-bVII-i,Bb-G-Am,Despair,Phrygian
+Ab minor,bII-bVII-i,A-F#-G#m,Despair,Phrygian
+B minor,bII-bVII-i,C-A-Bm,Despair,Phrygian
+Bb minor,bII-bVII-i,B-Ab-Bbm,Despair,Phrygian
+C minor,bII-bVII-i,Db-Bb-Cm,Despair,Phrygian
+C# minor,bII-bVII-i,D-B-C#m,Despair,Phrygian
+D minor,bII-bVII-i,Eb-C-Dm,Despair,Phrygian
+E minor,bII-bVII-i,F-D-Em,Despair,Phrygian
+Eb minor,bII-bVII-i,E-Db-Ebm,Despair,Phrygian
+F minor,bII-bVII-i,Gb-Eb-Fm,Despair,Phrygian
+F# minor,bII-bVII-i,G-E-F#m,Despair,Phrygian
+G minor,bII-bVII-i,Ab-F-Gm,Despair,Phrygian
+A minor,i-III-IV,Am-C-D,Depressive,Dorian
+Ab minor,i-III-IV,G#m-B-C#,Depressive,Dorian
+B minor,i-III-IV,Bm-D-E,Depressive,Dorian
+Bb minor,i-III-IV,Bbm-Db-Eb,Depressive,Dorian
+C minor,i-III-IV,Cm-Eb-F,Depressive,Dorian
+C# minor,i-III-IV,C#m-E-F#,Depressive,Dorian
+D minor,i-III-IV,Dm-F-G,Depressive,Dorian
+E minor,i-III-IV,Em-G-A,Depressive,Dorian
+Eb minor,i-III-IV,Ebm-Gb-Ab,Depressive,Dorian
+F minor,i-III-IV,Fm-Ab-Bb,Depressive,Dorian
+F# minor,i-III-IV,F#m-A-B,Depressive,Dorian
+G minor,i-III-IV,Gm-Bb-C,Depressive,Dorian
+A minor,i-III-VII-VI,Am-C-G-F,Despair,Aeolian
+Ab minor,i-III-VII-VI,G#m-B-F#-E,Despair,Aeolian
+B minor,i-III-VII-VI,Bm-D-A-G,Despair,Aeolian
+Bb minor,i-III-VII-VI,Bbm-Db-Ab-Gb,Despair,Aeolian
+C minor,i-III-VII-VI,Cm-Eb-Bb-Ab,Despair,Aeolian
+C# minor,i-III-VII-VI,C#m-E-B-A,Despair,Aeolian
+D minor,i-III-VII-VI,Dm-F-C-Bb,Despair,Aeolian
+E minor,i-III-VII-VI,Em-G-D-C,Despair,Aeolian
+Eb minor,i-III-VII-VI,Ebm-Gb-Db-B,Despair,Aeolian
+F minor,i-III-VII-VI,Fm-Ab-Eb-Db,Despair,Aeolian
+F# minor,i-III-VII-VI,F#m-A-E-D,Despair,Aeolian
+G minor,i-III-VII-VI,Gm-Bb-F-Eb,Despair,Aeolian
+A minor,i-III-bVII-i,Am-C-G-Am,Depressive,Harmonic minor
+Ab minor,i-III-bVII-i,G#m-B-F#-G#m,Depressive,Harmonic minor
+B minor,i-III-bVII-i,Bm-D-A-Bm,Depressive,Harmonic minor
+Bb minor,i-III-bVII-i,Bbm-Db-Ab-Bbm,Depressive,Harmonic minor
+C minor,i-III-bVII-i,Cm-Eb-Bb-Cm,Depressive,Harmonic minor
+C# minor,i-III-bVII-i,C#m-E-B-C#m,Depressive,Harmonic minor
+D minor,i-III-bVII-i,Dm-F-C-Dm,Depressive,Harmonic minor
+E minor,i-III-bVII-i,Em-G-D-Em,Depressive,Harmonic minor
+Eb minor,i-III-bVII-i,Ebm-Gb-Db-Ebm,Depressive,Harmonic minor
+F minor,i-III-bVII-i,Fm-Ab-Eb-Fm,Depressive,Harmonic minor
+F# minor,i-III-bVII-i,F#m-A-E-F#m,Depressive,Harmonic minor
+G minor,i-III-bVII-i,Gm-Bb-F-Gm,Depressive,Harmonic minor
+A minor,i-III-iv-i,Am-C-Dm-Am,Depressive,Aeolian
+Ab minor,i-III-iv-i,G#m-B-C#m-G#m,Depressive,Aeolian
+B minor,i-III-iv-i,Bm-D-Em-Bm,Depressive,Aeolian
+Bb minor,i-III-iv-i,Bbm-Db-Ebm-Bbm,Depressive,Aeolian
+C minor,i-III-iv-i,Cm-Eb-Fm-Cm,Depressive,Aeolian
+C# minor,i-III-iv-i,C#m-E-F#m-C#m,Depressive,Aeolian
+D minor,i-III-iv-i,Dm-F-Gm-Dm,Depressive,Aeolian
+E minor,i-III-iv-i,Em-G-Am-Em,Depressive,Aeolian
+Eb minor,i-III-iv-i,Ebm-Gb-Abm-Ebm,Depressive,Aeolian
+F minor,i-III-iv-i,Fm-Ab-Bbm-Fm,Depressive,Aeolian
+F# minor,i-III-iv-i,F#m-A-Bm-F#m,Depressive,Aeolian
+G minor,i-III-iv-i,Gm-Bb-Cm-Gm,Depressive,Aeolian
+A minor,i-IV-bVII-I,Am-D-G-A,Vital,Dorian
+Ab minor,i-IV-bVII-I,G#m-C#-F#-G#,Vital,Dorian
+B minor,i-IV-bVII-I,Bm-E-A-B,Vital,Dorian
+Bb minor,i-IV-bVII-I,Bbm-Eb-Ab-Bb,Vital,Dorian
+C minor,i-IV-bVII-I,Cm-F-Bb-C,Vital,Dorian
+C# minor,i-IV-bVII-I,C#m-F#-B-C#,Vital,Dorian
+D minor,i-IV-bVII-I,Dm-G-C-D,Vital,Dorian
+E minor,i-IV-bVII-I,Em-A-D-E,Vital,Dorian
+Eb minor,i-IV-bVII-I,Ebm-Ab-Db-Eb,Vital,Dorian
+F minor,i-IV-bVII-I,Fm-Bb-Eb-F,Vital,Dorian
+F# minor,i-IV-bVII-I,F#m-B-E-F#,Vital,Dorian
+G minor,i-IV-bVII-I,Gm-C-F-G,Vital,Dorian
+A minor,i-IV-i-IV,Am-D-Am-D,Vital,Dorian
+Ab minor,i-IV-i-IV,G#m-C#-G#m-C#,Vital,Dorian
+B minor,i-IV-i-IV,Bm-E-Bm-E,Vital,Dorian
+Bb minor,i-IV-i-IV,Bbm-Eb-Bbm-Eb,Vital,Dorian
+C minor,i-IV-i-IV,Cm-F-Cm-F,Vital,Dorian
+C# minor,i-IV-i-IV,C#m-F#-C#m-F#,Vital,Dorian
+D minor,i-IV-i-IV,Dm-G-Dm-G,Vital,Dorian
+E minor,i-IV-i-IV,Em-A-Em-A,Vital,Dorian
+Eb minor,i-IV-i-IV,Ebm-Ab-Ebm-Ab,Vital,Dorian
+F minor,i-IV-i-IV,Fm-Bb-Fm-Bb,Vital,Dorian
+F# minor,i-IV-i-IV,F#m-B-F#m-B,Vital,Dorian
+G minor,i-IV-i-IV,Gm-C-Gm-C,Vital,Dorian
+A minor,i-IV7,Am-D7,Despair,Dorian
+Ab minor,i-IV7,G#m-C#7,Despair,Dorian
+B minor,i-IV7,Bm-E7,Despair,Dorian
+Bb minor,i-IV7,Bbm-Eb7,Despair,Dorian
+C minor,i-IV7,Cm-F7,Despair,Dorian
+C# minor,i-IV7,C#m-F#7,Despair,Dorian
+D minor,i-IV7,Dm-G7,Despair,Dorian
+E minor,i-IV7,Em-A7,Despair,Dorian
+Eb minor,i-IV7,Ebm-Ab7,Despair,Dorian
+F minor,i-IV7,Fm-Bb7,Despair,Dorian
+F# minor,i-IV7,F#m-B7,Despair,Dorian
+G minor,i-IV7,Gm-C7,Despair,Dorian
+A minor,i-VI-III-VII,Am-F-C-G,Depressive,Aeolian
+Ab minor,i-VI-III-VII,G#m-E-B-F#,Depressive,Aeolian
+B minor,i-VI-III-VII,Bm-G-D-A,Depressive,Aeolian
+Bb minor,i-VI-III-VII,Bbm-Gb-Db-Ab,Depressive,Aeolian
+C minor,i-VI-III-VII,Cm-Ab-Eb-Bb,Depressive,Aeolian
+C# minor,i-VI-III-VII,C#m-A-E-B,Depressive,Aeolian
+D minor,i-VI-III-VII,Dm-Bb-F-C,Depressive,Aeolian
+E minor,i-VI-III-VII,Em-C-G-D,Depressive,Aeolian
+Eb minor,i-VI-III-VII,Ebm-B-Gb-Db,Depressive,Aeolian
+F minor,i-VI-III-VII,Fm-Db-Ab-Eb,Depressive,Aeolian
+F# minor,i-VI-III-VII,F#m-D-A-E,Depressive,Aeolian
+G minor,i-VI-III-VII,Gm-Eb-Bb-F,Depressive,Aeolian
+A minor,i-VI-IV-V,Am-F-D-E,Uneasiness,Aeolian
+Ab minor,i-VI-IV-V,G#m-E-C#-D#,Uneasiness,Aeolian
+B minor,i-VI-IV-V,Bm-G-E-F#,Uneasiness,Aeolian
+Bb minor,i-VI-IV-V,Bbm-Gb-Eb-F,Uneasiness,Aeolian
+C minor,i-VI-IV-V,Cm-Ab-F-G,Uneasiness,Aeolian
+C# minor,i-VI-IV-V,C#m-A-F#-G#,Uneasiness,Aeolian
+D minor,i-VI-IV-V,Dm-Bb-G-A,Uneasiness,Aeolian
+E minor,i-VI-IV-V,Em-C-A-B,Uneasiness,Aeolian
+Eb minor,i-VI-IV-V,Ebm-B-Ab-Bb,Uneasiness,Aeolian
+F minor,i-VI-IV-V,Fm-Db-Bb-C,Uneasiness,Aeolian
+F# minor,i-VI-IV-V,F#m-D-B-C#,Uneasiness,Aeolian
+G minor,i-VI-IV-V,Gm-Eb-C-D,Uneasiness,Aeolian
+A minor,i-VI-VII,Am-F-G,Depressive,Aeolian
 Ab minor,i-VI-VII,G#m-E-F#,Depressive,Aeolian
-A minor,i-VI-VII,Am-F-G,soft,Aeolian
-Bb minor,i-VI-VII,Bbm-Gb-Ab,Despair,Aeolian
-B minor,i-VI-VII,Bm-G-A,Lonely,Aeolian
-C minor,i-v-III-VI,Cm-Gm-Eb-Ab,Depressive,Aeolian
-C# minor,i-v-III-VI,C#m-G#m-E-A,Despair,Aeolian
-D minor,i-v-III-VI,Dm-Am-F-Bb,Lonely,Aeolian
-Eb minor,i-v-III-VI,Ebm-Bbm-Gb-B,Despair,Aeolian
-E minor,i-v-III-VI,Em-Bm-G-C,Delicate,Aeolian
-F minor,i-v-III-VI,Fm-Cm-Ab-Db,Despair,Aeolian
-F# minor,i-v-III-VI,F#m-C#m-A-D,Gloomy,Aeolian
-G minor,i-v-III-VI,Gm-Dm-Bb-Eb,Uneasiness,Aeolian
+B minor,i-VI-VII,Bm-G-A,Depressive,Aeolian
+Bb minor,i-VI-VII,Bbm-Gb-Ab,Depressive,Aeolian
+C minor,i-VI-VII,Cm-Ab-Bb,Depressive,Aeolian
+C# minor,i-VI-VII,C#m-A-B,Depressive,Aeolian
+D minor,i-VI-VII,Dm-Bb-C,Depressive,Aeolian
+E minor,i-VI-VII,Em-C-D,Depressive,Aeolian
+Eb minor,i-VI-VII,Ebm-B-Db,Depressive,Aeolian
+F minor,i-VI-VII,Fm-Db-Eb,Depressive,Aeolian
+F# minor,i-VI-VII,F#m-D-E,Depressive,Aeolian
+G minor,i-VI-VII,Gm-Eb-F,Depressive,Aeolian
+A minor,i-VI-iv-V,Am-F-Dm-E,Uneasiness,Harmonic minor
+Ab minor,i-VI-iv-V,G#m-E-C#m-D#,Uneasiness,Harmonic minor
+B minor,i-VI-iv-V,Bm-G-Em-F#,Uneasiness,Harmonic minor
+Bb minor,i-VI-iv-V,Bbm-Gb-Ebm-F,Uneasiness,Harmonic minor
+C minor,i-VI-iv-V,Cm-Ab-Fm-G,Uneasiness,Harmonic minor
+C# minor,i-VI-iv-V,C#m-A-F#m-G#,Uneasiness,Harmonic minor
+D minor,i-VI-iv-V,Dm-Bb-Gm-A,Uneasiness,Harmonic minor
+E minor,i-VI-iv-V,Em-C-Am-B,Uneasiness,Harmonic minor
+Eb minor,i-VI-iv-V,Ebm-B-Abm-Bb,Uneasiness,Harmonic minor
+F minor,i-VI-iv-V,Fm-Db-Bbm-C,Uneasiness,Harmonic minor
+F# minor,i-VI-iv-V,F#m-D-Bm-C#,Uneasiness,Harmonic minor
+G minor,i-VI-iv-V,Gm-Eb-Cm-D,Uneasiness,Harmonic minor
+A minor,i-VII-III-VI,Am-G-C-F,Despair,Aeolian
+Ab minor,i-VII-III-VI,G#m-F#-B-E,Despair,Aeolian
+B minor,i-VII-III-VI,Bm-A-D-G,Despair,Aeolian
+Bb minor,i-VII-III-VI,Bbm-Ab-Db-Gb,Despair,Aeolian
+C minor,i-VII-III-VI,Cm-Bb-Eb-Ab,Despair,Aeolian
+C# minor,i-VII-III-VI,C#m-B-E-A,Despair,Aeolian
+D minor,i-VII-III-VI,Dm-C-F-Bb,Despair,Aeolian
+E minor,i-VII-III-VI,Em-D-G-C,Despair,Aeolian
+Eb minor,i-VII-III-VI,Ebm-Db-Gb-B,Despair,Aeolian
+F minor,i-VII-III-VI,Fm-Eb-Ab-Db,Despair,Aeolian
+F# minor,i-VII-III-VI,F#m-E-A-D,Despair,Aeolian
+G minor,i-VII-III-VI,Gm-F-Bb-Eb,Despair,Aeolian
+A minor,i-VII-VI,Am-G-F,Depressive,Aeolian
+Ab minor,i-VII-VI,G#m-F#-E,Depressive,Aeolian
+B minor,i-VII-VI,Bm-A-G,Depressive,Aeolian
+Bb minor,i-VII-VI,Bbm-Ab-Gb,Depressive,Aeolian
+C minor,i-VII-VI,Cm-Bb-Ab,Depressive,Aeolian
+C# minor,i-VII-VI,C#m-B-A,Depressive,Aeolian
+D minor,i-VII-VI,Dm-C-Bb,Depressive,Aeolian
+E minor,i-VII-VI,Em-D-C,Depressive,Aeolian
+Eb minor,i-VII-VI,Ebm-Db-B,Depressive,Aeolian
+F minor,i-VII-VI,Fm-Eb-Db,Depressive,Aeolian
+F# minor,i-VII-VI,F#m-E-D,Depressive,Aeolian
+G minor,i-VII-VI,Gm-F-Eb,Depressive,Aeolian
+A minor,i-VII-VI-V,Am-G-F-E,Depressive,Aeolian
+Ab minor,i-VII-VI-V,G#m-F#-E-D#,Depressive,Aeolian
+B minor,i-VII-VI-V,Bm-A-G-F#,Depressive,Aeolian
+Bb minor,i-VII-VI-V,Bbm-Ab-Gb-F,Depressive,Aeolian
+C minor,i-VII-VI-V,Cm-Bb-Ab-G,Depressive,Aeolian
+C# minor,i-VII-VI-V,C#m-B-A-G#,Depressive,Aeolian
+D minor,i-VII-VI-V,Dm-C-Bb-A,Depressive,Aeolian
+E minor,i-VII-VI-V,Em-D-C-B,Depressive,Aeolian
+Eb minor,i-VII-VI-V,Ebm-Db-B-Bb,Depressive,Aeolian
+F minor,i-VII-VI-V,Fm-Eb-Db-C,Depressive,Aeolian
+F# minor,i-VII-VI-V,F#m-E-D-C#,Depressive,Aeolian
+G minor,i-VII-VI-V,Gm-F-Eb-D,Depressive,Aeolian
+A minor,i-VII-VI-VII,Am-G-F-G,Depressive,Aeolian
+Ab minor,i-VII-VI-VII,G#m-F#-E-F#,Depressive,Aeolian
+B minor,i-VII-VI-VII,Bm-A-G-A,Depressive,Aeolian
+Bb minor,i-VII-VI-VII,Bbm-Ab-Gb-Ab,Depressive,Aeolian
+C minor,i-VII-VI-VII,Cm-Bb-Ab-Bb,Depressive,Aeolian
+C# minor,i-VII-VI-VII,C#m-B-A-B,Depressive,Aeolian
+D minor,i-VII-VI-VII,Dm-C-Bb-C,Depressive,Aeolian
+E minor,i-VII-VI-VII,Em-D-C-D,Depressive,Aeolian
+Eb minor,i-VII-VI-VII,Ebm-Db-B-Db,Depressive,Aeolian
+F minor,i-VII-VI-VII,Fm-Eb-Db-Eb,Depressive,Aeolian
+F# minor,i-VII-VI-VII,F#m-E-D-E,Depressive,Aeolian
+G minor,i-VII-VI-VII,Gm-F-Eb-F,Depressive,Aeolian
+A minor,i-VII-v-VI,Am-G-Em-F,Depressive,Aeolian
+Ab minor,i-VII-v-VI,G#m-F#-D#m-E,Depressive,Aeolian
+B minor,i-VII-v-VI,Bm-A-F#m-G,Depressive,Aeolian
+Bb minor,i-VII-v-VI,Bbm-Ab-Fm-Gb,Depressive,Aeolian
+C minor,i-VII-v-VI,Cm-Bb-Gm-Ab,Depressive,Aeolian
+C# minor,i-VII-v-VI,C#m-B-G#m-A,Depressive,Aeolian
+D minor,i-VII-v-VI,Dm-C-Am-Bb,Depressive,Aeolian
+E minor,i-VII-v-VI,Em-D-Bm-C,Depressive,Aeolian
+Eb minor,i-VII-v-VI,Ebm-Db-Bbm-B,Depressive,Aeolian
+F minor,i-VII-v-VI,Fm-Eb-Cm-Db,Depressive,Aeolian
+F# minor,i-VII-v-VI,F#m-E-C#m-D,Depressive,Aeolian
+G minor,i-VII-v-VI,Gm-F-Dm-Eb,Depressive,Aeolian
+A minor,i-bII-VII-i,Am-Bb-G-Am,Uneasiness,Phrygian
+Ab minor,i-bII-VII-i,G#m-A-F#-G#m,Uneasiness,Phrygian
+B minor,i-bII-VII-i,Bm-C-A-Bm,Uneasiness,Phrygian
+Bb minor,i-bII-VII-i,Bbm-B-Ab-Bbm,Uneasiness,Phrygian
+C minor,i-bII-VII-i,Cm-Db-Bb-Cm,Uneasiness,Phrygian
+C# minor,i-bII-VII-i,C#m-D-B-C#m,Uneasiness,Phrygian
+D minor,i-bII-VII-i,Dm-Eb-C-Dm,Uneasiness,Phrygian
+E minor,i-bII-VII-i,Em-F-D-Em,Uneasiness,Phrygian
+Eb minor,i-bII-VII-i,Ebm-E-Db-Ebm,Uneasiness,Phrygian
+F minor,i-bII-VII-i,Fm-Gb-Eb-Fm,Uneasiness,Phrygian
+F# minor,i-bII-VII-i,F#m-G-E-F#m,Uneasiness,Phrygian
+G minor,i-bII-VII-i,Gm-Ab-F-Gm,Uneasiness,Phrygian
+A minor,i-bII-bVII-i,Am-Bb-G-Am,Despair,Phrygian
+Ab minor,i-bII-bVII-i,G#m-A-F#-G#m,Despair,Phrygian
+B minor,i-bII-bVII-i,Bm-C-A-Bm,Despair,Phrygian
+Bb minor,i-bII-bVII-i,Bbm-B-Ab-Bbm,Despair,Phrygian
+C minor,i-bII-bVII-i,Cm-Db-Bb-Cm,Despair,Phrygian
+C# minor,i-bII-bVII-i,C#m-D-B-C#m,Despair,Phrygian
+D minor,i-bII-bVII-i,Dm-Eb-C-Dm,Despair,Phrygian
+E minor,i-bII-bVII-i,Em-F-D-Em,Despair,Phrygian
+Eb minor,i-bII-bVII-i,Ebm-E-Db-Ebm,Despair,Phrygian
+F minor,i-bII-bVII-i,Fm-Gb-Eb-Fm,Despair,Phrygian
+F# minor,i-bII-bVII-i,F#m-G-E-F#m,Despair,Phrygian
+G minor,i-bII-bVII-i,Gm-Ab-F-Gm,Despair,Phrygian
+A minor,i-ii-IV-bVII,Am-Bm-D-G,Uneasiness,Dorian
+Ab minor,i-ii-IV-bVII,G#m-Bbm-C#-F#,Uneasiness,Dorian
+B minor,i-ii-IV-bVII,Bm-C#m-E-A,Uneasiness,Dorian
+Bb minor,i-ii-IV-bVII,Bbm-Cm-Eb-Ab,Uneasiness,Dorian
+C minor,i-ii-IV-bVII,Cm-Dm-F-Bb,Uneasiness,Dorian
+C# minor,i-ii-IV-bVII,C#m-D#m-F#-B,Uneasiness,Dorian
+D minor,i-ii-IV-bVII,Dm-Em-G-C,Uneasiness,Dorian
+E minor,i-ii-IV-bVII,Em-F#m-A-D,Uneasiness,Dorian
+Eb minor,i-ii-IV-bVII,Ebm-Fm-Ab-Db,Uneasiness,Dorian
+F minor,i-ii-IV-bVII,Fm-Gm-Bb-Eb,Uneasiness,Dorian
+F# minor,i-ii-IV-bVII,F#m-G#m-B-E,Uneasiness,Dorian
+G minor,i-ii-IV-bVII,Gm-Am-C-F,Uneasiness,Dorian
+A minor,i-iv-V-i,Am-Dm-E-Am,Depressive,Harmonic minor
+Ab minor,i-iv-V-i,G#m-C#m-D#-G#m,Depressive,Harmonic minor
+B minor,i-iv-V-i,Bm-Em-F#-Bm,Depressive,Harmonic minor
+Bb minor,i-iv-V-i,Bbm-Ebm-F-Bbm,Depressive,Harmonic minor
+C minor,i-iv-V-i,Cm-Fm-G-Cm,Depressive,Harmonic minor
+C# minor,i-iv-V-i,C#m-F#m-G#-C#m,Depressive,Harmonic minor
+D minor,i-iv-V-i,Dm-Gm-A-Dm,Depressive,Harmonic minor
+E minor,i-iv-V-i,Em-Am-B-Em,Depressive,Harmonic minor
+Eb minor,i-iv-V-i,Ebm-Abm-Bb-Ebm,Depressive,Harmonic minor
+F minor,i-iv-V-i,Fm-Bbm-C-Fm,Depressive,Harmonic minor
+F# minor,i-iv-V-i,F#m-Bm-C#-F#m,Depressive,Harmonic minor
+G minor,i-iv-V-i,Gm-Cm-D-Gm,Depressive,Harmonic minor
+A minor,i-iv-VI-VII,Am-Dm-F-G,Despair,Aeolian
+Ab minor,i-iv-VI-VII,G#m-C#m-E-F#,Despair,Aeolian
+B minor,i-iv-VI-VII,Bm-Em-G-A,Despair,Aeolian
+Bb minor,i-iv-VI-VII,Bbm-Ebm-Gb-Ab,Despair,Aeolian
+C minor,i-iv-VI-VII,Cm-Fm-Ab-Bb,Despair,Aeolian
+C# minor,i-iv-VI-VII,C#m-F#m-A-B,Despair,Aeolian
+D minor,i-iv-VI-VII,Dm-Gm-Bb-C,Despair,Aeolian
+E minor,i-iv-VI-VII,Em-Am-C-D,Despair,Aeolian
+Eb minor,i-iv-VI-VII,Ebm-Abm-B-Db,Despair,Aeolian
+F minor,i-iv-VI-VII,Fm-Bbm-Db-Eb,Despair,Aeolian
+F# minor,i-iv-VI-VII,F#m-Bm-D-E,Despair,Aeolian
+G minor,i-iv-VI-VII,Gm-Cm-Eb-F,Despair,Aeolian
+A minor,i-iv-VII,Am-Dm-G,Depressive,Aeolian
+Ab minor,i-iv-VII,G#m-C#m-F#,Depressive,Aeolian
+B minor,i-iv-VII,Bm-Em-A,Depressive,Aeolian
+Bb minor,i-iv-VII,Bbm-Ebm-Ab,Depressive,Aeolian
+C minor,i-iv-VII,Cm-Fm-Bb,Depressive,Aeolian
+C# minor,i-iv-VII,C#m-F#m-B,Depressive,Aeolian
+D minor,i-iv-VII,Dm-Gm-C,Depressive,Aeolian
+E minor,i-iv-VII,Em-Am-D,Depressive,Aeolian
+Eb minor,i-iv-VII,Ebm-Abm-Db,Depressive,Aeolian
+F minor,i-iv-VII,Fm-Bbm-Eb,Depressive,Aeolian
+F# minor,i-iv-VII,F#m-Bm-E,Depressive,Aeolian
+G minor,i-iv-VII,Gm-Cm-F,Depressive,Aeolian
+A minor,i-iv-VII-III,Am-Dm-G-C,Depressive,Aeolian
+Ab minor,i-iv-VII-III,G#m-C#m-F#-B,Depressive,Aeolian
+B minor,i-iv-VII-III,Bm-Em-A-D,Depressive,Aeolian
+Bb minor,i-iv-VII-III,Bbm-Ebm-Ab-Db,Depressive,Aeolian
+C minor,i-iv-VII-III,Cm-Fm-Bb-Eb,Depressive,Aeolian
+C# minor,i-iv-VII-III,C#m-F#m-B-E,Depressive,Aeolian
+D minor,i-iv-VII-III,Dm-Gm-C-F,Depressive,Aeolian
+E minor,i-iv-VII-III,Em-Am-D-G,Depressive,Aeolian
+Eb minor,i-iv-VII-III,Ebm-Abm-Db-Gb,Depressive,Aeolian
+F minor,i-iv-VII-III,Fm-Bbm-Eb-Ab,Depressive,Aeolian
+F# minor,i-iv-VII-III,F#m-Bm-E-A,Depressive,Aeolian
+G minor,i-iv-VII-III,Gm-Cm-F-Bb,Depressive,Aeolian
+A minor,i-iv-i-v,Am-Dm-Am-Em,Depressive,Aeolian
+Ab minor,i-iv-i-v,G#m-C#m-G#m-D#m,Depressive,Aeolian
+B minor,i-iv-i-v,Bm-Em-Bm-F#m,Depressive,Aeolian
+Bb minor,i-iv-i-v,Bbm-Ebm-Bbm-Fm,Depressive,Aeolian
+C minor,i-iv-i-v,Cm-Fm-Cm-Gm,Depressive,Aeolian
+C# minor,i-iv-i-v,C#m-F#m-C#m-G#m,Depressive,Aeolian
+D minor,i-iv-i-v,Dm-Gm-Dm-Am,Depressive,Aeolian
+E minor,i-iv-i-v,Em-Am-Em-Bm,Depressive,Aeolian
+Eb minor,i-iv-i-v,Ebm-Abm-Ebm-Bbm,Depressive,Aeolian
+F minor,i-iv-i-v,Fm-Bbm-Fm-Cm,Depressive,Aeolian
+F# minor,i-iv-i-v,F#m-Bm-F#m-C#m,Depressive,Aeolian
+G minor,i-iv-i-v,Gm-Cm-Gm-Dm,Depressive,Aeolian
+A minor,i-iv-v,Am-Dm-Em,Despair,Aeolian
+Ab minor,i-iv-v,G#m-C#m-D#m,Despair,Aeolian
+B minor,i-iv-v,Bm-Em-F#m,Despair,Aeolian
+Bb minor,i-iv-v,Bbm-Ebm-Fm,Despair,Aeolian
+C minor,i-iv-v,Cm-Fm-Gm,Despair,Aeolian
+C# minor,i-iv-v,C#m-F#m-G#m,Despair,Aeolian
+D minor,i-iv-v,Dm-Gm-Am,Despair,Aeolian
+E minor,i-iv-v,Em-Am-Bm,Despair,Aeolian
+Eb minor,i-iv-v,Ebm-Abm-Bbm,Despair,Aeolian
+F minor,i-iv-v,Fm-Bbm-Cm,Despair,Aeolian
+F# minor,i-iv-v,F#m-Bm-C#m,Despair,Aeolian
+G minor,i-iv-v,Gm-Cm-Dm,Despair,Aeolian
+A minor,i-v-III-VI,Am-Em-C-F,Depressive,Aeolian
 Ab minor,i-v-III-VI,G#m-D#m-B-E,Depressive,Aeolian
-A minor,i-v-III-VI,Am-Em-C-F,soft,Aeolian
-Bb minor,i-v-III-VI,Bbm-Fm-Db-Gb,Despair,Aeolian
-B minor,i-v-III-VI,Bm-F#m-D-G,Lonely,Aeolian
+B minor,i-v-III-VI,Bm-F#m-D-G,Depressive,Aeolian
+Bb minor,i-v-III-VI,Bbm-Fm-Db-Gb,Depressive,Aeolian
+C minor,i-v-III-VI,Cm-Gm-Eb-Ab,Depressive,Aeolian
+C# minor,i-v-III-VI,C#m-G#m-E-A,Depressive,Aeolian
+D minor,i-v-III-VI,Dm-Am-F-Bb,Depressive,Aeolian
+E minor,i-v-III-VI,Em-Bm-G-C,Depressive,Aeolian
+Eb minor,i-v-III-VI,Ebm-Bbm-Gb-B,Depressive,Aeolian
+F minor,i-v-III-VI,Fm-Cm-Ab-Db,Depressive,Aeolian
+F# minor,i-v-III-VI,F#m-C#m-A-D,Depressive,Aeolian
+G minor,i-v-III-VI,Gm-Dm-Bb-Eb,Depressive,Aeolian
+A minor,i-v-III-VII,Am-Em-C-G,Depressive,Aeolian
+Ab minor,i-v-III-VII,G#m-D#m-B-F#,Depressive,Aeolian
+B minor,i-v-III-VII,Bm-F#m-D-A,Depressive,Aeolian
+Bb minor,i-v-III-VII,Bbm-Fm-Db-Ab,Depressive,Aeolian
+C minor,i-v-III-VII,Cm-Gm-Eb-Bb,Depressive,Aeolian
+C# minor,i-v-III-VII,C#m-G#m-E-B,Depressive,Aeolian
+D minor,i-v-III-VII,Dm-Am-F-C,Depressive,Aeolian
+E minor,i-v-III-VII,Em-Bm-G-D,Depressive,Aeolian
+Eb minor,i-v-III-VII,Ebm-Bbm-Gb-Db,Depressive,Aeolian
+F minor,i-v-III-VII,Fm-Cm-Ab-Eb,Depressive,Aeolian
+F# minor,i-v-III-VII,F#m-C#m-A-E,Depressive,Aeolian
+G minor,i-v-III-VII,Gm-Dm-Bb-F,Depressive,Aeolian
+A minor,i-v-VII-VI,Am-Em-G-F,Depressive,Aeolian
+Ab minor,i-v-VII-VI,G#m-D#m-F#-E,Depressive,Aeolian
+B minor,i-v-VII-VI,Bm-F#m-A-G,Depressive,Aeolian
+Bb minor,i-v-VII-VI,Bbm-Fm-Ab-Gb,Depressive,Aeolian
+C minor,i-v-VII-VI,Cm-Gm-Bb-Ab,Depressive,Aeolian
+C# minor,i-v-VII-VI,C#m-G#m-B-A,Depressive,Aeolian
+D minor,i-v-VII-VI,Dm-Am-C-Bb,Depressive,Aeolian
+E minor,i-v-VII-VI,Em-Bm-D-C,Depressive,Aeolian
+Eb minor,i-v-VII-VI,Ebm-Bbm-Db-B,Depressive,Aeolian
+F minor,i-v-VII-VI,Fm-Cm-Eb-Db,Depressive,Aeolian
+F# minor,i-v-VII-VI,F#m-C#m-E-D,Depressive,Aeolian
+G minor,i-v-VII-VI,Gm-Dm-F-Eb,Depressive,Aeolian
+A minor,i-v-VII-v,Am-Em-G-Em,Depressive,Aeolian
+Ab minor,i-v-VII-v,G#m-D#m-F#-D#m,Depressive,Aeolian
+B minor,i-v-VII-v,Bm-F#m-A-F#m,Depressive,Aeolian
+Bb minor,i-v-VII-v,Bbm-Fm-Ab-Fm,Depressive,Aeolian
+C minor,i-v-VII-v,Cm-Gm-Bb-Gm,Depressive,Aeolian
+C# minor,i-v-VII-v,C#m-G#m-B-G#m,Depressive,Aeolian
+D minor,i-v-VII-v,Dm-Am-C-Am,Depressive,Aeolian
+E minor,i-v-VII-v,Em-Bm-D-Bm,Depressive,Aeolian
+Eb minor,i-v-VII-v,Ebm-Bbm-Db-Bbm,Depressive,Aeolian
+F minor,i-v-VII-v,Fm-Cm-Eb-Cm,Depressive,Aeolian
+F# minor,i-v-VII-v,F#m-C#m-E-C#m,Depressive,Aeolian
+G minor,i-v-VII-v,Gm-Dm-F-Dm,Depressive,Aeolian
+A,ii-IV-V-I,Bm-D-E-A,Joyful,Ionian
+Ab,ii-IV-V-I,Bbm-Db-Eb-Ab,Joyful,Ionian
+B,ii-IV-V-I,C#m-E-F#-B,Joyful,Ionian
+Bb,ii-IV-V-I,Cm-Eb-F-Bb,Joyful,Ionian
+C,ii-IV-V-I,Dm-F-G-C,Joyful,Ionian
+D,ii-IV-V-I,Em-G-A-D,Joyful,Ionian
+Db,ii-IV-V-I,Ebm-Gb-Ab-Db,Joyful,Ionian
+E,ii-IV-V-I,F#m-A-B-E,Joyful,Ionian
+Eb,ii-IV-V-I,Fm-Ab-Bb-Eb,Joyful,Ionian
+F,ii-IV-V-I,Gm-Bb-C-F,Joyful,Ionian
+F#,ii-IV-V-I,G#m-B-C#-F#,Joyful,Ionian
+G,ii-IV-V-I,Am-C-D-G,Joyful,Ionian
+A,ii-V-I,Bm-E-A,Joyful,Ionian
+Ab,ii-V-I,Bbm-Eb-Ab,Joyful,Ionian
+B,ii-V-I,C#m-F#-B,Joyful,Ionian
+Bb,ii-V-I,Cm-F-Bb,Joyful,Ionian
+C,ii-V-I,Dm-G-C,Joyful,Ionian
+D,ii-V-I,Em-A-D,Joyful,Ionian
+Db,ii-V-I,Ebm-Ab-Db,Joyful,Ionian
+E,ii-V-I,F#m-B-E,Joyful,Ionian
+Eb,ii-V-I,Fm-Bb-Eb,Joyful,Ionian
+F,ii-V-I,Gm-C-F,Joyful,Ionian
+F#,ii-V-I,G#m-C#-F#,Joyful,Ionian
+G,ii-V-I,Am-D-G,Joyful,Ionian
+A,ii-iii-vi,Bm-C#m-F#m,Depressive,Ionian
+Ab,ii-iii-vi,Bbm-Cm-Fm,Depressive,Ionian
+B,ii-iii-vi,C#m-D#m-G#m,Depressive,Ionian
+Bb,ii-iii-vi,Cm-Dm-Gm,Depressive,Ionian
+C,ii-iii-vi,Dm-Em-Am,Depressive,Ionian
+D,ii-iii-vi,Em-F#m-Bm,Depressive,Ionian
+Db,ii-iii-vi,Ebm-Fm-Bbm,Depressive,Ionian
+E,ii-iii-vi,F#m-G#m-C#m,Depressive,Ionian
+Eb,ii-iii-vi,Fm-Gm-Cm,Depressive,Ionian
+F,ii-iii-vi,Gm-Am-Dm,Depressive,Ionian
+F#,ii-iii-vi,G#m-A#m-D#m,Depressive,Ionian
+G,ii-iii-vi,Am-Bm-Em,Depressive,Ionian
+A minor,ii°-V-i,Bdim-E-Am,Despair,Harmonic minor
+Ab minor,ii°-V-i,A#dim-D#-G#m,Despair,Harmonic minor
+B minor,ii°-V-i,C#dim-F#-Bm,Despair,Harmonic minor
+Bb minor,ii°-V-i,Cdim-F-Bbm,Despair,Harmonic minor
+C minor,ii°-V-i,Ddim-G-Cm,Despair,Harmonic minor
+C# minor,ii°-V-i,D#dim-G#-C#m,Despair,Harmonic minor
+D minor,ii°-V-i,Edim-A-Dm,Despair,Harmonic minor
+E minor,ii°-V-i,F#dim-B-Em,Despair,Harmonic minor
+Eb minor,ii°-V-i,Fdim-Bb-Ebm,Despair,Harmonic minor
+F minor,ii°-V-i,Gdim-C-Fm,Despair,Harmonic minor
+F# minor,ii°-V-i,G#dim-C#-F#m,Despair,Harmonic minor
+G minor,ii°-V-i,Adim-D-Gm,Despair,Harmonic minor
+A,iv-bVII-I,Dm-G-A,Epic,Ionian
+Ab,iv-bVII-I,Dbm-Gb-Ab,Epic,Ionian
+B,iv-bVII-I,Em-A-B,Epic,Ionian
+Bb,iv-bVII-I,Ebm-Ab-Bb,Epic,Ionian
+C,iv-bVII-I,Fm-Bb-C,Epic,Ionian
+D,iv-bVII-I,Gm-C-D,Epic,Ionian
+Db,iv-bVII-I,Gbm-B-Db,Epic,Ionian
+E,iv-bVII-I,Am-D-E,Epic,Ionian
+Eb,iv-bVII-I,Abm-Db-Eb,Epic,Ionian
+F,iv-bVII-I,Bbm-Eb-F,Epic,Ionian
+F#,iv-bVII-I,Bm-E-F#,Epic,Ionian
+G,iv-bVII-I,Cm-F-G,Epic,Ionian
+A,vi-I-V-IV,F#m-A-E-D,Joyful,Ionian
+Ab,vi-I-V-IV,Fm-Ab-Eb-Db,Joyful,Ionian
+B,vi-I-V-IV,G#m-B-F#-E,Joyful,Ionian
+Bb,vi-I-V-IV,Gm-Bb-F-Eb,Joyful,Ionian
+C,vi-I-V-IV,Am-C-G-F,Joyful,Ionian
+D,vi-I-V-IV,Bm-D-A-G,Joyful,Ionian
+Db,vi-I-V-IV,Bbm-Db-Ab-Gb,Joyful,Ionian
+E,vi-I-V-IV,C#m-E-B-A,Joyful,Ionian
+Eb,vi-I-V-IV,Cm-Eb-Bb-Ab,Joyful,Ionian
+F,vi-I-V-IV,Dm-F-C-Bb,Joyful,Ionian
+F#,vi-I-V-IV,D#m-F#-C#-B,Joyful,Ionian
+G,vi-I-V-IV,Em-G-D-C,Joyful,Ionian
+A,vi-II-V-I,F#m-B-E-A,Vital,Ionian
+Ab,vi-II-V-I,Fm-Bb-Eb-Ab,Vital,Ionian
+B,vi-II-V-I,G#m-C#-F#-B,Vital,Ionian
+Bb,vi-II-V-I,Gm-C-F-Bb,Vital,Ionian
+C,vi-II-V-I,Am-D-G-C,Vital,Ionian
+D,vi-II-V-I,Bm-E-A-D,Vital,Ionian
+Db,vi-II-V-I,Bbm-Eb-Ab-Db,Vital,Ionian
+E,vi-II-V-I,C#m-F#-B-E,Vital,Ionian
+Eb,vi-II-V-I,Cm-F-Bb-Eb,Vital,Ionian
+F,vi-II-V-I,Dm-G-C-F,Vital,Ionian
+F#,vi-II-V-I,D#m-G#-C#-F#,Vital,Ionian
+G,vi-II-V-I,Em-A-D-G,Vital,Ionian
+A,vi-IV-I,F#m-D-A,Joyful,Ionian
+Ab,vi-IV-I,Fm-Db-Ab,Joyful,Ionian
+B,vi-IV-I,G#m-E-B,Joyful,Ionian
+Bb,vi-IV-I,Gm-Eb-Bb,Joyful,Ionian
+C,vi-IV-I,Am-F-C,Joyful,Ionian
+D,vi-IV-I,Bm-G-D,Joyful,Ionian
+Db,vi-IV-I,Bbm-Gb-Db,Joyful,Ionian
+E,vi-IV-I,C#m-A-E,Joyful,Ionian
+Eb,vi-IV-I,Cm-Ab-Eb,Joyful,Ionian
+F,vi-IV-I,Dm-Bb-F,Joyful,Ionian
+F#,vi-IV-I,D#m-B-F#,Joyful,Ionian
+G,vi-IV-I,Em-C-G,Joyful,Ionian
+A,vi-IV-I-V,F#m-D-A-E,Joyful,Ionian
+Ab,vi-IV-I-V,Fm-Db-Ab-Eb,Joyful,Ionian
+B,vi-IV-I-V,G#m-E-B-F#,Joyful,Ionian
+Bb,vi-IV-I-V,Gm-Eb-Bb-F,Joyful,Ionian
+C,vi-IV-I-V,Am-F-C-G,Joyful,Ionian
+D,vi-IV-I-V,Bm-G-D-A,Joyful,Ionian
+Db,vi-IV-I-V,Bbm-Gb-Db-Ab,Joyful,Ionian
+E,vi-IV-I-V,C#m-A-E-B,Joyful,Ionian
+Eb,vi-IV-I-V,Cm-Ab-Eb-Bb,Joyful,Ionian
+F,vi-IV-I-V,Dm-Bb-F-C,Joyful,Ionian
+F#,vi-IV-I-V,D#m-B-F#-C#,Joyful,Ionian
+G,vi-IV-I-V,Em-C-G-D,Joyful,Ionian
+A,vi-V-IV-I,F#m-E-D-A,Joyful,Ionian
+Ab,vi-V-IV-I,Fm-Eb-Db-Ab,Joyful,Ionian
+B,vi-V-IV-I,G#m-F#-E-B,Joyful,Ionian
+Bb,vi-V-IV-I,Gm-F-Eb-Bb,Joyful,Ionian
+C,vi-V-IV-I,Am-G-F-C,Joyful,Ionian
+D,vi-V-IV-I,Bm-A-G-D,Joyful,Ionian
+Db,vi-V-IV-I,Bbm-Ab-Gb-Db,Joyful,Ionian
+E,vi-V-IV-I,C#m-B-A-E,Joyful,Ionian
+Eb,vi-V-IV-I,Cm-Bb-Ab-Eb,Joyful,Ionian
+F,vi-V-IV-I,Dm-C-Bb-F,Joyful,Ionian
+F#,vi-V-IV-I,D#m-C#-B-F#,Joyful,Ionian
+G,vi-V-IV-I,Em-D-C-G,Joyful,Ionian
