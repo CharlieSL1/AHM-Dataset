@@ -14,17 +14,17 @@ nchnls = 2
 gitab ftgen 0, 0, 4096, 10, 1
 
 ; Load ONNX model and lookup table once at startup.
-emoChord_init "/path/to/AHM-Dataset/Csound/opcode/gen_model.onnx", \
-              "/path/to/AHM-Dataset/Csound/opcode/gen_data.tsv"
+emoChord_init "/Users/zhaojinlan/Documents/GitHub/AHM-Dataset/Csound/opcode/gen_model.onnx", \
+              "/Users/zhaojinlan/Documents/GitHub/AHM-Dataset/Csound/opcode/gen_data.tsv"
 
 ; ── Synthesis instrument ──────────────────────────────────────────────────────
 ; p4 = MIDI note number, p5 = amplitude 0–1
 instr 2
   ifreq cpsmidinn p4
   iamp  = p5 * 0dbfs
-  aenv  expseg 1, p3*0.01, 0.5, p3*0.89, 0.001, p3*0.1, 0.001
+  aenv  expseg 1, p3*0.1, 0.5, p3*0.89, 0.001, p3*0.1, 0.001
   asig  foscili aenv * iamp, ifreq, 1, 2, 2.5, gitab
-        outs asig, asig
+        outs asig * 0.3, asig * 0.3
 endin
 
 ; ── Emotion-driven instrument ─────────────────────────────────────────────────
@@ -42,11 +42,14 @@ endin
 
 i1   0   4   "joyful"
 i1   6   4   "depressive"
-i1  12   4   "epic"
 i1  18   4   "uneasiness"
 e
 </CsScore>
 </CsoundSynthesizer>
+
+
+
+
 
 
 

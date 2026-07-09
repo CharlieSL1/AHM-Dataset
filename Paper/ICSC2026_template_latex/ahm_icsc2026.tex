@@ -10,6 +10,7 @@
 \usepackage{amssymb}
 \setcounter{tocdepth}{3}
 \usepackage{graphicx}
+\graphicspath{{.}{../Figure/}}
 \usepackage{hyperref}
 \usepackage[top=1.0in,bottom=1.0in,left=0.95in,right=0.95in]{geometry}
 \hypersetup{hidelinks}
@@ -76,7 +77,8 @@ via the ONNX Runtime C~API with no external-process dependency.
 As a demonstration, the \emph{Affective Harmony Machine} (AHM) targets
 affect-driven harmony, where emotional states map to musical parameters such as
 mode and perceived affect~\cite{hevner1935}: a composer writes \texttt{i1~0~4~"joyful"}
-to receive chord events scheduled into any synthesis instrument.
+to receive chord events: MIDI-pitched notes inserted at i-rate via
+Csound's score API (Section~\ref{sec:pipeline}) into any synthesis instrument.
 
 
 \section{Dataset}
@@ -84,7 +86,10 @@ to receive chord events scheduled into any synthesis instrument.
 The system is trained on two curated harmony corpora. The jazz dataset covers
 functional harmony, including secondary dominants, tritone substitutions, and
 deceptive resolutions, across 25 unique progressions, each realized in four jazz
-voicing styles (Four-Way Close, Drop~2, Drop~3, Drop~2+4). The pop dataset covers
+voicing styles (Four-Way Close, Drop~2, Drop~3, Drop~2+4); the four variants
+share the same progression class label; voicing style is an auxiliary label
+for a co-trained classifier, not part of the 108-class target. All progressions
+and voicing assignments were hand-coded by the authors.\footnote{\url{https://anonymous.4open.science/r/AHM-Dataset-8F24/README.md}} The pop dataset covers
 diatonic, modal, and borrowed-chord idioms across 83 unique progressions.
 Table~\ref{tab:dataset} summarizes the combined dataset.
 
@@ -104,9 +109,12 @@ Pop       & 83 &   996   & 12 keys \\
 \end{table}
 
 Each row is annotated along three orthogonal dimensions: \textbf{Emotion}
-(6~classes: Joyful, Vital, Epic, Uneasiness, Depressive, Despair),
+(6~classes: Joyful, Vital, Epic, Uneasiness, Depressive, Despair)\footnote{Labels
+were defined by the authors and intentionally mix grammatical forms (adjective,
+noun, etc.) as classification shorthand; a principled affect taxonomy is a
+planned direction (Section~\ref{sec:future}).},
 \textbf{Scale/Mode} (7~classes: Ionian, Aeolian, Dorian, Phrygian, Lydian,
-Mixolydian, Harmonic minor), and \textbf{Key} (12 major and 12 minor).
+Mixolydian, Harmonic minor), and \textbf{Key} (Key is represented as one of 12 pitch centers rather than as 24 major/minor keys, since mode is encoded separately by the Scale/Mode label).
 Progressions are encoded in Roman numeral notation (\textit{e.g.,}~\texttt{I-V-vi-IV}),
 making the representation key-invariant: the model learns harmonic character,
 not absolute pitch. Pop progressions were expanded to all 12~keys via automated
@@ -156,9 +164,10 @@ using \texttt{zipmap=False}, which produces a plain float32 tensor
 \texttt{target\_opset=18} to match the bundled ONNX Runtime version. The
 resulting \texttt{gen\_model.onnx} encodes the full Random Forest decision
 structure with no Python dependency. A companion vocabulary table
-\texttt{gen\_data.tsv} (1{,}296 rows) maps progression IDs to concrete chord
-strings across 12 pitch classes, with major/minor spellings handled according
-to scale context.
+\texttt{gen\_data.tsv} (108 progressions $\times$ 12 pitch classes = 1{,}296 rows)
+maps each progression ID to one canonical chord-name string per pitch class;
+jazz voicing variants share the same progression class and are not represented
+as separate runtime entries, with major/minor spellings handled according to scale context.
 
 
 \section{Embedding ML in a Csound Opcode}
@@ -187,6 +196,7 @@ Silicon (arm64), median single-sample inference is 14~$\mu$s, far below typical 
 scheduling timescales, and model load is 52~ms.
 
 \subsection{Live Inference Pipeline in \texttt{emoChord}}
+\label{sec:pipeline}
 
 {\small\texttt{emoChord SEmotion, iInstr, iStart, iDur, iAmp [, iTemp, iOctave]}}
 executes the following seven-step pipeline entirely inside the Csound process:
@@ -229,21 +239,16 @@ parameter.
 
 Listing~1 shows a minimal \texttt{.csd}. Instrument~1 reads an emotion string
 via \texttt{strget} and passes it to \texttt{emoChord}, which schedules events
-into any target instrument (here, Instrument~2).
+into any target instrument. Figure~\ref{fig:output} shows the console output for the three events in Listing~1.
 
 \medskip
 \noindent{\it Listing 1: Minimal \texttt{emoChord} usage.}
 {\small\begin{verbatim}
-<CsoundSynthesizer>
-<CsOptions> -o dac </CsOptions>
 <CsInstruments>
-sr = 44100
-ksmps = 32
-nchnls = 2
-0dbfs = 1
-emoChord_init "/path/to/gen_model.onnx", "/path/to/gen_data.tsv"
-instr 1  ; p4=emotion string
-  Sem strget p4
+emoChord_init "/path/to/gen_model.onnx", \
+              "/path/to/gen_data.tsv"
+instr 1 
+  Sem strget p4 ; p4=emotion string
   emoChord Sem, 2, p2, p3, 0.7
 endin
 </CsInstruments>
@@ -253,56 +258,52 @@ i1  6  4  "depressive"
 i1 12  4  "uneasiness"
 e
 </CsScore>
-</CsoundSynthesizer>
 \end{verbatim}}
 
 Passing the emotion as a score p-field follows the standard Csound
-idiom~\cite{boulanger2011}. At each event, \texttt{emoChord} prints the
+idiom~\cite{boulanger2011,boulanger2000}. At each event, \texttt{emoChord} prints the
 selected progression (\textit{e.g.,}~\texttt{[emoChord] "joyful" -> Ionian
 -> C-G-Am-F}), making ML choices transparent during composition.
 
-
-\section{Results}
-
-The combined dataset totals 2{,}196 rows across 108 progression types,
-6~emotions, and 7~scales; to our knowledge no public harmony corpus unifies
-jazz and pop under a six-class affect taxonomy.
-
-After Optuna tuning (50 trials, 5-fold CV), the final model achieves a held-out
-top-1 accuracy of~24.8\% and top-3 of~49.1\%. A uniform random baseline yields
-0.9\% (1/108); a majority-class-per-pair baseline yields 24.8\%, confirming the
-model has learned the dominant harmonic preference per \texttt{(emotion, scale)} cell.
-The model's role is not prediction beyond this majority baseline but to package
-the learned distribution as an ONNX tensor: the argmax case ($T\to 0$) reduces
-to the majority lookup, while temperature sampling draws from the full distribution.
-
-An ablation at 477~progressions (4.4$\times$) dropped top-1 to 10.6\%:
-feature vectors within a cell are identical, bounded by the dominant-class
-proportion within each cell, a design-time ceiling.
-
-The \texttt{gen\_model.onnx} bundles with the plugin for fully offline deployment; 
-anonymized code and data are available at \url{https://anonymous.4open.science/r/AHM-Dataset-8F24/README.md}
+\begin{figure}[h]
+\centering
+\includegraphics[height=5.2cm]{Output}
+\caption{\texttt{emoChord} console output for three score events.}
+\label{fig:output}
+\end{figure}
 
 
-\section{Conclusion}
+\section{Results and Conclusion}
 
-AHM demonstrates a reusable pattern for embedding ONNX-compatible classifiers
-with a defined input/output tensor contract in Csound as a native i-rate opcode
-via the ONNX Runtime C~API, with no Python or external-process dependency.
-Within this contract, substituting a different classifier requires no plugin
-source changes.
+After Optuna tuning (50~trials, 5-fold CV), the model achieves held-out top-1
+accuracy of 24.8\% and top-3 of 49.1\%, against a uniform random baseline of
+0.9\% (1/108) and a majority-class-per-pair baseline of 24.8\%. The latter
+confirms the model has learned the dominant harmonic preference per
+\texttt{(emotion, scale)} cell; the accuracy ceiling is a design property,
+since feature vectors within a cell are identical and bounded by the
+dominant-class proportion. The model's purpose is to package the learned
+distribution as an ONNX tensor: at $T\to 0$ it reduces to a majority lookup,
+while temperature sampling exposes the full distribution to the composer.
 
-For the composer, affect becomes a score parameter; temperature spans from
-near-deterministic to open-ended harmonic exploration.
+The dataset built for this work, combining 2{,}196 rows of jazz and pop
+progressions under a unified six-class affect taxonomy, is itself a contribution
+we hope will prove useful to others; we believe this combination to be a first,
+though the area is broad. Beyond the dataset, the pattern this work establishes
+is that domain-specific ML is a practical candidate for native Csound integration:
+a composer writes one emotion word into a score and receives chord events, with
+all inference invisible inside the process. Any ONNX classifier with a compatible
+tensor contract can replace the current model without touching the plugin.
+Anonymized code and data are available at \url{https://anonymous.4open.science/r/AHM-Dataset-8F24/README.md}
 
-Future directions include a genre input to resolve jazz/pop cell ambiguity,
-longer chord sequence generation, a free-text prompt interface mapping
-natural-language input to the nearest \texttt{(emotion, scale)} pair, a k-rate
-variant, an \texttt{iKey} parameter, a perceptual evaluation, and Windows/Linux
-porting. Dataset and model improvements are ongoing; these results are an
-initial validated release. AHM establishes that small, domain-specific
-ML models are practical candidates for native Csound integration, offering a
-template for AI-augmented composition without cloud dependency.
+
+\section{Future Directions}
+\label{sec:future}
+
+Planned extensions include a genre input to resolve jazz/pop ambiguity,
+longer sequence generation, a free-text prompt interface mapping natural-language
+input to the nearest \texttt{(emotion, scale)} pair, a k-rate variant,
+an \texttt{iKey} parameter, emotion label standardization, a perceptual
+evaluation, and Windows/Linux porting. The authors continue to expand the dataset and refine the model; updated releases will be posted to the project repository as work progresses.
 
 
 {\small\begin{thebibliography}{10}
@@ -346,6 +347,11 @@ Springer, Cham (2016)
 \bibitem{boulanger2011}
 Boulanger, R., Lazzarini, V. (eds.): The Audio Programming Book.
 MIT Press, Cambridge (2010)
+
+\bibitem{boulanger2000}
+Boulanger, R. (ed.): The Csound Book: Perspectives in Software Synthesis,
+Sound Design, Signal Processing, and Programming.
+MIT Press, Cambridge (2000)
 
 \end{thebibliography}}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  5 JUL 2026 00:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 JUL 2026 02:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -310,24 +310,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./ahm_icsc2026.aux)
 \openout1 = `ahm_icsc2026.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count316
@@ -347,7 +347,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 23.
  (./ahm_icsc2026.out) (./ahm_icsc2026.out)
 \@outlinefile=\write3
 \openout3 = `ahm_icsc2026.out'.
@@ -387,11 +387,11 @@ Package hyperref Info: Link coloring OFF on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -400,60 +400,63 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<architecture_pipeline.pdf, id=100, 1154.3125pt x 421.575pt>
+<architecture_pipeline.pdf, id=109, 1154.3125pt x 421.575pt>
 File: architecture_pipeline.pdf Graphic file (type pdf)
 <use architecture_pipeline.pdf>
-Package pdftex.def Info: architecture_pipeline.pdf  used on input line 178.
+Package pdftex.def Info: architecture_pipeline.pdf  used on input line 187.
 (pdftex.def)             Requested size: 437.18416pt x 159.66624pt.
 
-Underfull \hbox (badness 1194) in paragraph at lines 181--181
+Underfull \hbox (badness 1194) in paragraph at lines 190--190
 []\T1/cmr/bx/n/9 Fig.1. []\T1/cmr/m/n/9 AHM two-phase ar-chi-tec-ture. Of-fline (left): train-ing and ONNX ex-port of \T1/cmtt/m/n/9 gen_model.onnx \T1/cmr/m/n/9 and
  []
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 189.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 198.
 
-Overfull \hbox (21.14267pt too wide) in paragraph at lines 191--193
+Overfull \hbox (21.14267pt too wide) in paragraph at lines 201--203
 \T1/cmtt/m/n/9 emoChord SEmotion, iInstr, iStart, iDur, iAmp [, iTemp, iOctave] \T1/cmr/m/n/10 ex-e-cutes the fol-low-ing seven-step pipeline
- []
-
-
-Overfull \hbox (19.94295pt too wide) in paragraph at lines 195--197
-[]\T1/cmr/bx/n/10 Resolve emo-tion\T1/cmr/m/n/10 : scan \T1/cmtt/m/n/10 DataEntry[] \T1/cmr/m/n/10 for rows match-ing \T1/cmtt/m/n/10 SEmotion \T1/cmr/m/n/10 (case-insensitive) to ob-tain \T1/cmtt/m/n/10 emotion_id\T1/cmr/m/n/10 . 
  []
 
 
 
 [2]
-
-[3 <./architecture_pipeline.pdf>]
-Overfull \hbox (1.61853pt too wide) in paragraph at lines 259--263
-\T1/cmr/m/n/10 prints the se-lected pro-gres-sion (\T1/cmr/m/it/10 e.g., \T1/cmtt/m/n/10 [emoChord] "joyful" -> Ionian -> C-G-Am-F\T1/cmr/m/n/10 ), mak-ing ML choices
+Overfull \hbox (19.94295pt too wide) in paragraph at lines 205--207
+[]\T1/cmr/bx/n/10 Resolve emo-tion\T1/cmr/m/n/10 : scan \T1/cmtt/m/n/10 DataEntry[] \T1/cmr/m/n/10 for rows match-ing \T1/cmtt/m/n/10 SEmotion \T1/cmr/m/n/10 (case-insensitive) to ob-tain \T1/cmtt/m/n/10 emotion_id\T1/cmr/m/n/10 . 
  []
 
 
 
-[4] (./ahm_icsc2026.aux)
+[3 <./architecture_pipeline.pdf>]
+<../Figure/Output.png, id=153, 615.29875pt x 583.17876pt>
+File: ../Figure/Output.png Graphic file (type png)
+<use ../Figure/Output.png>
+Package pdftex.def Info: ../Figure/Output.png  used on input line 270.
+(pdftex.def)             Requested size: 156.09636pt x 147.95424pt.
+
+
+[4 <../Figure/Output.png>]
+
+[5] (./ahm_icsc2026.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `ahm_icsc2026.out' has not changed.
-(rerunfilecheck)             Checksum: 9D6C68ADBB57B904A85E8F8B9654F3DD;2520.
+(rerunfilecheck)             Checksum: 130A2DEF0F22659B39697A88A42D083A;2639.
  ) 
 Here is how much of TeX's memory you used:
- 10247 strings out of 473190
- 154998 string characters out of 5715801
- 570083 words of memory out of 5000000
- 33337 multiletter control sequences out of 15000+600000
- 575399 words of font info for 79 fonts, out of 8000000 for 9000
+ 10272 strings out of 473190
+ 155411 string characters out of 5715801
+ 573315 words of memory out of 5000000
+ 33355 multiletter control sequences out of 15000+600000
+ 576933 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,660b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on ahm_icsc2026.pdf (4 pages, 366547 bytes).
+ 75i,9n,79p,660b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on ahm_icsc2026.pdf (5 pages, 496096 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
