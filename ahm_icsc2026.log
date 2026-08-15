@@ -1,13 +1,16 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  15 AUG 2026 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 JUL 2026 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ahm_icsc2026.tex
-(./ahm_icsc2026.tex
+**/Users/zhaojinlan/Documents/GitHub/AHM-Dataset/Paper/ICSC2026_template_latex/
+ahm_icsc2026.tex
+
+(/Users/zhaojinlan/Documents/GitHub/AHM-Dataset/Paper/ICSC2026_template_latex/a
+hm_icsc2026.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
-(./llncs.cls
-Document Class: llncs 2010/07/12 v2.17 
+(/usr/local/texlive/2025/texmf-dist/tex/latex/llncs/llncs.cls
+Document Class: llncs 2025/02/25 v2.26 
  LaTeX document class for Lecture Notes in Computer Science
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
@@ -100,17 +103,18 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
 )
 \c@chapter=\count280
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 379.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 382.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 383.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 384.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 385.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 386.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 387.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 388.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 389.
+LaTeX Info: Redefining \vec on input line 394.
 \tocchpnum=\dimen151
 \tocsecnum=\dimen152
 \tocsectotal=\dimen153
@@ -436,12 +440,12 @@ Package hyperref Info: Link coloring OFF on input line 23.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -454,29 +458,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 
-[2]
-<architecture_pipeline.pdf, id=122, 1154.3125pt x 421.575pt>
-File: architecture_pipeline.pdf Graphic file (type pdf)
-<use architecture_pipeline.pdf>
-Package pdftex.def Info: architecture_pipeline.pdf  used on input line 218.
-(pdftex.def)             Requested size: 437.18416pt x 159.66624pt.
+LaTeX Warning: File `architecture_pipeline.pdf' not found on input line 187.
 
-Underfull \hbox (badness 1194) in paragraph at lines 221--221
+
+! Package pdftex.def Error: File `architecture_pipeline.pdf' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 ....95\linewidth]{architecture_pipeline.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 190--190
 []\T1/cmr/bx/n/9 Fig.1. []\T1/cmr/m/n/9 AHM two-phase ar-chi-tec-ture. Of-fline
  (left): train-ing and ONNX ex-port of \T1/cmtt/m/n/9 gen_model.onnx \T1/cmr/m/
 n/9 and
  []
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 229.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 198.
 
-Overfull \hbox (21.14267pt too wide) in paragraph at lines 232--234
+Overfull \hbox (21.14267pt too wide) in paragraph at lines 201--203
 \T1/cmtt/m/n/9 emoChord SEmotion, iInstr, iStart, iDur, iAmp [, iTemp, iOctave]
  \T1/cmr/m/n/10 ex-e-cutes the fol-low-ing seven-step pipeline
  []
 
 
-Overfull \hbox (19.94295pt too wide) in paragraph at lines 236--238
+
+[2]
+Overfull \hbox (19.94295pt too wide) in paragraph at lines 205--207
 []\T1/cmr/bx/n/10 Resolve emo-tion\T1/cmr/m/n/10 : scan \T1/cmtt/m/n/10 DataEnt
 ry[] \T1/cmr/m/n/10 for rows match-ing \T1/cmtt/m/n/10 SEmotion \T1/cmr/m/n/10 
 (case-insensitive) to ob-tain \T1/cmtt/m/n/10 emotion_id\T1/cmr/m/n/10 . 
@@ -484,23 +499,26 @@ ry[] \T1/cmr/m/n/10 for rows match-ing \T1/cmtt/m/n/10 SEmotion \T1/cmr/m/n/10
 
 
 
-[3 <./architecture_pipeline.pdf>]
-<../Figure/Output.png, id=153, 615.29875pt x 583.17876pt>
-File: ../Figure/Output.png Graphic file (type png)
-<use ../Figure/Output.png>
-Package pdftex.def Info: ../Figure/Output.png  used on input line 319.
-(pdftex.def)             Requested size: 174.11327pt x 165.02606pt.
+[3]
 
+! LaTeX Error: File `Output' not found.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 ...ludegraphics[width=0.9\linewidth]{Output}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 
 [4]
 
-[5 <../Figure/Output.png>]
-
-[6] (./ahm_icsc2026.aux)
+[5] (./ahm_icsc2026.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -509,13 +527,13 @@ Package rerunfilecheck Info: File `ahm_icsc2026.out' has not changed.
 (rerunfilecheck)             Checksum: 130A2DEF0F22659B39697A88A42D083A;2639.
  ) 
 Here is how much of TeX's memory you used:
- 10304 strings out of 473190
- 155514 string characters out of 5715801
- 572281 words of memory out of 5000000
- 33373 multiletter control sequences out of 15000+600000
- 582637 words of font info for 100 fonts, out of 8000000 for 9000
+ 10353 strings out of 473190
+ 156978 string characters out of 5715801
+ 573938 words of memory out of 5000000
+ 33420 multiletter control sequences out of 15000+600000
+ 582322 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,583b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,660b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
@@ -530,20 +548,19 @@ al/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/tex
 live/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texli
-ve/2025/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/local/texlive
-/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2
-025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/202
-5/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/
-texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texm
-f-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texmf-
-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-di
-st/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2025/texmf-dist
-/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on ahm_icsc2026.pdf (6 pages, 522672 bytes).
+ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive
+/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2
+025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/202
+5/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/
+texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texm
+f-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-
+dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2025/texmf-di
+st/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on ahm_icsc2026.pdf (5 pages, 390251 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
